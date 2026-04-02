@@ -1,6 +1,7 @@
 # Dataset 
 data/ss.db
-data/GroundTruthModels/
+data/GroundTruthModels/ 
+data/dataset.db
 
 # Python
 __pycache__/
