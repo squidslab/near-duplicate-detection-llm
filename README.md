@@ -32,8 +32,8 @@ data/README.md
 
 To execute the main script, run the following command from the terminal:
 
-```
-python main.py
+``` 
+python run_experiment.py
 ```
 
 ---

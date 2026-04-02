@@ -1,7 +1,10 @@
 
-from data_access.db import get_pairs_by_label
+import random
 
-VALID_LABELS = [0, 1, 2]
+from data_access.db import get_dataset_pairs_by_label, get_pairs_by_label
+
+VALID_LABELS = [0, 1, 2] 
+NAME_APPS = ["addressbook","petclinic","claroline","dimeshift","mrbs","phoenix","ppma", "mantisbt","pagekit"]
 
 def get_stratified_sample(n_per_class=50):
 
@@ -10,16 +13,42 @@ def get_stratified_sample(n_per_class=50):
 
     dataset = []
 
-    for label in VALID_LABELS:
-        rows = get_pairs_by_label(n_per_class, label)
+    for name in NAME_APPS:
+     for label in VALID_LABELS:
+        rows = get_pairs_by_label(n_per_class, label, name)
 
-        if len(rows) < n_per_class: #controllo che database abbia abbastanza dati per classe 
-            raise ValueError(
-                f"Dati insufficienti per label {label}: trovati {len(rows)}"
-            )
-
+        if len(rows) == 0: #controllo che per label corrente ci siano dati, se non ci sono non prende nulla 
+          print(f"[WARNING] Skip app {name}, label {label}")
+          continue
+        
+        #caso in cui per una determinata app non ci sono dati sufficienti 
+        # se dati < 50 allora prende massimo disponibile per label, altrimetni se dati > 50 prende massimo 50 
+        actual_n = min(len(rows), n_per_class)
+        rows = rows[:actual_n]
  
-        dict_rows = [dict(row) for row in rows] #trasformo i dati in formato dict
-        dataset.extend(dict_rows)
+        dataset.extend(rows)
 
     return dataset 
+
+
+def get_stratified_sample_for_experiment(n_per_class=50, seed=42):
+    dataset = []
+
+    for label in [0, 1, 2]:
+
+        rows = get_dataset_pairs_by_label(label)
+
+        if len(rows) < n_per_class:
+            print(f"[WARNING] Label {label}: richiesti {n_per_class}, disponibili {len(rows)}")
+
+        random.seed(seed + label)
+        random.shuffle(rows)
+
+        selected = rows[:n_per_class]
+
+        dataset.extend(selected)
+
+    random.seed(seed)
+    random.shuffle(dataset)     
+
+    return dataset

@@ -48,13 +48,25 @@ GroundTruthModels/
 
 ---
 
-### 4. Final Structure
+### 4. Generate the Final Dataset 
+
+Run the following command to create the final dataset used in the experiments: 
+
+```
+python prepare_dataset.py
+```
+
+
+---
+
+### 5. Final Structure
 
 After setup, your `data/` directory should look like this:
 
 ```
 data/
 ├── ss.db
+├── dataset.db
 ├── GroundTruthModels/
 ```
 
