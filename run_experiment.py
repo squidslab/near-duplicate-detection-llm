@@ -3,16 +3,16 @@ from prompting.utils import get_few_shot_examples
 from prompting.builder_prompt_few_shot import FewShotPrompt
 from llm.Ollamaclient import OllamaClient 
 from llm.runner import run_experiment 
+from llm.runnerParallel.runnerP import run_experiment_p
 import time 
+from evaluation.metrics import compute_metrics
 
 
 def main():
-
-
  
     print("[INFO] Costruzione dataset...")
 
-    dataset = build_dataset(n_per_class=5, seed=42)
+    dataset = build_dataset(n_per_class=100, seed=42)
 
     print(f"[INFO] Dimensione dataset: {len(dataset)}") 
 
@@ -28,16 +28,14 @@ def main():
     start = time.time()
 
     # 5. esecuzione test 
-    results = run_experiment(dataset, prompt_strategy, llm) 
+    results = run_experiment_p(dataset, prompt_strategy, llm, max_workers=4) 
 
     end = time.time()
 
-    # 6. stampa risultati
-    for r in results:
-        print("\n------------------------")
-        print(f"TRUE LABEL: {r['label']}") #classififcazione umana 
-        print(f"PREDICTION: {r['prediction']}") #output llm pulito 
-        print(f"RAW OUTPUT: {r['raw_output']}") #output grezzo 
+    #separazione risultati 
+    valid_results = [r for r in results if r["prediction"] != "UNKNOWN"] # valid_results contiene solo predizioni valide (esclude UNKNOWN)
+
+    compute_metrics(valid_results)
 
     print(f"\n[INFO] Tempo totale: {end - start:.2f} sec")
     print(f"[INFO] Tempo medio: {(end - start) / len(dataset):.2f} sec") 

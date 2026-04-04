@@ -2,9 +2,9 @@ from llm.utils import clean_output
 
 def run_experiment(dataset, prompt_strategy, llm_client): #riceve dataset oggetto prompt e oggetto client 
     results = []
-
+    
+    print("PROCESSING")
     for i, data in enumerate(dataset):
-        print(f"[{i+1}/{len(dataset)}] Processing...")
 
         # 1. costruzione prompt
         prompt = prompt_strategy.build(

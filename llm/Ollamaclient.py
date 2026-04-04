@@ -10,7 +10,10 @@ class OllamaClient:
         payload = {
             "model": self.model,
             "prompt": prompt,
-            "stream": False
+            "stream": False,
+            "options": {
+                "temperature": 0 #rende il modello deterministico 
+             }
         }
 
         try:

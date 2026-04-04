@@ -11,7 +11,6 @@ class FewShotPrompt(PromptStrategy):
     def build(self, html1, html2): #implemento metodo della classe astratta Promptstartegy 
 
         return f"""  
-
 You are a system that classifies pairs of web pages.
 
 Your task is to determine whether two web pages are:
@@ -106,5 +105,9 @@ Do not include any explanation, sentence, or formatting.
 Output must be exactly one of these three words.
 
 Do not explain your answer.
+
+If you are unsure, choose the closest label. Do not output anything else.
+
+/no_think
 
 """
