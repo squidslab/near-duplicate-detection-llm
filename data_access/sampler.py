@@ -33,22 +33,35 @@ def get_stratified_sample(n_per_class=50):
 
 def get_stratified_sample_for_experiment(n_per_class=50, seed=42):
     dataset = []
+    NAME_APPS = ["addressbook", "petclinic", "claroline", "dimeshift", "mrbs", "phoenix", "ppma", "mantisbt", "pagekit"]
+
+    num_apps = len(NAME_APPS)
 
     for label in [0, 1, 2]:
 
-        rows = get_dataset_pairs_by_label(label)
+        per_app_quota = n_per_class // num_apps
+        remainder = n_per_class % num_apps  # per gestire il resto
 
-        if len(rows) < n_per_class:
-            print(f"[WARNING] Label {label}: richiesti {n_per_class}, disponibili {len(rows)}")
+        for i, name in enumerate(NAME_APPS):
 
-        random.seed(seed + label)
-        random.shuffle(rows)
+            rows = get_dataset_pairs_by_label(label, name)
 
-        selected = rows[:n_per_class]
+            if len(rows) == 0:
+                continue
 
-        dataset.extend(selected)
+            random.seed(seed + label + i)
+            random.shuffle(rows)
+
+            # distribuzione resto sulle prime app
+            extra = 1 if i < remainder else 0
+
+            k = min(per_app_quota + extra, len(rows))
+
+            selected = rows[:k]
+
+            dataset.extend(selected)
 
     random.seed(seed)
-    random.shuffle(dataset)     
+    random.shuffle(dataset)
 
     return dataset

@@ -90,7 +90,7 @@ def get_connection():
     return sqlite3.connect("data/dataset.db")
 
 #funzione che recupera dati da dataset.db
-def get_dataset_pairs_by_label(label):
+def get_dataset_pairs_by_label(label,app_name):
     try:
         with get_connection() as conn:
             conn.row_factory = sqlite3.Row
@@ -99,9 +99,9 @@ def get_dataset_pairs_by_label(label):
             cursor.execute("""
                 SELECT crawl, state1, state2, label, app_name
                 FROM dataset_pairs
-                WHERE label = ?
+                WHERE label = ? AND app_name = ?
                 ORDER BY id
-            """, (label,))
+            """, (label,app_name))
 
             rows = cursor.fetchall()
 

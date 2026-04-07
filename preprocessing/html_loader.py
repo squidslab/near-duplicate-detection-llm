@@ -2,8 +2,6 @@ from pathlib import Path
 
 BASE_HTML_DIR = Path(__file__).resolve().parent.parent / "data" / "GroundTruthModels"
 
-print(BASE_HTML_DIR)
-
 def get_html(appName: str,crawl:str,state: str) -> str | None: 
 
     appName = appName.strip()

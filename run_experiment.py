@@ -5,8 +5,8 @@ from llm.Ollamaclient import OllamaClient
 from llm.runner import run_experiment 
 from llm.runnerParallel.runnerP import run_experiment_p
 import time 
-from evaluation.metrics import compute_metrics
-
+from evaluation.save_result import save_run
+from evaluation.build_metrics import build_metrics
 
 def main():
  
@@ -35,7 +35,11 @@ def main():
     #separazione risultati 
     valid_results = [r for r in results if r["prediction"] != "UNKNOWN"] # valid_results contiene solo predizioni valide (esclude UNKNOWN)
 
-    compute_metrics(valid_results)
+    #calcolo metriche
+    metrics = build_metrics(valid_results)
+
+    #salvataggio risultati
+    save_run(metrics,"results")
 
     print(f"\n[INFO] Tempo totale: {end - start:.2f} sec")
     print(f"[INFO] Tempo medio: {(end - start) / len(dataset):.2f} sec") 
