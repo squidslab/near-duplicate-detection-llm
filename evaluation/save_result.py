@@ -1,19 +1,24 @@
 import json
 import os
+from evaluation.build_metrics import plot_confusion_matrix
+
 
 def get_next_run_id(folder):
     if not os.path.exists(folder):
         return 1
 
-    files = [f for f in os.listdir(folder) if f.startswith("run_") and f.endswith(".json")]
+    run_dirs = [
+        d for d in os.listdir(folder)
+        if d.startswith("run_") and os.path.isdir(os.path.join(folder, d))
+    ]
 
-    if not files:
+    if not run_dirs:
         return 1
 
     ids = []
-    for f in files:
+    for d in run_dirs:
         try:
-            num = int(f.replace("run_", "").replace(".json", ""))
+            num = int(d.replace("run_", ""))
             ids.append(num)
         except:
             continue
@@ -26,9 +31,27 @@ def save_run(metrics, folder="results"):
 
     run_id = get_next_run_id(folder)
 
-    filename = f"{folder}/run_{run_id}.json"
+    run_folder = os.path.join(folder, f"run_{run_id}")
+    os.makedirs(run_folder, exist_ok=True)
 
-    with open(filename, "w") as f:
-        json.dump(metrics, f, indent=4)
+    json_filename = os.path.join(run_folder, f"run_{run_id}.json")
 
-    print(f"[INFO] Run {run_id} salvata in: {filename}")
+    #copia senza confusion matrix
+    metrics_to_save = metrics.copy()
+    if "confusion_matrix" in metrics_to_save:
+        cm = metrics_to_save.pop("confusion_matrix")
+    else:
+        cm = None
+
+    with open(json_filename, "w") as f:
+        json.dump(metrics_to_save, f, indent=4)
+
+    #salva grafico separato
+    if cm is not None:
+        confusion_path = os.path.join(run_folder, "confusion_matrix.png")
+
+        labels = ["CLONE", "NEAR-DUPLICATE", "DISTINCT"]
+
+        plot_confusion_matrix(cm, labels, save_path=confusion_path)
+
+    print(f"[INFO] Run {run_id} salvata in: {run_folder}")

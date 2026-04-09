@@ -1,6 +1,6 @@
 def clean_output(output):
     if output is None:
-        return "UNKNOWN"
+        return "INVALID"
 
     output = output.upper().strip()
 
@@ -11,4 +11,4 @@ def clean_output(output):
     if "CLONE" in output:
         return "CLONE"
 
-    return "UNKNOWN" 
+    return "INVALID" 

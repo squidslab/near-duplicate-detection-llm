@@ -12,7 +12,8 @@ class OllamaClient:
             "prompt": prompt,
             "stream": False,
             "options": {
-                "temperature": 0 #rende il modello deterministico 
+                "temperature": 0, #rende il modello deterministico 
+                "reasoning_effort":"low",
              }
         }
 

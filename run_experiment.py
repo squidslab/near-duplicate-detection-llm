@@ -1,12 +1,14 @@
 from preprocessing.dataset_builder import build_dataset
 from prompting.utils import get_few_shot_examples
-from prompting.builder_prompt_few_shot import FewShotPrompt
+from prompting.builder_prompt_few_shot import FewShotPrompt 
+from prompting.builder_prompt_zero_shot import ZeroShotPrompt
 from llm.Ollamaclient import OllamaClient 
 from llm.runner import run_experiment 
 from llm.runnerParallel.runnerP import run_experiment_p
 import time 
 from evaluation.save_result import save_run
-from evaluation.build_metrics import build_metrics
+from evaluation.build_metrics import build_metrics 
+from utils.menu import choose_strategy
 
 def main():
  
@@ -16,11 +18,17 @@ def main():
 
     print(f"[INFO] Dimensione dataset: {len(dataset)}") 
 
-    # 2. recupero esempi few-shot
-    ex_nd, ex_clone, ex_diff = get_few_shot_examples(dataset) 
+    choise = choose_strategy()  
 
-    # 3. inizializzazione prompt
-    prompt_strategy = FewShotPrompt(ex_nd, ex_clone, ex_diff) 
+    match choise:
+      case "1":
+          prompt_strategy = ZeroShotPrompt() 
+          
+      case "2":
+        # 2. recupero esempi few-shot
+        ex_nd, ex_clone, ex_diff = get_few_shot_examples(dataset) 
+        # 3. inizializzazione prompt
+        prompt_strategy = FewShotPrompt(ex_nd, ex_clone, ex_diff) 
 
     # 4. inizializzazione LLM
     llm = OllamaClient(model="llama3") 
@@ -32,11 +40,8 @@ def main():
 
     end = time.time()
 
-    #separazione risultati 
-    valid_results = [r for r in results if r["prediction"] != "UNKNOWN"] # valid_results contiene solo predizioni valide (esclude UNKNOWN)
-
     #calcolo metriche
-    metrics = build_metrics(valid_results)
+    metrics = build_metrics(results,prompt_strategy)
 
     #salvataggio risultati
     save_run(metrics,"results")

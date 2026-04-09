@@ -1,0 +1,30 @@
+{
+    "accuracy": 0.3218,
+    "precision": 0.4237,
+    "recall": 0.3218,
+    "f1": 0.2669,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.2761,
+            "recall": 0.7377,
+            "f1": 0.4018
+        },
+        "NEAR-DUPLICATE": {
+            "precision": 0.382,
+            "recall": 0.34,
+            "f1": 0.3598
+        },
+        "DISTINCT": {
+            "precision": 0.5556,
+            "recall": 0.05,
+            "f1": 0.0917
+        }
+    },
+    "model": "llama3",
+    "dataset_size": 261,
+    "input_type": "raw html",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Test with a zero-shot prompting strategy."
+}
