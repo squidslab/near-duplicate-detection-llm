@@ -54,4 +54,4 @@ def save_run(metrics, folder="results"):
 
         plot_confusion_matrix(cm, labels, save_path=confusion_path)
 
-    print(f"[INFO] Run {run_id} salvata in: {run_folder}")
+    print(f"[INFO] Results of run {run_id} are available in {run_folder}") 

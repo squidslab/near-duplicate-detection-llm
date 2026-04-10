@@ -10,7 +10,6 @@ def compute_metrics(results):
         for r in results
     ]
 
-    
     labels = ["CLONE", "NEAR-DUPLICATE", "DISTINCT"]
 
     #Metriche globali
@@ -20,18 +19,7 @@ def compute_metrics(results):
     cm = confusion_matrix(y_true, y_pred, labels=labels)
     accuracy = accuracy_score(y_true, y_pred)
 
-    print("=== METRICS ===")
-    print(f"Accuracy : {accuracy:.4f}")
-    print(f"Precision: {precision:.4f}")
-    print(f"Recall   : {recall:.4f}")
-    print(f"F1-score : {f1:.4f}")
-
-
     report = classification_report(y_true,y_pred,labels=labels,output_dict=True,zero_division=0)
-
-    print("\n=== REPORT ===")
-    for label, values in report.items():
-        print(label, values)
 
     per_class = {
         label: {

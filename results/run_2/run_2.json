@@ -1,28 +1,28 @@
 {
-    "accuracy": 0.3487,
-    "precision": 0.3994,
-    "recall": 0.3487,
-    "f1": 0.3218,
+    "accuracy": 0.39,
+    "precision": 0.3809,
+    "recall": 0.39,
+    "f1": 0.3515,
     "invalid_rate": 0.0,
     "per_class": {
         "CLONE": {
-            "precision": 0.2778,
-            "recall": 0.7377,
-            "f1": 0.4036
+            "precision": 0.3874,
+            "recall": 0.74,
+            "f1": 0.5086
         },
         "NEAR-DUPLICATE": {
-            "precision": 0.3333,
+            "precision": 0.2553,
             "recall": 0.12,
-            "f1": 0.1765
+            "f1": 0.1633
         },
         "DISTINCT": {
-            "precision": 0.5397,
-            "recall": 0.34,
-            "f1": 0.4172
+            "precision": 0.5,
+            "recall": 0.31,
+            "f1": 0.3827
         }
     },
     "model": "llama3",
-    "dataset_size": 261,
+    "dataset_size": 300,
     "input_type": "raw html",
     "prompt_type": "few shot",
     "num_examples_for_prompt": 3,

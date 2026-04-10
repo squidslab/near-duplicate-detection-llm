@@ -66,7 +66,8 @@ After setup, your `data/` directory should look like this:
 ```
 data/
 ├── ss.db
-├── dataset.db
+├── test.db 
+├── example.db 
 ├── GroundTruthModels/
 ```
 

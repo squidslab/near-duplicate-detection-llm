@@ -1,3 +1,5 @@
+from typing import Counter
+from collections import defaultdict, Counter
 from data_access.sampler import get_stratified_sample_for_experiment
 from preprocessing.html_loader import get_html
 
@@ -27,4 +29,4 @@ def build_dataset(n_per_class=50, seed=42):
             "label": label_map[data["label"]]
         })
 
-    return dataset  
+    return dataset
