@@ -2,11 +2,12 @@ from typing import Counter
 from collections import defaultdict, Counter
 from data_access.sampler import get_stratified_sample_for_experiment
 from preprocessing.html_loader import get_html
+from preprocessing.image_loader import get_image
 
 
-def build_dataset(n_per_class=50, seed=42):
+def build_dataset(n_per_class=50, seed=42, db_path=None, input_type="html"):
 
-    stratified_data = get_stratified_sample_for_experiment(n_per_class, seed)
+    stratified_data = get_stratified_sample_for_experiment(n_per_class, seed, db_path)
     dataset = []
 
     label_map = {
@@ -17,16 +18,24 @@ def build_dataset(n_per_class=50, seed=42):
 
     for data in stratified_data:
 
-        html1 = get_html(data["app_name"], data["crawl"], data["state1"])
-        html2 = get_html(data["app_name"], data["crawl"], data["state2"])
+        if input_type == "html":
+            input1 = get_html(data["app_name"], data["crawl"], data["state1"])
+            input2 = get_html(data["app_name"], data["crawl"], data["state2"])
 
-        if html1 is None or html2 is None:
+        elif input_type == "image":
+            input1 = get_image(data["app_name"], data["crawl"], data["state1"])
+            input2 = get_image(data["app_name"], data["crawl"], data["state2"])
+
+        else:
+            raise ValueError("input_type must be 'html' or 'image'")
+
+        if input1 is None or input2 is None:
             continue
 
         dataset.append({
-            "html1": html1,
-            "html2": html2,
+            "input1": input1,
+            "input2": input2,
             "label": label_map[data["label"]]
         })
 
-    return dataset
+    return dataset 

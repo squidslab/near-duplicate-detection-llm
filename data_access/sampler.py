@@ -65,7 +65,7 @@ def get_examples_sample(n_per_class, test_dataset):  #funzione per stratificazio
     return dataset
 
 
-def get_stratified_sample_for_experiment(n_per_class=50, seed=42): #funzione stratificazione dataset finale 
+def get_stratified_sample_for_experiment(n_per_class=50, seed=42, db_path=None): #funzione stratificazione dataset finale 
     dataset = []
     NAME_APPS = ["addressbook", "petclinic", "claroline", "dimeshift", "mrbs", "phoenix", "ppma", "mantisbt", "pagekit"]
 
@@ -78,7 +78,7 @@ def get_stratified_sample_for_experiment(n_per_class=50, seed=42): #funzione str
 
         for i, name in enumerate(NAME_APPS):
 
-            rows = get_dataset_pairs_by_label(label, name)
+            rows = get_dataset_pairs_by_label(label, name, db_path)
 
             if len(rows) == 0:
                 continue
@@ -101,7 +101,7 @@ def get_stratified_sample_for_experiment(n_per_class=50, seed=42): #funzione str
         if missing > 0:
             all_rows = []
             for name in NAME_APPS:
-                rows = get_dataset_pairs_by_label(label, name)
+                rows = get_dataset_pairs_by_label(label, name, db_path)
                 all_rows.extend(rows)
 
             random.seed(seed + label + 999)

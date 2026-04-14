@@ -6,7 +6,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 db_path = os.path.join(BASE_DIR, "..", "data", "SS.db")
 db_path = os.path.normpath(db_path)
 
-def get_connection():
+def get_connection_ss_db():
     return sqlite3.connect(db_path) 
 
 
@@ -19,7 +19,7 @@ def get_pairs_by_label(num, label,nameApp,offset=0):
         raise ValueError("num deve essere un intero positivo")
 
     try:
-        with get_connection() as conn:
+        with get_connection_ss_db() as conn:
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
 
@@ -83,14 +83,14 @@ def create_test_db(output_path, data):
         print("Errore creazione database test:", e)
 
 
-#funzione che crea connessione con test.db
-def get_connection_test_db():
-    return sqlite3.connect("data/test.db")
+#funzione che crea connessione con test.db e example.db
+def get_connection(db_path):
+    return sqlite3.connect(db_path)
 
-#funzione che recupera dati da dataset.db
-def get_dataset_pairs_by_label(label,app_name):
+#funzione che recupera dati da test.db e example.db
+def get_dataset_pairs_by_label(label,app_name,db_path):
     try:
-        with get_connection_test_db() as conn:
+        with get_connection(db_path) as conn:
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
 

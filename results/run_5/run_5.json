@@ -1,0 +1,30 @@
+{
+    "accuracy": 0.3333,
+    "precision": 0.1111,
+    "recall": 0.3333,
+    "f1": 0.1667,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+        },
+        "NEAR-DUPLICATE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+        },
+        "DISTINCT": {
+            "precision": 0.3333,
+            "recall": 1.0,
+            "f1": 0.5
+        }
+    },
+    "model": "llava:7b",
+    "dataset_size": 300,
+    "input_type": "image",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with image input."
+}

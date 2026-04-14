@@ -2,16 +2,24 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from llm.utils import clean_output
 
-def process_item(data, prompt_strategy, llm_client):
     
+def process_item(data, prompt_strategy, llm_client):
+
     # 1. costruzione prompt
-    prompt = prompt_strategy.build(
-        data["html1"],
-        data["html2"]
-    )
+    if prompt_strategy.uses_images():
+      prompt = prompt_strategy.build(None, None)
+    else:
+      prompt = prompt_strategy.build(data["input1"], data["input2"])
 
     # 2. chiamata LLM
-    raw_output = llm_client.generate(prompt)
+    if prompt_strategy.uses_images():
+        raw_output = llm_client.generate({
+            "image1": data["input1"],
+            "image2": data["input2"],
+            "text": prompt
+        })
+    else:
+        raw_output = llm_client.generate(prompt)
 
     # 3. pulizia output
     pred = clean_output(raw_output)

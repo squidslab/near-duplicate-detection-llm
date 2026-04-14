@@ -1,19 +1,19 @@
 {
     "accuracy": 0.3633,
-    "precision": 0.237,
+    "precision": 0.2332,
     "recall": 0.3633,
-    "f1": 0.2259,
+    "f1": 0.226,
     "invalid_rate": 0.0,
     "per_class": {
         "CLONE": {
-            "precision": 0.365,
+            "precision": 0.3663,
             "recall": 1.0,
-            "f1": 0.5348
+            "f1": 0.5362
         },
         "NEAR-DUPLICATE": {
-            "precision": 0.3462,
+            "precision": 0.3333,
             "recall": 0.09,
-            "f1": 0.1429
+            "f1": 0.1417
         },
         "DISTINCT": {
             "precision": 0.0,
@@ -21,10 +21,10 @@
             "f1": 0.0
         }
     },
-    "model": "llama3",
+    "model": "llama 3",
     "dataset_size": 300,
     "input_type": "html",
     "prompt_type": "zero-shot",
     "num_examples_for_prompt": 0,
-    "description": "Zero-shot prompting with row html input."
+    "description": "Zero-shot prompting with html input."
 }

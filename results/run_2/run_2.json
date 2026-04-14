@@ -1,30 +1,30 @@
 {
-    "accuracy": 0.39,
-    "precision": 0.3809,
-    "recall": 0.39,
-    "f1": 0.3515,
+    "accuracy": 0.3633,
+    "precision": 0.237,
+    "recall": 0.3633,
+    "f1": 0.2259,
     "invalid_rate": 0.0,
     "per_class": {
         "CLONE": {
-            "precision": 0.3874,
-            "recall": 0.74,
-            "f1": 0.5086
+            "precision": 0.365,
+            "recall": 1.0,
+            "f1": 0.5348
         },
         "NEAR-DUPLICATE": {
-            "precision": 0.2553,
-            "recall": 0.12,
-            "f1": 0.1633
+            "precision": 0.3462,
+            "recall": 0.09,
+            "f1": 0.1429
         },
         "DISTINCT": {
-            "precision": 0.5,
-            "recall": 0.31,
-            "f1": 0.3827
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
         }
     },
     "model": "llama3",
     "dataset_size": 300,
-    "input_type": "raw html",
-    "prompt_type": "few shot",
-    "num_examples_for_prompt": 3,
-    "description": "Test with a few-shot prompting strategy, using 3 examples with raw HTML."
+    "input_type": "html",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with row html input."
 }
