@@ -24,25 +24,28 @@ You are a system that classifies pairs of web pages.
 
 Your task is to determine whether two web pages are:
 - CLONE
-- NEAR-DUPLICATE
 - DISTINCT
 
 Definitions:
 
 CLONE:
-Two web pages are clones if they have no semantic, functional, or perceptible differences.
-They are identical in structure, content, and functionality.
+Two web pages are considered CLONES if they provide the same functionality and purpose, even if they differ in minor or insignificant ways.
 
-NEAR-DUPLICATE:
-Two web pages are near-duplicates if they provide the same functionality but differ only in small, insignificant changes.
-These changes may include:
-- different data (e.g., different user or product)
-- minor layout or cosmetic differences
-- duplicated or repeated elements
+These differences may include:
+
+different data (e.g., different user or product)
+small layout or cosmetic changes
+duplicated or slightly modified elements
+
+The key aspect is that the functionality and user interaction remain the same.
+
+If two pages have the same functionality, they must be classified as CLONE, even if they are not identical.
+There is no need to distinguish between exact duplicates and near-duplicates: both should be considered CLONE.
 
 DISTINCT:
-Two web pages are distinct if they differ in functionality or purpose.
-If at least one page provides a different feature or interaction, they must be classified as DISTINCT.
+Two web pages are DISTINCT if they differ in functionality or purpose.
+
+If at least one of the pages provides a different feature or interaction, they must be classified as DISTINCT.
 
 """
         
@@ -77,11 +80,12 @@ Page 2:
 Return ONLY one label (exactly one word):
 
 CLONE
-NEAR-DUPLICATE
 DISTINCT
 
+Treat near-duplicate cases as CLONE.
+
 Do not include any explanation, sentence, or formatting.
-Output must be exactly one of these three words.
+Output must be exactly one of these two words.
 
 Do not explain your answer.
 
@@ -112,7 +116,7 @@ Use these elements to infer what actions a user can perform.
 
 If two pages contain the same functional UI elements and appear identical in structure, layout, and content, classify them as CLONE.
 
-If two pages contain similar functional UI elements that enable the same user actions but differ in content, layout, or visual details, classify them as NEAR-DUPLICATE.
+If two pages contain similar functional UI elements that enable the same user actions but differ in content, layout, or visual details, classify them as CLONE.
 
 Use DISTINCT only if the pages clearly contain different types of interactive elements or support different user actions.
 
@@ -127,7 +131,6 @@ Page 2: [IMAGE]
 Return ONLY one label (exactly one word):
 
 CLONE
-NEAR-DUPLICATE
 DISTINCT
 
 Do not include any explanation, sentence, or formatting.

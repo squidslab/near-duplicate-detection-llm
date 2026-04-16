@@ -28,11 +28,13 @@ def main():
         llm = OllamaClient(model="llama3")
 
     print("[INFO] Costruzione dataset test...")  
+
     dataset = build_dataset(
-        n_per_class=100,
+        tot_experiment=300,
         seed=42,
         db_path="data/test.db",
-        input_type=input_type
+        input_type=input_type, 
+        example = False  
     )
 
     print(f"[INFO] Dimensione dataset: {len(dataset)}") 
@@ -49,13 +51,12 @@ def main():
             print("[INFO] Costruzione dataset esempi...")            
 
             example_data = build_dataset(
-                n_per_class=2,
+                tot_experiment=6,
                 seed=10,
                 db_path="data/examples.db",
-                input_type=input_type
+                input_type=input_type, 
+                example= True
             )
-
-            print(example_data[0])
 
             ex_nd, ex_clone, ex_diff = get_few_shot_examples(example_data)
 
@@ -67,7 +68,7 @@ def main():
 
     start = time.time()
 
-    results = run_experiment_p(dataset, prompt_strategy, llm, max_workers=4)
+    results = run_experiment_p(dataset, prompt_strategy, llm, max_workers=4) 
 
     end = time.time()
 

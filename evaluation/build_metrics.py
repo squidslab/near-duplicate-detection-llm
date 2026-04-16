@@ -28,7 +28,7 @@ def plot_confusion_matrix(cm, labels, save_path=None):
 
     cm = np.array(cm)
 
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(6,5))
 
     sns.heatmap(
         cm,

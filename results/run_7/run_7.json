@@ -1,30 +1,25 @@
 {
-    "accuracy": 0.3333,
-    "precision": 0.1111,
-    "recall": 0.3333,
-    "f1": 0.1667,
+    "accuracy": 0.4967,
+    "precision": 0.2492,
+    "recall": 0.4967,
+    "f1": 0.3318,
     "invalid_rate": 0.0,
     "per_class": {
         "CLONE": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": 0.0
-        },
-        "NEAR-DUPLICATE": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": 0.0
+            "precision": 0.4983,
+            "recall": 0.9933,
+            "f1": 0.6637
         },
         "DISTINCT": {
-            "precision": 0.3333,
-            "recall": 1.0,
-            "f1": 0.5
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
         }
     },
-    "model": "llava:7b",
+    "model": "llama 3",
     "dataset_size": 300,
-    "input_type": "image",
+    "input_type": "html",
     "prompt_type": "zero-shot",
     "num_examples_for_prompt": 0,
-    "description": "Zero-shot prompting with image input."
-} 
+    "description": "Zero-shot prompting with row html input. e con due classi "
+}

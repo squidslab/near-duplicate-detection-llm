@@ -50,7 +50,7 @@ def save_run(metrics, folder="results"):
     if cm is not None:
         confusion_path = os.path.join(run_folder, "confusion_matrix.png")
 
-        labels = ["CLONE", "NEAR-DUPLICATE", "DISTINCT"]
+        labels = ["CLONE","DISTINCT"]
 
         plot_confusion_matrix(cm, labels, save_path=confusion_path)
 

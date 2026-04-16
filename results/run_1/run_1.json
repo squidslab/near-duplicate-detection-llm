@@ -26,5 +26,5 @@
     "input_type": "html",
     "prompt_type": "zero-shot",
     "num_examples_for_prompt": 0,
-    "description": "Zero-shot prompting with row html input."
+    "description": "Zero-shot prompting with row html input si utilizza ancora un modello di classificazione basato su tre classi."
 }

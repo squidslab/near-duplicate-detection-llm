@@ -26,5 +26,5 @@
     "input_type": "html",
     "prompt_type": "few-shot",
     "num_examples_for_prompt": 3,
-    "description": "Few-shot prompting with row html input."
+    "description": "Few-shot prompting with row html input." 
 }

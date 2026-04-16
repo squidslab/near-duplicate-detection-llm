@@ -1,4 +1,4 @@
-from collections import Counter
+from collections import Counter, defaultdict
 import random
 from data_access.db import get_dataset_pairs_by_label, get_pairs_by_label
 
@@ -124,5 +124,81 @@ def get_stratified_sample_for_experiment(n_per_class=50, seed=42, db_path=None):
 
     random.seed(seed)
     random.shuffle(dataset)
+
+    return dataset 
+
+def get_stratified_sample_for_ex_two_class(tot_experiment=300, seed=42, db_path=None):
+    dataset = []
+    NAME_APPS = ["addressbook", "petclinic", "claroline", "dimeshift", "mrbs", "phoenix", "ppma", "mantisbt", "pagekit"]
+
+    num_apps = len(NAME_APPS)
+
+    n_distinct = tot_experiment // 2 
+    n_cl_nr = tot_experiment // 4 
+
+
+    for i, name in enumerate(NAME_APPS):
+
+        rows = get_dataset_pairs_by_label(2, name, db_path)
+
+        if len(rows) == 0:
+            continue
+
+        per_app_quota = n_distinct // num_apps
+        remainder = n_distinct % num_apps
+
+        random.seed(seed + 2 + i)
+        random.shuffle(rows)
+
+        extra = 1 if i < remainder else 0
+        k = min(per_app_quota + extra, len(rows))
+
+        dataset.extend(rows[:k])
+
+    for i, name in enumerate(NAME_APPS):
+
+        rows_clone = get_dataset_pairs_by_label(0, name, db_path)
+        rows_near  = get_dataset_pairs_by_label(1, name, db_path)
+
+        if len(rows_clone) == 0 and len(rows_near) == 0:
+            continue
+
+        per_app_quota = n_cl_nr // num_apps
+        remainder = n_cl_nr % num_apps
+
+        target = per_app_quota + (1 if i < remainder else 0)
+
+        random.seed(seed + 100 + i)
+        random.shuffle(rows_clone)
+        random.shuffle(rows_near)
+
+        selected = []
+
+        # prendi quello che puoi
+        take_clone = min(len(rows_clone), target)
+        take_near  = min(len(rows_near), target)
+
+        selected.extend(rows_clone[:take_clone])
+        selected.extend(rows_near[:take_near])
+
+        # compensazione
+        if take_clone < target:
+            deficit = target - take_clone
+            extra = rows_near[take_near:take_near + deficit]
+            selected.extend(extra)
+
+        if take_near < target:
+            deficit = target - take_near
+            extra = rows_clone[take_clone:take_clone + deficit]
+            selected.extend(extra)
+
+        dataset.extend(selected)
+
+
+    if len(dataset) != tot_experiment:
+        print(f"[WARNING] Expected {tot_experiment}, got {len(dataset)}")
+
+    random.seed(seed)
+    random.shuffle(dataset) 
 
     return dataset

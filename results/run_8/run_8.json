@@ -1,30 +1,30 @@
 {
-    "accuracy": 0.3633,
-    "precision": 0.2332,
-    "recall": 0.3633,
-    "f1": 0.226,
-    "invalid_rate": 0.0,
+    "accuracy": 0.5533,
+    "precision": 0.5615,
+    "recall": 0.5533,
+    "f1": 0.5558,
+    "invalid_rate": 0.013333333333333334,
     "per_class": {
         "CLONE": {
-            "precision": 0.3663,
-            "recall": 1.0,
-            "f1": 0.5362
-        },
-        "NEAR-DUPLICATE": {
-            "precision": 0.3333,
-            "recall": 0.09,
-            "f1": 0.1417
+            "precision": 0.5549,
+            "recall": 0.6067,
+            "f1": 0.5796
         },
         "DISTINCT": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": 0.0
+            "precision": 0.5682,
+            "recall": 0.5,
+            "f1": 0.5319
+        },
+        "micro avg": {
+            "precision": 0.5608,
+            "recall": 0.5533,
+            "f1": 0.557
         }
     },
     "model": "llama 3",
     "dataset_size": 300,
     "input_type": "html",
-    "prompt_type": "zero-shot",
-    "num_examples_for_prompt": 0,
-    "description": "Zero-shot prompting with html input."
+    "prompt_type": "few-shot",
+    "num_examples_for_prompt": 3,
+    "description": "Few-shot prompting with row html input. e due classi"
 }
