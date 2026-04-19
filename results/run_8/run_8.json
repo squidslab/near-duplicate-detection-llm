@@ -1,30 +1,25 @@
 {
-    "accuracy": 0.5533,
-    "precision": 0.5615,
-    "recall": 0.5533,
-    "f1": 0.5558,
-    "invalid_rate": 0.013333333333333334,
+    "accuracy": 0.5033,
+    "precision": 0.7508,
+    "recall": 0.5033,
+    "f1": 0.3407,
+    "invalid_rate": 0.0,
     "per_class": {
         "CLONE": {
-            "precision": 0.5549,
-            "recall": 0.6067,
-            "f1": 0.5796
+            "precision": 0.5017,
+            "recall": 1.0,
+            "f1": 0.6682
         },
         "DISTINCT": {
-            "precision": 0.5682,
-            "recall": 0.5,
-            "f1": 0.5319
-        },
-        "micro avg": {
-            "precision": 0.5608,
-            "recall": 0.5533,
-            "f1": 0.557
+            "precision": 1.0,
+            "recall": 0.0067,
+            "f1": 0.0132
         }
     },
     "model": "llama 3",
     "dataset_size": 300,
     "input_type": "html",
-    "prompt_type": "few-shot",
-    "num_examples_for_prompt": 3,
-    "description": "Few-shot prompting with row html input. e due classi"
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with raw HTML input, where NEAR-DUPLICATE and CLONE classes are unified into a single CLONE class."
 }

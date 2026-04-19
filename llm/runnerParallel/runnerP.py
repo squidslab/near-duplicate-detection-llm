@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from llm.utils import clean_output
 
     
-def process_item(data, prompt_strategy, llm_client):
+def process_item(data, prompt_strategy, llm_client, task="classification"):
 
     # 1. costruzione prompt
     if prompt_strategy.uses_images():
@@ -21,17 +21,25 @@ def process_item(data, prompt_strategy, llm_client):
     else:
         raw_output = llm_client.generate(prompt)
 
-    # 3. pulizia output
-    pred = clean_output(raw_output)
+    if task == "classification":
+      # 3. pulizia output
+      pred = clean_output(raw_output)
 
-    return {
+      return {
         "label": data["label"],
         "prediction": pred,
         "raw_output": raw_output
-    }
+       }
+    
+    elif task == "extraction": 
+        return {
+            "label": data["label"],
+            "description": raw_output.strip()
+        }
+    else: 
+         raise ValueError("task must be 'classification' or 'extraction'")
 
-
-def run_experiment_p(dataset, prompt_strategy, Llm_client, max_workers=4):
+def run_experiment_p(dataset, prompt_strategy, Llm_client, max_workers=4, task="classification"):
 
     results = [None] * len(dataset)
     print("PROCESSING (parallel)...")
@@ -39,7 +47,7 @@ def run_experiment_p(dataset, prompt_strategy, Llm_client, max_workers=4):
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
 
         futures = {
-            executor.submit(process_item, data, prompt_strategy, Llm_client): i
+            executor.submit(process_item, data, prompt_strategy, Llm_client, task): i
             for i, data in enumerate(dataset)
         }
 

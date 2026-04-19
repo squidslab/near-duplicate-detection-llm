@@ -1,6 +1,6 @@
 from pathlib import Path
 
-BASE_HTML_DIR = Path(__file__).resolve().parent.parent / "data" / "GroundTruthModels"
+BASE_HTML_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "GroundTruthModels"
 
 def get_html(appName: str,crawl:str,state: str) -> str | None: 
 

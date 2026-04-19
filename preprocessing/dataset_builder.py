@@ -1,8 +1,9 @@
 from typing import Counter
 from collections import defaultdict, Counter
 from data_access.sampler import get_stratified_sample_for_experiment, get_stratified_sample_for_ex_two_class
-from preprocessing.html_loader import get_html
-from preprocessing.image_loader import get_image
+from preprocessing.loader.html_loader import get_html
+from preprocessing.loader.image_loader import get_image 
+from preprocessing.transformers.html_extractor import html_extractor
 
 
 def build_dataset(tot_experiment=50, seed=42, db_path=None, input_type="html", example=False):
@@ -34,7 +35,9 @@ def build_dataset(tot_experiment=50, seed=42, db_path=None, input_type="html", e
 
         if input_type == "html":
             input1 = get_html(data["app_name"], data["crawl"], data["state1"])
-            input2 = get_html(data["app_name"], data["crawl"], data["state2"])
+            input2 = get_html(data["app_name"], data["crawl"], data["state2"]) 
+            input1 = html_extractor(input1)
+            input2 = html_extractor(input2)
 
         elif input_type == "image":
             input1 = get_image(data["app_name"], data["crawl"], data["state1"])

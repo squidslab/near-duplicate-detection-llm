@@ -1,5 +1,5 @@
 import requests
-from preprocessing.image_loader import encode_image
+from preprocessing.loader.image_loader import encode_image
 
 
 class OllamaClient:

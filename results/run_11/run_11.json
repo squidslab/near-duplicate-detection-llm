@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.5,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6667
+        },
+        "DISTINCT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+        }
+    },
+    "model": "llama 3",
+    "dataset_size": 300,
+    "input_type": "html",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with old preprocess HTML input, where NEAR-DUPLICATE and CLONE classes are unified into a single CLONE class."
+}

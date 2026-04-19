@@ -1,0 +1,30 @@
+{
+    "accuracy": 0.5333,
+    "precision": 0.5409,
+    "recall": 0.5333,
+    "f1": 0.5359,
+    "invalid_rate": 0.013333333333333334,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.537,
+            "recall": 0.58,
+            "f1": 0.5577
+        },
+        "DISTINCT": {
+            "precision": 0.5448,
+            "recall": 0.4867,
+            "f1": 0.5141
+        },
+        "micro avg": {
+            "precision": 0.5405,
+            "recall": 0.5333,
+            "f1": 0.5369
+        }
+    },
+    "model": "llama 3",
+    "dataset_size": 300,
+    "input_type": "html",
+    "prompt_type": "few-shot",
+    "num_examples_for_prompt": 3,
+    "description": "Few-shot prompting with html input."
+}

@@ -2,7 +2,7 @@ from pathlib import Path
 import base64
 
 
-BASE_IMAGE_DIR = Path(__file__).resolve().parent.parent / "data" / "GroundTruthModels"
+BASE_IMAGE_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "GroundTruthModels"
 
 def get_image(appName: str,crawl:str,state: str) -> str | None: 
 
