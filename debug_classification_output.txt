@@ -1,0 +1,2700 @@
+===== ITEM 0 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 1 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 2 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 3 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 4 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 5 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 6 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 7 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 8 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 9 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 10 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 11 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 12 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 13 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 14 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 15 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 16 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 17 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 18 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 19 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 20 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 21 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 22 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 23 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 24 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 25 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 26 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 27 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 28 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 29 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 30 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 31 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 32 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 33 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 34 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 35 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 36 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 37 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 38 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 39 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 40 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 41 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 42 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 43 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 44 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 45 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 46 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 47 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 48 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 49 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 50 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 51 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 52 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 53 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 54 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 55 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 56 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 57 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 58 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 59 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 60 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 61 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 62 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 63 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 64 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 65 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 66 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 67 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 68 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 69 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 70 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 71 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 72 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 73 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 74 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 75 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 76 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 77 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 78 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 79 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 80 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 81 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 82 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 83 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 84 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 85 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 86 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 87 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 88 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 89 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 90 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 91 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 92 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 93 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 94 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 95 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 96 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 97 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 98 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 99 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 100 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 101 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 102 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 103 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 104 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 105 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 106 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 107 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 108 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 109 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 110 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 111 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 112 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 113 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 114 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 115 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 116 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 117 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 118 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 119 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 120 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 121 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 122 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 123 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 124 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 125 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 126 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 127 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 128 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 129 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 130 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 131 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 132 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 133 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 134 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 135 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 136 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 137 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 138 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 139 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 140 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 141 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 142 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 143 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 144 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 145 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 146 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 147 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 148 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 149 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 150 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 151 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 152 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 153 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 154 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 155 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 156 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 157 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 158 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 159 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 160 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 161 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 162 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 163 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 164 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 165 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 166 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 167 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 168 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 169 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 170 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 171 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 172 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 173 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 174 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 175 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 176 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 177 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 178 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 179 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 180 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 181 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 182 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 183 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 184 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 185 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 186 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 187 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 188 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 189 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 190 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 191 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 192 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 193 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 194 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 195 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 196 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 197 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 198 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 199 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 200 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 201 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 202 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 203 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 204 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 205 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 206 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 207 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 208 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 209 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 210 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 211 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 212 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 213 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 214 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 215 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 216 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 217 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 218 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 219 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 220 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 221 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 222 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 223 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 224 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 225 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 226 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 227 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 228 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 229 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 230 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 231 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 232 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 233 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 234 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 235 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 236 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 237 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 238 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 239 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 240 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 241 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 242 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 243 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 244 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 245 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 246 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 247 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 248 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 249 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 250 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 251 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 252 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 253 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 254 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 255 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 256 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 257 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 258 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 259 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 260 =====
+TRUE LABEL: CLONE
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 261 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 262 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 263 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 264 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 265 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 266 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 267 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 268 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 269 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 270 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 271 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 272 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 273 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 274 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 275 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 276 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 277 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 278 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 279 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 280 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 281 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 282 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 283 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 284 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 285 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 286 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 287 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 288 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 289 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 290 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 291 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 292 =====
+TRUE LABEL: CLONE
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 293 =====
+TRUE LABEL: DISTINCT
+PREDICTION: CLONE
+
+RAW OUTPUT:
+CLONE
+
+==================================================
+
+===== ITEM 294 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 295 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 296 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 297 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 298 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+
+===== ITEM 299 =====
+TRUE LABEL: DISTINCT
+PREDICTION: DISTINCT
+
+RAW OUTPUT:
+DISTINCT
+
+==================================================
+

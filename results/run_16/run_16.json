@@ -1,0 +1,26 @@
+{
+    "accuracy": 0.9067,
+    "precision": 0.907,
+    "recall": 0.9067,
+    "f1": 0.9067,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.9178,
+            "recall": 0.8933,
+            "f1": 0.9054
+        },
+        "DISTINCT": {
+            "precision": 0.8961,
+            "recall": 0.92,
+            "f1": 0.9079
+        }
+    },
+    "dataset_size": 300,
+    "input_type": "html",
+    "model": "qwen2.5:7b",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "(zero-shot)Results of the functionality extraction pipeline, the extraction model works with preprocessed HTML input, the output of the extraction model is then used as input for the classification model, the LLM used for both extraction and classification is Qwen 2.5 7B"
+                
+}

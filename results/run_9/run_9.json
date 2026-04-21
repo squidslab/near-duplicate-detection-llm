@@ -26,5 +26,5 @@
     "input_type": "html",
     "prompt_type": "few-shot",
     "num_examples_for_prompt": 3,
-    "description": "Few-shot prompting with html input."
+    "description": "Few-shot prompting with raw HTML input, where NEAR-DUPLICATE and CLONE classes are unified into a single CLONE class."
 }

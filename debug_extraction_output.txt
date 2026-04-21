@@ -1,0 +1,4552 @@
+===== ITEM 0 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login session.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for tags or updates an entry.
+- Secondary actions: User can change page size, sort tags, and view tag-related information.
+- Goal: Manage and search tags, as well as update entries.
+
+==================================================
+
+===== ITEM 1 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 2 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to authenticate.
+
+PAGE 2:
+- Main action: User can manage their account settings.
+- Secondary actions: User can view statistics, update personal information, change password, and modify permissions.
+- Goal: Enable user to customize and maintain their profile within the Claroline system.
+
+==================================================
+
+===== ITEM 3 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create new account.
+- Goal: Allow user to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable user to start creating boards.
+
+==================================================
+
+===== ITEM 4 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to different sections of the pet clinic.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: View owner details, edit pet name and birth date, select pet type.
+- Goal: Allow users to modify existing pet records.
+
+==================================================
+
+===== ITEM 5 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Provide an option to create a new board.
+
+PAGE 2:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Provide an option to create a new board.
+
+==================================================
+
+===== ITEM 6 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can submit a login form.
+- Secondary actions: User can cancel the login process.
+- Goal: Allow user access to Claroline platform.
+
+PAGE 2:
+- Main action: User can submit a login form.
+- Secondary actions: User can cancel the login process.
+- Goal: Allow user access to Claroline platform.
+
+==================================================
+
+===== ITEM 7 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and support for user login.
+
+PAGE 2:
+- Main action: User can view and manage issues within a project.
+- Secondary actions: User can switch projects, jump to specific bugs, apply filters, save or reset issue filters, export bug reports.
+- Goal: Facilitate issue tracking and management for administrators.
+
+==================================================
+
+===== ITEM 8 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the pet clinic.
+- Secondary actions: View welcome message.
+- Goal: Provide access to various services and information.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: Review pet details, fill out form fields.
+- Goal: Record a veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 9 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View the day's schedule for a specific room.
+- Secondary actions: Navigate to other days, weeks, and months of the calendar.
+- Goal: Access detailed scheduling information for a particular date.
+
+###
+
+PAGE 2:
+- Main action: Provide navigation links to different views (day, week, month) and years.
+- Secondary actions: Offer informational content about the system's features and components.
+- Goal: Allow users to explore the schedule across time periods and provide context about the software.
+
+==================================================
+
+===== ITEM 10 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the site.
+- Secondary actions: View welcome message.
+- Goal: Provide initial access and information about available services.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: Review past visits, find owners.
+- Goal: Record medical appointments and treatments for pets.
+
+==================================================
+
+===== ITEM 11 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+==================================================
+
+===== ITEM 12 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on this computer.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for tags or updates entries.
+- Secondary actions: User can view tag details, update entry information, and manage tags.
+- Goal: Enable management of tags and related entries.
+
+==================================================
+
+===== ITEM 13 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View the day's schedule for a specific room.
+- Secondary actions: Navigate to other days, weeks, and months in the calendar view.
+- Goal: Provide easy access to scheduling information for different time periods.
+
+###
+
+PAGE 2:
+- Main action: Access help documentation and navigate through various sections of the system.
+- Secondary actions: View schedules for different days, weeks, and months; provide navigation links to other parts of the site.
+- Goal: Offer comprehensive support and facilitate easy navigation within the scheduling application.
+
+==================================================
+
+===== ITEM 14 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+PAGE 2:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+==================================================
+
+===== ITEM 15 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location and unit preferences.
+- Goal: Offer administrative features to a logged-in user.
+
+==================================================
+
+===== ITEM 16 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Provide user with system update option and location configuration.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings, change display unit.
+- Goal: Offer user the ability to update the system, add widgets, configure location, and switch between metric and imperial units.
+
+==================================================
+
+===== ITEM 17 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request a password reset, create an account, and access courses by category or keyword search.
+- Goal: Provide user access to the Claroline platform.
+
+PAGE 2:
+- Main action: User can manage their messages.
+- Secondary actions: User can view inbox, outbox, and trashbox, send new messages, and perform advanced or simple searches.
+- Goal: Facilitate communication within the Claroline platform.
+
+==================================================
+
+===== ITEM 18 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
+- Goal: Provide navigation and basic management of an address book.
+
+PAGE 2:
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
+- Goal: Provide navigation and basic management of an address book.
+
+==================================================
+
+===== ITEM 19 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits.
+- Goal: Record a veterinary visit.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits.
+- Goal: Record a veterinary visit.
+
+==================================================
+
+===== ITEM 20 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 21 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, reset password, access external support resources.
+- Goal: Allow user to authenticate and provide account management options.
+
+PAGE 2:
+- Main action: View address book entries.
+- Secondary actions: Access project information, view software version.
+- Goal: Display contact information for users or contacts.
+
+==================================================
+
+===== ITEM 22 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to a specific day's schedule.
+- Secondary actions: Access week and month views, view other days.
+- Goal: Provide users with detailed scheduling information for August 17.
+
+PAGE 2:
+- Main action: Navigate through different dates and views.
+- Secondary actions: View day, week, and month schedules; access help sections.
+- Goal: Offer comprehensive scheduling options and user guidance.
+
+==================================================
+
+===== ITEM 23 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 24 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to administrative area.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: User can add widget, manage location settings, change units of measurement.
+- Goal: Provide user with system management and personalization options.
+
+==================================================
+
+===== ITEM 25 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password recovery.
+- Goal: Provide access and support for user login and account management.
+
+PAGE 2:
+- Main action: Inform user of an error related to their email address input.
+- Secondary actions: Offer options to return to previous page or navigate elsewhere.
+- Goal: Notify the user about an invalid input and guide them on how to proceed.
+
+==================================================
+
+===== ITEM 26 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Create a new board.
+
+PAGE 2:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Create a new board.
+
+==================================================
+
+===== ITEM 27 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can navigate to various sections of the website.
+- Secondary actions: User can register, sign in, fill profile, and change language settings.
+- Goal: Provide access to different features and allow user customization.
+
+PAGE 2:
+- Main action: User can navigate to various sections of the website.
+- Secondary actions: User can register, sign in, fill profile, and change language settings.
+- Goal: Provide access to different features and allow user customization.
+
+==================================================
+
+===== ITEM 28 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create a new account.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable users to start creating boards.
+
+==================================================
+
+===== ITEM 29 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account or reset password.
+- Goal: Provide access to the system.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can add new entries, edit groups, view birthdays, print results, select specific groups, and perform bulk operations like sending emails or deleting selected entries.
+- Goal: Manage and organize contact information.
+
+==================================================
+
+===== ITEM 30 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, report issues, view change log and roadmap, manage issues, view account details, logout.
+- Goal: Provide administrator with a dashboard to oversee and manage project issues.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, report issues, view change log and roadmap, manage issues, view account details, logout.
+- Goal: Provide administrator with a dashboard to oversee and manage project issues.
+
+==================================================
+
+===== ITEM 31 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can navigate through various pages and manage account settings, report issues, view all bugs, jump to specific bug reports.
+- Goal: Provide administrative functionality for managing a project management system.
+
+==================================================
+
+===== ITEM 32 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Log in to Claroline.
+- Secondary actions: Cancel login attempt, navigate to Claroline homepage.
+- Goal: Access the Claroline platform.
+
+PAGE 2:
+- Main action: N/A (login form content is consistent across pages).
+- Secondary actions: N/A (same as Page 1)
+- Goal: N/A (same as Page 1)
+
+==================================================
+
+===== ITEM 33 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request a password reset, create an account, search for courses by keyword.
+- Goal: Provide access to the system and allow users to navigate or search content.
+
+PAGE 2:
+- Main action: User must log in.
+- Secondary actions: User can cancel login attempt.
+- Goal: Ensure proper authentication before accessing system functionalities.
+
+==================================================
+
+===== ITEM 34 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for July 13, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled events and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about the schedule for July 13, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Switch between internal and external views; navigate to specific days or weeks within the month.
+- **Goal:** Enable users to efficiently manage and review their schedules.
+
+==================================================
+
+===== ITEM 35 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits and owner information.
+- Goal: Record a veterinary visit for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits and owner information.
+- Goal: Record a veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 36 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update tags.
+- Secondary actions: View tag cloud, most viewed entries, recent entries.
+- Goal: Manage and search tags for entries.
+
+PAGE 2:
+- Main action: Search and update tags.
+- Secondary actions: View tag cloud, most viewed entries, recent entries.
+- Goal: Manage and search tags for entries.
+
+==================================================
+
+===== ITEM 37 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on this computer.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for tags or updates entries.
+- Secondary actions: User can view tag details, update entry information, and manage tags.
+- Goal: Enable management of tags and related entries.
+
+==================================================
+
+===== ITEM 38 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on this computer.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for entries.
+- Secondary actions: User updates an entry, changes page size, sorts entries by different criteria.
+- Goal: Enable management and viewing of application entries.
+
+==================================================
+
+===== ITEM 39 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create user account, and search for courses.
+- Goal: Provide access to the system or allow users to find specific courses.
+
+PAGE 2:
+- Main action: User can create a new user account.
+- Secondary actions: User can fill out personal information, set up user credentials, and provide additional details.
+- Goal: Enable registration for new users with specified roles.
+
+==================================================
+
+===== ITEM 40 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update tags.
+- Secondary actions: View tag cloud, most viewed entries, recent entries.
+- Goal: Manage and search tags for entries.
+
+PAGE 2:
+- Main action: Search and update tags.
+- Secondary actions: View tag cloud, most viewed entries, recent entries.
+- Goal: Manage and search tags for entries.
+
+==================================================
+
+===== ITEM 41 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 42 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages and log out.
+- Goal: Provide administrative access to manage issues.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages and log out.
+- Goal: Provide administrative access to manage issues.
+
+==================================================
+
+===== ITEM 43 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for July 11, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Efficiently plan and update the daily schedule.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information for specific timeslots on July 11, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate through days, weeks, or months.
+- **Goal:** Ensure accurate and organized scheduling for the day.
+
+==================================================
+
+===== ITEM 44 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate and filter issues.
+- Secondary actions: Search, reset or save filters, view issue details.
+- Goal: Organize and display a list of issues based on specific criteria.
+
+PAGE 2:
+- Main action: Navigate and filter issues.
+- Secondary actions: Search, reset or save filters, view issue details.
+- Goal: Organize and display a list of issues based on specific criteria.
+
+==================================================
+
+===== ITEM 45 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create a new account.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable users to start creating boards.
+
+==================================================
+
+===== ITEM 46 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
+
+PAGE 2:
+- Main action: Search and update entries.
+- Secondary actions: Change page size to 100 items per page, sort entries by name or username.
+- Goal: Manage and view entries.
+
+==================================================
+
+===== ITEM 47 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage a list of contacts.
+- Secondary actions: User can select multiple contacts, send emails, or delete them; user can add selected contacts to a group.
+- Goal: Provide an interface for administrators to oversee and manipulate contact data.
+
+PAGE 2:
+- Main action: User can view and manage a list of contacts.
+- Secondary actions: User can select multiple contacts, send emails, or delete them; user can add selected contacts to a group.
+- Goal: Provide an interface for administrators to oversee and manipulate contact data.
+
+==================================================
+
+===== ITEM 48 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and logout.
+- Goal: Provide access to user account management and basic navigation options.
+
+PAGE 2:
+- Main action: User can log in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and logout.
+- Goal: Provide access to user account management and basic navigation options.
+
+==================================================
+
+===== ITEM 49 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Register, sign in, fill profile, contact support, view API documentation.
+- Goal: Provide access and navigation options for users.
+
+PAGE 2:
+- Main action: Filter and access different categories of content.
+- Secondary actions: Sign in, register, logout, navigate to home, settings.
+- Goal: Offer content filtering and user management options.
+
+==================================================
+
+===== ITEM 50 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, reset password, access external support resources.
+- Goal: Allow user to authenticate and provide account management options.
+
+PAGE 2:
+- Main action: User can rate the script.
+- Secondary actions: User can view documentation, download, and access technical information.
+- Goal: Encourage user feedback and provide necessary details for using the software.
+
+==================================================
+
+===== ITEM 51 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to the issue tracking page.
+- Secondary actions: Apply filters, search for issues, and manage views.
+- Goal: Efficiently filter and view a list of issues based on specific criteria.
+
+###
+
+PAGE 2:
+- Main action: Continue navigating through the issue tracking interface.
+- Secondary actions: Apply additional filters, refine the view, and save current settings.
+- Goal: Further customize the display of issues to meet specific needs or preferences.
+
+==================================================
+
+===== ITEM 52 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, access error page.
+- Goal: Provide navigation options for users.
+
+PAGE 2:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, access error page.
+- Goal: Display a message indicating something happened and provide navigation options.
+
+==================================================
+
+===== ITEM 53 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for July 20, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Provide a comprehensive view of the day's activities and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information for specific dates within July 2019.
+- **Secondary Actions:** Switch between different views (day, week, month) and navigate to other relevant days or months.
+- **Goal:** Enable users to plan and review their schedules effectively.
+
+==================================================
+
+===== ITEM 54 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in with username and password.
+- Secondary actions: User can remember login session.
+- Goal: Provide access to the application.
+
+PAGE 2:
+- Main action: User searches for entries using various filters.
+- Secondary actions: User can update an entry, view tag cloud, most viewed, and recent entries.
+- Goal: Manage and search application entries.
+
+==================================================
+
+===== ITEM 55 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to the system or change password.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: Add widget, manage location settings, customize units.
+- Goal: Provide user with system management and personalization options.
+
+==================================================
+
+===== ITEM 56 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home, add new entry, view groups, next birthdays, print all or specific entries, select all entries for actions like sending email or deleting.
+- Goal: Provide access to various functionalities of an address book management system.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home, add new entry, view groups, next birthdays, print all or specific entries, select all entries for actions like sending email or deleting.
+- Goal: Provide access to various functionalities of an address book management system.
+
+==================================================
+
+===== ITEM 57 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on current computer.
+- Goal: Allow user access to protected areas of the application.
+
+PAGE 2:
+- Main action: User searches for tags or updates entries.
+- Secondary actions: User can view tag details, update entry information, and manage tags.
+- Goal: Enable management and search functionality for tags and related entries.
+
+==================================================
+
+===== ITEM 58 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Provide user with system update options and location preferences.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings, view current user information.
+- Goal: Offer user system update options, allow location management, and display logged-in user details.
+
+==================================================
+
+===== ITEM 59 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, request a password reset, and search for courses by keyword.
+- Goal: Provide access to the platform's resources after authentication.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can create an account, request a password reset, and search for courses by keyword.
+- Goal: Provide access to the platform's resources after authentication.
+
+==================================================
+
+===== ITEM 60 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage events for September 6, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months.
+- **Goal:** Provide a comprehensive view of the day's schedule and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed views of specific dates (day, week, month).
+- **Secondary Actions:** Filter by different time frames such as external/internal events.
+- **Goal:** Enable users to focus on particular periods or types of events for better organization and planning.
+
+==================================================
+
+===== ITEM 61 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 62 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to find or enroll in courses.
+
+PAGE 2:
+- Main action: User can manage their personal account information.
+- Secondary actions: User can view statistics, change profile details, update password, and modify permissions.
+- Goal: Enable user customization of account settings and personal data.
+
+==================================================
+
+===== ITEM 63 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To allow users to maintain and manipulate tag-related data.
+
+PAGE 2:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To allow users to maintain and manipulate tag-related data.
+
+==================================================
+
+===== ITEM 64 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage events for September 18, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the day.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events on September 18, 2019.
+- **Secondary Actions:** Switch between different time frames (day, week, month) and rooms/areas; navigate to other days or months.
+- **Goal:** Facilitate easy access to event details for planning and management purposes.
+
+==================================================
+
+===== ITEM 65 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections or register/sign in.
+- Secondary actions: Fill profile, log out.
+- Goal: Provide access to user management and information.
+
+PAGE 2:
+- Main action: Navigate to different sections or register/sign in.
+- Secondary actions: Fill profile, logout.
+- Goal: Offer user navigation and account settings.
+
+==================================================
+
+===== ITEM 66 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Create a new board.
+
+PAGE 2:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Create a new board.
+
+==================================================
+
+===== ITEM 67 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and user management.
+
+PAGE 2:
+- Main action: User can view and filter issues within a project.
+- Secondary actions: User can switch projects, jump to specific bugs, manage filters, export reports, save or reset issue queries.
+- Goal: Facilitate issue tracking and administration.
+
+==================================================
+
+===== ITEM 68 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can navigate to various sections.
+- Secondary actions: User can register, sign in, fill profile, and contact support.
+- Goal: Provide access to different features and user management options.
+
+PAGE 2:
+- Main action: User can navigate to various sections.
+- Secondary actions: User can register, sign in, fill profile, and contact support.
+- Goal: Provide access to different features and user management options.
+
+==================================================
+
+===== ITEM 69 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+PAGE 2:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+==================================================
+
+===== ITEM 70 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to find or enroll in courses.
+
+PAGE 2:
+- Main action: User can manage their personal account information.
+- Secondary actions: User can view statistics, change profile details, update password, and modify permissions.
+- Goal: Enable users to customize their account settings and monitor usage.
+
+==================================================
+
+===== ITEM 71 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can navigate through various pages and manage account settings, report issues, view all bugs, jump to specific bug reports.
+- Goal: Provide administrative functionality for managing a project management system.
+
+==================================================
+
+===== ITEM 72 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view issues, report an issue, view change log, view roadmap, view summary, manage project, view account information, logout.
+- Goal: Provide administrator with navigation and management options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view issues, report an issue, view change log, view roadmap, view summary, manage project, view account information, logout.
+- Goal: Provide administrator with navigation and management options.
+
+==================================================
+
+===== ITEM 73 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 74 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to a specific day's schedule.
+- Secondary actions: Access weekly and monthly views, view help documentation.
+- Goal: Provide users with multiple ways to view the calendar and access information about the system.
+
+###
+
+PAGE 2:
+- Main action: Navigate to a specific day's schedule.
+- Secondary actions: Access weekly and monthly views, view help documentation.
+- Goal: Provide users with multiple ways to view the calendar and access information about the system.
+
+==================================================
+
+===== ITEM 75 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account or reset password, access external support resources.
+- Goal: Provide user access and account management options.
+
+PAGE 2:
+- Main action: User can view a list of upcoming birthdays.
+- Secondary actions: User can navigate to home page, add new entries, manage groups, print address book, view specific pages.
+- Goal: Display and manage contact information, specifically focusing on upcoming birthdays.
+
+==================================================
+
+===== ITEM 76 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in with username and password.
+- Secondary actions: User can remember login, request password reset.
+- Goal: Provide access to the system or initiate password recovery.
+
+PAGE 2:
+- Main action: User can request a password reset via email.
+- Secondary actions: None.
+- Goal: Allow user to recover their forgotten password.
+
+==================================================
+
+===== ITEM 77 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create new account.
+- Goal: Allow user to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable user to start creating boards.
+
+==================================================
+
+===== ITEM 78 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 79 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update address book entry.
+- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
+- Goal: Edit and maintain an existing contact in the address book.
+
+PAGE 2:
+- Main action: Update address book entry.
+- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
+- Goal: Edit and maintain an existing contact in the address book.
+
+==================================================
+
+===== ITEM 80 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
+
+PAGE 2:
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
+
+==================================================
+
+===== ITEM 81 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update address book entry.
+- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
+- Goal: Edit and maintain an existing contact in the address book.
+
+PAGE 2:
+- Main action: Update address book entry.
+- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
+- Goal: Edit and maintain an existing contact in the address book.
+
+==================================================
+
+===== ITEM 82 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
+- Goal: Provide navigation and basic management of an address book.
+
+PAGE 2:
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
+- Goal: Provide navigation and basic management of an address book.
+
+==================================================
+
+===== ITEM 83 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View the day's schedule for a specific room.
+- Secondary actions: Navigate to other days, weeks, and months of the calendar.
+- Goal: Access detailed scheduling information for a particular date.
+
+###
+
+PAGE 2:
+- Main action: Provide navigation links to different views (day, week, month) and years.
+- Secondary actions: Offer informational content about the system's features and components.
+- Goal: Allow users to explore the schedule across time periods and provide context about the software.
+
+==================================================
+
+===== ITEM 84 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to the system or change password.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: Add widget, manage location settings, view user information.
+- Goal: Provide options for system management and personalization.
+
+==================================================
+
+===== ITEM 85 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can navigate to various sections of the website.
+- Secondary actions: User can register, sign in, fill profile, and change language settings.
+- Goal: Provide access to different features and allow user customization.
+
+PAGE 2:
+- Main action: User can navigate to various sections of the website.
+- Secondary actions: User can register, sign in, fill profile, and change language settings.
+- Goal: Provide access to different features and allow user customization.
+
+==================================================
+
+===== ITEM 86 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Update owner information.
+- Secondary actions: View owner details.
+- Goal: Allow modification of existing owner records.
+
+==================================================
+
+===== ITEM 87 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location), view logged-in status.
+- Goal: Offer administrative and user information functionalities.
+
+==================================================
+
+===== ITEM 88 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Provide user with system update option and allow configuration of display units.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Offer user the ability to update the system and configure display units, with additional emphasis on logged-in status.
+
+==================================================
+
+===== ITEM 89 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Set the currency to USD.
+- Secondary actions: Navigate back or confirm settings.
+- Goal: Ensure the currency is correctly set to USD.
+
+PAGE 2:
+- Main action: Change the language of DimeShift.
+- Secondary actions: Select a new language from a list.
+- Goal: Update the language preference for the website.
+
+==================================================
+
+===== ITEM 90 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets with their details.
+- Goal: Record a veterinary visit for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets with their details.
+- Goal: Record a veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 91 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update entries.
+- Secondary actions: Change page size, view tag cloud, most viewed, recent entries.
+- Goal: Manage and search entries with options to update.
+
+PAGE 2:
+- Main action: Search and update entries.
+- Secondary actions: Change page size, view tag cloud, most viewed, recent entries.
+- Goal: Manage and search entries with options to update.
+
+==================================================
+
+===== ITEM 92 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+PAGE 2:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+==================================================
+
+===== ITEM 93 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create new account by clicking link.
+- Goal: Allow user to access the application.
+
+PAGE 2:
+- Main action: User can add new board.
+- Secondary actions: None.
+- Goal: Enable user to start creating boards.
+
+==================================================
+
+===== ITEM 94 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Set the currency to USD.
+- Secondary actions: Convert between different currencies, return to previous settings, or save changes.
+- Goal: Ensure all currency values are in USD for further calculations or comparisons.
+
+PAGE 2:
+- Main action: Confirm and finalize the currency conversion to USD.
+- Secondary actions: Revert back to previous currency settings or adjust individual currency values.
+- Goal: Finalize the selection of USD as the standard currency for all financial data.
+
+==================================================
+
+===== ITEM 95 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to the system or change password.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: Add widget, manage location settings, view user information.
+- Goal: Provide options for system management and personalization.
+
+==================================================
+
+===== ITEM 96 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create a new account by clicking the link.
+- Goal: Allow users to access their account or start a new one.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Provide an option for users to create a new board.
+
+==================================================
+
+===== ITEM 97 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 98 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create a new account.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable users to start creating boards.
+
+==================================================
+
+===== ITEM 99 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home page, add new entry, view groups, next birthdays, print all or specific views of the address book.
+- Goal: Provide access to various functionalities for managing an address book.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home page, add new entry, view groups, next birthdays, print all or specific views of the address book.
+- Goal: Provide access to various functionalities for managing an address book.
+
+Note: The two pages have identical functionality in terms of user actions and goals.
+
+==================================================
+
+===== ITEM 100 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create a new account by clicking the link.
+- Goal: Allow users to access their account or begin using the application.
+
+PAGE 2:
+- Main action: No main action available; page appears empty.
+- Secondary actions: None.
+- Goal: Unknown; no functionality provided.
+
+==================================================
+
+===== ITEM 101 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections or register/sign in.
+- Secondary actions: Fill profile, log out.
+- Goal: Provide access to user management and information.
+
+PAGE 2:
+- Main action: Navigate to different sections or sign up/login.
+- Secondary actions: Fill profile, logout.
+- Goal: Offer user navigation and account settings.
+
+==================================================
+
+===== ITEM 102 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Sign in to the application.
+- Secondary actions: Register, fill profile, manage settings, log out.
+- Goal: Allow users to access and configure their account.
+
+PAGE 2:
+- Main action: Sign in to the application.
+- Secondary actions: Register, fill profile, manage settings, log out.
+- Goal: Allow users to access and configure their account.
+
+==================================================
+
+===== ITEM 103 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View and manage personal information.
+- Secondary actions: Enrol or remove course enrolment, view statistics, check messages, calendar, and announcements.
+- Goal: Provide access to user account management and course-related functionalities.
+
+PAGE 2:
+- Main action: View and manage personal information.
+- Secondary actions: Enrol or remove course enrolment, view statistics, check messages, calendar, and announcements.
+- Goal: Provide access to user account management and course-related functionalities.
+
+==================================================
+
+===== ITEM 104 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for July 25, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of the day's activities and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information for specific timeslots on July 25, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate to other days or weeks.
+- **Goal:** Enable users to plan and review their schedule with ease.
+
+==================================================
+
+===== ITEM 105 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in with username and password.
+- Secondary actions: User can request a password reset, remember login session.
+- Goal: Allow user access to the system or recover lost credentials.
+
+PAGE 2:
+- Main action: User can update system settings.
+- Secondary actions: User can customize display options, manage registered users, set location preferences.
+- Goal: Provide administrative controls for managing system and user preferences.
+
+==================================================
+
+===== ITEM 106 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: View owner details.
+- Goal: Allow modification of pet records.
+
+==================================================
+
+===== ITEM 107 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to different sections of the pet clinic.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: View owner details.
+- Goal: Allow modification of pet records.
+
+==================================================
+
+===== ITEM 108 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage events for August 17, 2019, in Room 5 of Area 2.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Efficiently organize and access event details for the specified date.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events scheduled on August 17, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate through various dates and time slots.
+- **Goal:** Ensure all relevant parties can easily find and manage the day's schedule.
+
+==================================================
+
+===== ITEM 109 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Set the currency to USD.
+- Secondary actions: Convert between different currencies, return to previous settings, or save changes.
+- Goal: Ensure all currency values are in USD for further calculations or comparisons.
+
+PAGE 2:
+- Main action: Confirm and finalize the currency conversion to USD.
+- Secondary actions: Revert back to previous currency settings or adjust individual currency values.
+- Goal: Finalize the selection of USD as the standard currency for all financial data.
+
+==================================================
+
+===== ITEM 110 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage events for August 8, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events in Room 1 on August 8, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate to specific dates or weeks.
+- **Goal:** Enable users to efficiently manage and review scheduled activities for a particular day.
+
+==================================================
+
+===== ITEM 111 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and user management.
+
+PAGE 2:
+- Main action: User can view and filter issues within a project.
+- Secondary actions: User can switch projects, jump to specific bugs, manage filters, save or reset issue queries.
+- Goal: Facilitate issue tracking and administration.
+
+==================================================
+
+===== ITEM 112 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View and manage events for August 17, 2019 in Room 1 of Area 1.
+- Secondary actions: Navigate to previous or next day, week, or month views; switch between external and internal views.
+- Goal: Organize and access daily schedule details efficiently.
+
+PAGE 2:
+- Main action: Access historical and future dates for the same location.
+- Secondary actions: Switch between different time frames (day, week, month) and view options (external/internal).
+- Goal: Facilitate planning and review of events over extended periods.
+
+==================================================
+
+===== ITEM 113 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Log in to Claroline.
+- Secondary actions: Cancel login attempt, view profile.
+- Goal: Access the Claroline platform.
+
+PAGE 2:
+- Main action: N/A (Login form content).
+- Secondary actions: N/A (Form fields and buttons only).
+- Goal: Provide authentication credentials for access.
+
+==================================================
+
+===== ITEM 114 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home, add new entry, view groups, next birthdays, print all or specific entries, select all entries for actions like sending email or deleting.
+- Goal: Provide access to various functionalities of an address book management system.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home, add new entry, view groups, next birthdays, print all or specific entries, select all entries for actions like sending email or deleting.
+- Goal: Provide access to various functionalities of an address book management system.
+
+==================================================
+
+===== ITEM 115 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 116 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Sign up for an account.
+- Secondary actions: Navigate to different sections like Wallets, Goals, and Settings; Log out of the current session.
+- Goal: Allow users to register and manage their profile on DimeShift.
+
+PAGE 2:
+- Main action: Sign up for an account.
+- Secondary actions: Navigate to different sections like Wallets, Goals, and Settings; Log out of the current session.
+- Goal: Allow users to register and manage their profile on DimeShift.
+
+==================================================
+
+===== ITEM 117 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on this computer.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for tags.
+- Secondary actions: User updates and deletes tags, saves entry details.
+- Goal: Manage and view tags within the application.
+
+==================================================
+
+===== ITEM 118 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Sign in to the application.
+- Secondary actions: Register, fill profile, manage settings, log out.
+- Goal: Allow users to access and configure their account.
+
+PAGE 2:
+- Main action: Sign in to the application.
+- Secondary actions: Register, fill profile, manage settings, log out.
+- Goal: Allow users to access and configure their account.
+
+==================================================
+
+===== ITEM 119 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can search and update entries.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage tag cloud.
+- Goal: To allow users to maintain and update entry data.
+
+PAGE 2:
+- Main action: User can search and update entries.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage tag cloud.
+- Goal: To allow users to maintain and update entry data.
+
+==================================================
+
+===== ITEM 120 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and support for user login.
+
+PAGE 2:
+- Main action: User can view and manage issues within a project.
+- Secondary actions: User can switch projects, jump to specific bugs, apply filters, save or reset issue queries, export bug reports.
+- Goal: Enable administrators to efficiently manage and monitor software issues.
+
+==================================================
+
+===== ITEM 121 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, reset password, access external support resources.
+- Goal: Allow user to authenticate and provide account management options.
+
+PAGE 2:
+- Main action: Display address book entries.
+- Secondary actions: Provide links to project information and software version.
+- Goal: Present contact information for users or contacts.
+
+==================================================
+
+===== ITEM 122 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can navigate through various pages and manage account settings, report issues, view all bugs, jump to specific bug reports.
+- Goal: Provide administrative functionality for managing a project management system.
+
+==================================================
+
+===== ITEM 123 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: View and manage events for August 10, 2019 in Room 1 of Area 1.
+- Secondary actions: Navigate to previous or next day, week, or month views; switch between external and internal views.
+- Goal: Organize and oversee daily activities within the specified area and room.
+
+PAGE 2:
+- Main action: Continue viewing and managing events for August 10, 2019 in Room 1 of Area 1.
+- Secondary actions: Further navigation options such as changing days, weeks, or months; switching views between external and internal.
+- Goal: Ensure comprehensive oversight and management of scheduled activities throughout the day.
+
+==================================================
+
+===== ITEM 124 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 125 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and handle errors.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View recent visits, find owners.
+- Goal: Record and display veterinary visits.
+
+==================================================
+
+===== ITEM 126 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account or reset password.
+- Goal: Provide access to the system.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can add new, edit, group, view birthdays, print results, select all, send email, delete, and add to a different group.
+- Goal: Manage contact information.
+
+==================================================
+
+===== ITEM 127 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the website.
+- Secondary actions: Submit forms or buttons, contact support, view API documentation, manage user profile settings.
+- Goal: Provide access to various features and information.
+
+PAGE 2:
+- Main action: Register a new account by filling out a form.
+- Secondary actions: Sign in, navigate to different sections of the website, submit forms or buttons, manage user profile settings.
+- Goal: Allow users to create an account for accessing additional functionalities.
+
+==================================================
+
+===== ITEM 128 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Create or edit a series of events for a specific room.
+- Secondary actions: Review scheduling and policy conflicts, navigate to other days, weeks, or months.
+- Goal: Successfully schedule a recurring event without conflicts.
+
+PAGE 2:
+- Main action: Save the created or edited event series.
+- Secondary actions: Use navigation links to view different time periods.
+- Goal: Confirm the event series is saved correctly and review its placement in the calendar.
+
+==================================================
+
+===== ITEM 129 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new pet.
+- Secondary actions: Select owner, enter pet name and birth date, choose pet type.
+- Goal: Record a new pet in the system.
+
+PAGE 2:
+- Main action: Add a new pet.
+- Secondary actions: Select owner, enter pet name and birth date, choose pet type.
+- Goal: Record a new pet in the system.
+
+==================================================
+
+===== ITEM 130 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to the day view for August 17, 2019.
+- Secondary actions: Access navigation links to other days and views.
+- Goal: Provide a comprehensive overview of room bookings for a specific date.
+
+PAGE 2:
+- Main action: View detailed information about the system's features and functionalities.
+- Secondary actions: Explore various sections like how-to guides, technical details, and support resources.
+- Goal: Offer users an understanding of the system’s capabilities and provide troubleshooting and usage instructions.
+
+==================================================
+
+===== ITEM 131 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create account, reset password, access external support resources.
+- Goal: Provide user access and account management options.
+
+PAGE 2:
+- Main action: User can navigate to address book home page.
+- Secondary actions: User can add new contact, view groups, view upcoming birthdays, print contacts, access project information.
+- Goal: Manage and view contacts in an address book.
+
+==================================================
+
+===== ITEM 132 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+==================================================
+
+===== ITEM 133 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage events for August 12, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the day with easy navigation options.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events on August 12, 2019.
+- **Secondary Actions:** Switch between different time frames (day, week, month) and areas/rooms.
+- **Goal:** Enable users to plan and manage their schedule effectively by providing multiple viewing options.
+
+==================================================
+
+===== ITEM 134 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To allow users to maintain and manipulate tag-related data.
+
+PAGE 2:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To allow users to maintain and manipulate tag-related data.
+
+==================================================
+
+===== ITEM 135 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 136 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Create a new board.
+
+PAGE 2:
+- Main action: Add new board.
+- Secondary actions: None.
+- Goal: Create a new board.
+
+==================================================
+
+===== ITEM 137 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create a new account.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable users to start creating boards.
+
+==================================================
+
+===== ITEM 138 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update pet information.
+- Secondary actions: Select owner, input pet name, enter birth date, choose pet type.
+- Goal: Edit existing pet record.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: Select owner, input pet name, enter birth date, choose pet type.
+- Goal: Edit existing pet record.
+
+==================================================
+
+===== ITEM 139 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create user account, and search for courses.
+- Goal: Provide access to the system or allow users to find specific courses.
+
+PAGE 2:
+- Main action: User can create a new user account.
+- Secondary actions: User can fill out personal information, set up user credentials, and provide additional details.
+- Goal: Enable registration for new users with specified permissions.
+
+==================================================
+
+===== ITEM 140 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update tags.
+- Secondary actions: View tag usage, manage entries associated with tags.
+- Goal: Manage and search tags for entries.
+
+PAGE 2:
+- Main action: Search and update tags.
+- Secondary actions: View tag usage, manage entries associated with tags.
+- Goal: Manage and search tags for entries.
+
+==================================================
+
+===== ITEM 141 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage events for July 12, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events on July 12, 2019.
+- **Secondary Actions:** Switch between different views (external/internal), navigate to specific dates or weeks.
+- **Goal:** Enable users to efficiently manage and review their schedule for the specified date.
+
+==================================================
+
+===== ITEM 142 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to different sections of the pet clinic.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View recent visits, find owners.
+- Goal: Record and manage pet visits at the clinic.
+
+==================================================
+
+===== ITEM 143 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account or request password recovery.
+- Goal: Provide access and support for user login.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can view issues, report an issue, manage various aspects of the application, log out, search for issues, apply filters, reset or save current filters, export reports in different formats.
+- Goal: Enable administrator-level user to manage and interact with the issue tracking system.
+
+==================================================
+
+===== ITEM 144 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to find or enroll in courses.
+
+PAGE 2:
+- Main action: User can manage their personal account information.
+- Secondary actions: User can view statistics, change profile details, update password, and modify permissions.
+- Goal: Enable user customization of account settings and personal data.
+
+==================================================
+
+===== ITEM 145 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and support for user login.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can view various project-related pages, filter and search issues, save current filters, export issue data, manage views and queries.
+- Goal: Enable administrator to oversee and manage multiple projects efficiently.
+
+==================================================
+
+===== ITEM 146 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can add new board.
+- Secondary actions: None.
+- Goal: To allow the user to create a new board.
+
+PAGE 2:
+- Main action: User can add new board.
+- Secondary actions: None.
+- Goal: To allow the user to create a new board.
+
+==================================================
+
+===== ITEM 147 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account or reset password, access external support resources.
+- Goal: Provide user access and account management options.
+
+PAGE 2:
+- Main action: User can view a list of upcoming birthdays.
+- Secondary actions: User can navigate to home page, add new contacts, manage groups, print contact lists with various options.
+- Goal: Display and manage an address book, focusing on upcoming birthdays.
+
+==================================================
+
+===== ITEM 148 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 149 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+==================================================
+
+===== ITEM 150 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location).
+- Goal: Provide administrative controls for site management.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location), view logged-in user information.
+- Goal: Offer administrative tools and display user-specific information.
+
+==================================================
+
+===== ITEM 151 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage events for July 18, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the specific day, allowing users to make adjustments or confirm plans.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events on July 18, 2019.
+- **Secondary Actions:** Switch between different time frames (day, week, month) and areas/rooms; view external vs. internal events.
+- **Goal:** Enable users to plan and organize their activities efficiently by providing multiple perspectives on the schedule.
+
+==================================================
+
+===== ITEM 152 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage events for August 13, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about the events for August 13, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Switch between internal and external views; navigate to specific days or weeks within the month.
+- **Goal:** Enable users to focus on individual event details while maintaining the ability to view broader time frames.
+
+==================================================
+
+===== ITEM 153 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create new account.
+- Goal: Allow user to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable user to start creating boards.
+
+==================================================
+
+===== ITEM 154 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can create a user account.
+- Secondary actions: User can view and modify personal information, set username and password, provide additional contact details, select platform role.
+- Goal: To register a new user account on the system.
+
+PAGE 2:
+- Main action: User can create a user account.
+- Secondary actions: User can view and modify personal information, set username and password, provide additional contact details, select platform role.
+- Goal: To register a new user account on the system.
+
+==================================================
+
+===== ITEM 155 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits.
+- Goal: Record and manage veterinary visits.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits.
+- Goal: Record and manage veterinary visits.
+
+==================================================
+
+===== ITEM 156 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: Select owner, edit pet name, birth date, and type.
+- Goal: Allow user to modify existing pet records.
+
+==================================================
+
+===== ITEM 157 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User creates an account, resets password, accesses external support resources.
+- Goal: Provide access to the system and offer account management options.
+
+PAGE 2:
+- Main action: Admin user navigates to address book home page.
+- Secondary actions: Admin adds new entries, manages groups, views birthdays, prints address book data.
+- Goal: Allow administrative control over an address book system.
+
+==================================================
+
+===== ITEM 158 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to administrative area.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: User can add widget, manage location settings, change units of measurement.
+- Goal: Provide options for system configuration and user preferences.
+
+==================================================
+
+===== ITEM 159 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can navigate to various sections.
+- Secondary actions: User can register, sign in, fill profile, and contact support.
+- Goal: Provide access to different features and user management options.
+
+PAGE 2:
+- Main action: User can navigate to various sections.
+- Secondary actions: User can register, sign in, fill profile, and contact support.
+- Goal: Provide access to different features and user management options.
+
+==================================================
+
+===== ITEM 160 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update tags.
+- Secondary actions: View tag usage, manage entries associated with tags.
+- Goal: Manage and search tags for entries.
+
+PAGE 2:
+- Main action: Search and update tags.
+- Secondary actions: View tag usage, manage entries associated with tags.
+- Goal: Manage and search tags for entries.
+
+==================================================
+
+===== ITEM 161 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Provide user with system update option and location configuration.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Edit user profile, manage location settings.
+- Goal: Allow logged-in user to update system, edit personal information, and configure location.
+
+==================================================
+
+===== ITEM 162 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to different sections of the address book.
+- Secondary actions: Select and manage contacts, print contact lists.
+- Goal: Provide access to various functionalities for managing an address book.
+
+PAGE 2:
+- Main action: Navigate to different sections of the address book.
+- Secondary actions: Select and manage multiple contacts, print contact lists.
+- Goal: Provide access to various functionalities for managing an address book.
+
+==================================================
+
+===== ITEM 163 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 164 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create a new account by clicking the link.
+- Goal: Allow users to access their account or start a new one.
+
+PAGE 2:
+- Main action: User can add a new board by clicking the link.
+- Secondary actions: None.
+- Goal: Enable users to initiate creating a new project or task management board.
+
+==================================================
+
+===== ITEM 165 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can create a user account.
+- Secondary actions: User can provide personal information, choose a username and password, and specify other details such as email and phone number; user can select platform role.
+- Goal: To register a new user account on the Claroline platform.
+
+PAGE 2:
+- Main action: User can create a user account.
+- Secondary actions: User can provide personal information, choose a username and password, and specify other details such as email and phone number; user can select platform role.
+- Goal: To register a new user account on the Clariline platform.
+
+==================================================
+
+===== ITEM 166 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select sorting options.
+- Goal: Provide navigation and basic management of an address book.
+
+PAGE 2:
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select sorting options.
+- Goal: Provide navigation and basic management of an address book.
+
+==================================================
+
+===== ITEM 167 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can remember login on this computer.
+- Goal: Allow user to access the application.
+
+PAGE 2:
+- Main action: User can search for entries.
+- Secondary actions: User can update an entry, view tag cloud, most viewed, and recent entries.
+- Goal: Enable management of application entries.
+
+==================================================
+
+===== ITEM 168 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update tags.
+- Secondary actions: View tag usage, manage entries associated with tags.
+- Goal: Manage and organize tags for entries.
+
+PAGE 2:
+- Main action: Search and update tags.
+- Secondary actions: View tag usage, manage entries associated with tags.
+- Goal: Manage and organize tags for entries.
+
+==================================================
+
+===== ITEM 169 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage a list of contacts.
+- Secondary actions: User can select multiple contacts, send email, or delete them; user can add selected contacts to a group.
+- Goal: Provide an interface for administrators to oversee and manipulate the address book.
+
+PAGE 2:
+- Main action: User can view and manage a list of contacts.
+- Secondary actions: User can select multiple contacts, send email, or delete them; user can add selected contacts to a group.
+- Goal: Provide an interface for administrators to oversee and manipulate the address book.
+
+==================================================
+
+===== ITEM 170 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create a user account, and search for courses by keyword.
+- Goal: Provide access to the system and allow users to find or manage course content.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can navigate through various course sections such as homepage, description, agenda, announcements, documents, exercises, learning path, assignments, forums, groups, users, wiki, and chat.
+- Goal: Access a specific course and utilize its features.
+
+==================================================
+
+===== ITEM 171 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View recent visits, find owners.
+- Goal: Manage pet visits and display owner information.
+
+==================================================
+
+===== ITEM 172 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+==================================================
+
+===== ITEM 173 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: View owner details.
+- Goal: Allow modification of pet records.
+
+==================================================
+
+===== ITEM 174 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and support for user login.
+
+PAGE 2:
+- Main action: User can view and manage issues within a project.
+- Secondary actions: User can switch projects, jump to specific bugs, apply filters, save or reset issue filters, export bug reports.
+- Goal: Enable administrators to efficiently manage and monitor software issues.
+
+==================================================
+
+===== ITEM 175 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and support for user login.
+
+PAGE 2:
+- Main action: User can view and manage issues within a project.
+- Secondary actions: User can switch projects, jump to specific bugs, apply filters, save or reset search queries.
+- Goal: Enable administrators to efficiently manage and monitor bug reports.
+
+==================================================
+
+===== ITEM 176 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Log in to Claroline.
+- Secondary actions: Cancel login attempt, navigate to Clariline homepage.
+- Goal: Access user account or system.
+
+PAGE 2:
+- Main action: N/A (login form content repeated).
+- Secondary actions: N/A (same as PAGE 1).
+- Goal: N/A (same as PAGE 1).
+
+==================================================
+
+===== ITEM 177 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+PAGE 2:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Submit forms, contact support, log out.
+- Goal: Provide access to different features and user management.
+
+==================================================
+
+===== ITEM 178 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create a new account.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can create a new board by entering a name and submitting the form.
+- Secondary actions: User can cancel the operation.
+- Goal: Enable users to start organizing content in the application.
+
+==================================================
+
+===== ITEM 179 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, request a password reset, and search for courses by keyword.
+- Goal: Provide access to the system and allow users to find specific courses.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can create an account, request a password reset, and search for courses by keyword.
+- Goal: Provide access to the system and allow users to find specific courses.
+
+==================================================
+
+===== ITEM 180 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits and find owners.
+- Goal: Record a veterinary visit for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits, find owners, and view veterinarians.
+- Goal: Record a veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 181 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on this computer.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for tags or updates entries.
+- Secondary actions: User can view tag details, update entry information.
+- Goal: Manage and search tags, as well as update entries.
+
+==================================================
+
+===== ITEM 182 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in with username and password.
+- Secondary actions: User can request a password reset, remember login session.
+- Goal: Allow user access to the system or change password.
+
+PAGE 2:
+- Main action: User can update the system.
+- Secondary actions: Add widgets, manage location settings, customize units of measurement.
+- Goal: Provide options for system management and personalization.
+
+==================================================
+
+===== ITEM 183 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Log in to Claroline.
+- Secondary actions: Cancel login attempt, view profile.
+- Goal: Access the Claroline platform.
+
+PAGE 2:
+- Main action: N/A (login form content).
+- Secondary actions: N/A (login form content).
+- Goal: Provide login credentials for access.
+
+==================================================
+
+===== ITEM 184 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Provide access to the system and allow users to recover their passwords.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Provide access to the system and allow users to recover their passwords.
+
+==================================================
+
+===== ITEM 185 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Provide access to the application for authenticated users.
+
+PAGE 2:
+- Main action: User can navigate through different sections of the application.
+- Secondary actions: None.
+- Goal: Display available extensions and features of the application.
+
+==================================================
+
+===== ITEM 186 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To allow users to maintain and organize tags.
+
+PAGE 2:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To allow users to maintain and organize tags.
+
+==================================================
+
+===== ITEM 187 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create user account, search for courses by keyword.
+- Goal: Provide access to the Claroline platform and allow users to find or manage their accounts.
+
+PAGE 2:
+- Main action: User can view and manage personal course information.
+- Secondary actions: User can log out, view messages, manage account details, navigate to personal course list.
+- Goal: Offer a personalized dashboard for user interaction with courses and account settings.
+
+==================================================
+
+===== ITEM 188 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Register, sign in, manage profile settings, log out.
+- Goal: Provide access to user management and navigation options.
+
+PAGE 2:
+- Main action: Access wallet-related functionalities.
+- Secondary actions: Filter wallets, choose access type.
+- Goal: Enable users to interact with their wallet data and customize view.
+
+==================================================
+
+===== ITEM 189 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to manage their login credentials.
+
+PAGE 2:
+- Main action: User can manage personal account information.
+- Secondary actions: User can view statistics, change profile details, update password, and modify permissions.
+- Goal: Enable user to customize and maintain their account settings within the Claroline system.
+
+==================================================
+
+===== ITEM 190 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in with username and password.
+- Secondary actions: User can remember login session.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User changes their password.
+- Secondary actions: User updates entry details including name, username, URL, tags, and comment.
+- Goal: Enable user to manage account settings and update entries.
+
+==================================================
+
+===== ITEM 191 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View address book entries.
+- Secondary actions: Select and manage entries (send email, delete).
+- Goal: Provide access to and management of address book data.
+
+PAGE 2:
+- Main action: View address book entries.
+- Secondary actions: Select and manage multiple entries (send email, delete), add to a group.
+- Goal: Provide access to and management of address book data with additional options for grouping.
+
+==================================================
+
+===== ITEM 192 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 193 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can navigate through various pages and manage account settings, report issues, view all bugs, jump to specific bug reports.
+- Goal: Provide administrative functionality for managing a project management system.
+
+==================================================
+
+===== ITEM 194 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home page, add new entry, view groups, next birthdays, print all or specific views of the address book.
+- Goal: Provide access to various functionalities for managing an address book.
+
+PAGE 2:
+- Main action: User can view and manage multiple address book entries.
+- Secondary actions: User can log out, navigate to home page, add new entry, view groups, next birthdays, print all or specific views of the address book.
+- Goal: Provide access to various functionalities for managing an address book with more detailed information displayed.
+
+==================================================
+
+===== ITEM 195 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can create a user account.
+- Secondary actions: User can view and modify personal information, set username and password, provide additional contact details, and select platform role.
+- Goal: To register a new user account on the Claroline platform.
+
+PAGE 2:
+- Main action: User can create a user account.
+- Secondary actions: User can view and modify personal information, set username and password, provide additional contact details, and select platform role.
+- Goal: To register a new user account on the Clariline platform.
+
+==================================================
+
+===== ITEM 196 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can search for courses by keyword, create a user account, and request a password reset.
+- Goal: Provide access to the system and allow users to find or manage content.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can search for courses by keyword, create a user account, and request a password reset.
+- Goal: Provide access to the system and allow users to find or manage content.
+
+==================================================
+
+===== ITEM 197 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
+
+PAGE 2:
+- Main action: Search and update entries with a specific tag.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries with a specific tag.
+
+==================================================
+
+===== ITEM 198 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to the system or change password.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: Add widget, manage location settings, view user information.
+- Goal: Provide administrative controls and display current system status.
+
+==================================================
+
+===== ITEM 199 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the website.
+- Secondary actions: Register, sign in, fill profile, log out.
+- Goal: Provide access to user management and navigation options.
+
+PAGE 2:
+- Main action: Change language settings.
+- Secondary actions: Navigate to different sections of the website.
+- Goal: Allow users to customize their experience by changing the interface language.
+
+==================================================
+
+===== ITEM 200 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Provide user with system update option and allow configuration of display units.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Offer user the ability to update the system and configure display units, with additional emphasis on logged-in status.
+
+==================================================
+
+===== ITEM 201 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages and log out.
+- Goal: Provide administrative access to manage issues.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages and log out.
+- Goal: Provide administrative access to manage issues.
+
+==================================================
+
+===== ITEM 202 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in with username and password.
+- Secondary actions: User can remember login session.
+- Goal: Provide access to the application.
+
+PAGE 2:
+- Main action: User searches for entries using various filters.
+- Secondary actions: User can update an entry, view tag cloud, most viewed, and recent entries.
+- Goal: Manage and search application entries.
+
+==================================================
+
+===== ITEM 203 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage events for August 17, 2019, in Room 2 of Area 1.
+- **Secondary Actions:** Navigate to previous or next weeks, view day details, and switch between external/internal views.
+- **Goal:** Provide a comprehensive overview of scheduled activities for the specific date and location.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events on August 17, 2019, in Room 2 of Area 1.
+- **Secondary Actions:** Navigate through different time periods (day, week, month) and switch between external/internal views.
+- **Goal:** Enable users to plan and review their schedule for the specified date and location.
+
+==================================================
+
+===== ITEM 204 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account or reset password.
+- Goal: Provide access to the system.
+
+PAGE 2:
+- Main action: User can view address book entries.
+- Secondary actions: User can add new, edit, manage groups, view birthdays, and print contacts.
+- Goal: Manage and interact with a contact list.
+
+==================================================
+
+===== ITEM 205 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board...
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 206 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, reset password, access external support resources.
+- Goal: Allow user to authenticate or obtain assistance.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can navigate home, add new contacts, view groups, view upcoming birthdays, print contact lists, select a group filter.
+- Goal: Provide access to and management of an address book.
+
+==================================================
+
+===== ITEM 207 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can search for courses by keyword, create a user account, and reset their password.
+- Goal: Provide access to the platform and allow users to navigate or find specific content.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can search for courses by keyword, create a user account, and reset their password.
+- Goal: Provide access to the platform and allow users to navigate or find specific content.
+
+==================================================
+
+===== ITEM 208 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can request a password reset by entering their email.
+- Secondary actions: User can cancel the operation and return to the main page.
+- Goal: To assist users in retrieving their lost passwords.
+
+PAGE 2:
+- Main action: User can request a password reset by entering their email.
+- Secondary actions: User can cancel the operation and return to the main page.
+- Goal: To assist users in retrieving their lost passwords.
+
+==================================================
+
+===== ITEM 209 =====
+LABEL: DISTINCT
+
+PAGE 1:
+
+
+PAGE 2:
+
+
+==================================================
+
+===== ITEM 210 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits, find owners, view veterinarians, go to home page.
+- Goal: Record a new veterinary visit for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits, find owners, view veterinarians, go to home page.
+- Goal: Record a new veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 211 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the website.
+- Secondary actions: Register, sign in, fill profile, and log out.
+- Goal: Provide access to various features and user settings.
+
+PAGE 2:
+- Main action: Sign in using username or email and password.
+- Secondary actions: Register, restore password, navigate to other sections.
+- Goal: Allow users to authenticate and access their account.
+
+==================================================
+
+===== ITEM 212 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate and filter issues.
+- Secondary actions: Search, apply filters, save or reset filters.
+- Goal: Organize and view a list of issues based on specific criteria.
+
+PAGE 2:
+- Main action: Navigate and filter issues.
+- Secondary actions: Search, apply filters, save or reset filters.
+- Goal: Organize and view a list of issues based on specific criteria.
+
+==================================================
+
+===== ITEM 213 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can update an entry.
+- Secondary actions: User can search for tags, view tag usage statistics, and manage tags (update or delete).
+- Goal: To allow users to maintain and edit entries while providing options to search and manage associated tags.
+
+PAGE 2:
+- Main action: User can update an entry.
+- Secondary actions: User can search for tags, view tag usage statistics, and manage tags (update or delete).
+- Goal: To allow users to maintain and edit entries while providing options to search and manage associated tags.
+
+==================================================
+
+===== ITEM 214 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View contact information.
+- Secondary actions: Access project details, view version history.
+- Goal: Provide access to a single address book entry.
+
+PAGE 2:
+- Main action: View multiple contact entries.
+- Secondary actions: Access project details, view version history.
+- Goal: Display a list of address book entries.
+
+==================================================
+
+===== ITEM 215 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for August 16, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Provide a comprehensive view of the day's activities and allow users to easily navigate through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about specific events on August 16, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate to other days or weeks.
+- **Goal:** Enable users to focus on individual events while maintaining the ability to view broader time frames.
+
+==================================================
+
+===== ITEM 216 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 217 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can navigate through various pages and manage account settings, report issues, view all bugs, jump to specific bug reports.
+- Goal: Provide administrative functionality for managing a project management system.
+
+==================================================
+
+===== ITEM 218 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for July 19, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Provide a comprehensive view of the day's activities and allow users to easily navigate through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information for specific timeslots on July 19, 2019.
+- **Secondary Actions:** Edit or add events; switch between external/internal views.
+- **Goal:** Enable users to manage and view the schedule with precision.
+
+==================================================
+
+===== ITEM 219 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and log out.
+- Goal: Provide access to user accounts and features.
+
+PAGE 2:
+- Main action: User can sign in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and log out.
+- Goal: Provide access to user accounts and features.
+
+==================================================
+
+===== ITEM 220 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can create a user account.
+- Secondary actions: User can provide personal information, choose a username and password, and specify platform role.
+- Goal: To register a new user account on the system.
+
+PAGE 2:
+- Main action: User can create a user account.
+- Secondary actions: User can provide personal information, choose a username and password, and specify platform role.
+- Goal: To register a new user account on the system.
+
+==================================================
+
+===== ITEM 221 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to the system or change password.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: Add widget, manage location settings, view user information.
+- Goal: Provide administrative controls and display current system status.
+
+==================================================
+
+===== ITEM 222 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Log in to the system.
+- Secondary actions: Cancel login attempt, navigate to homepage.
+- Goal: Access the Claroline platform.
+
+PAGE 2:
+- Main action: N/A (Displaying user information and website link).
+- Secondary actions: N/A (No additional actions available on this page).
+- Goal: Provide user contact details and website link.
+
+==================================================
+
+===== ITEM 223 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add new board
+- Secondary actions: None
+- Goal: Create a new board
+
+PAGE 2:
+- Main action: Add new board
+- Secondary actions: None
+- Goal: Create a new board
+
+==================================================
+
+===== ITEM 224 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update address book entry.
+- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
+- Goal: Edit and maintain an existing contact in the address book.
+
+PAGE 2:
+- Main action: Update address book entry.
+- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
+- Goal: Edit and maintain an existing contact in the address book.
+
+==================================================
+
+===== ITEM 225 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the pet clinic.
+- Secondary actions: View welcome message.
+- Goal: Provide access to various functionalities and information.
+
+PAGE 2:
+- Main action: Display owner's information and pets.
+- Secondary actions: Edit owner details, add new pet, edit existing pet, and add visit for a pet.
+- Goal: Present detailed information about an owner and their pets.
+
+==================================================
+
+===== ITEM 226 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select, edit, or delete entries; send email to selected entries.
+- Goal: Provide a means for the user to organize and interact with their address book.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select, edit, or delete multiple entries; send email to selected entries.
+- Goal: Provide a means for the user to organize and interact with their address book.
+
+==================================================
+
+===== ITEM 227 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages and log out.
+- Goal: Provide administrative access to manage issues.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages and log out.
+- Goal: Provide administrative access to manage issues.
+
+==================================================
+
+===== ITEM 228 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update pet information.
+- Secondary actions: Select owner, input pet name, enter birth date, choose pet type.
+- Goal: Edit existing pet record.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: Select owner, input pet name, enter birth date, choose pet type.
+- Goal: Edit existing pet record.
+
+==================================================
+
+===== ITEM 229 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage events for July 26, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the day with easy navigation options.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events in Room 1 on July 26, 2019.
+- **Secondary Actions:** Switch between different time periods (day, week, month) and compare views (external vs. internal).
+- **Goal:** Facilitate efficient scheduling and management of room bookings for the specified date.
+
+==================================================
+
+===== ITEM 230 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets and their owners.
+- Goal: Record a veterinary visit for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets and their owners.
+- Goal: Record a veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 231 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the website.
+- Secondary actions: Register, sign in, fill profile, and log out.
+- Goal: Provide access to various features and user settings.
+
+PAGE 2:
+- Main action: Sign in using username or email and password.
+- Secondary actions: Register, restore password, navigate to other sections.
+- Goal: Allow users to authenticate and access their account.
+
+==================================================
+
+===== ITEM 232 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in with email and password.
+- Secondary actions: User can create a new account.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Provide an option for users to start creating a new project or task management board.
+
+==================================================
+
+===== ITEM 233 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can submit login credentials.
+- Secondary actions: User can navigate to sign up page.
+- Goal: Enable user access to the application.
+
+PAGE 2:
+- Main action: User can initiate creation of a new board.
+- Secondary actions: None observed.
+- Goal: Allow user to start organizing tasks or projects.
+
+==================================================
+
+===== ITEM 234 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to authenticate.
+
+PAGE 2:
+- Main action: User can manage their account settings.
+- Secondary actions: User can view statistics, update personal information, change password, and modify permissions.
+- Goal: Enable user management and customization of account details within the Claroline platform.
+
+==================================================
+
+===== ITEM 235 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create a new account.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable users to start creating boards.
+
+==================================================
+
+===== ITEM 236 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections or register/sign in.
+- Secondary actions: Fill profile, log out.
+- Goal: Provide access to user management and information.
+
+PAGE 2:
+- Main action: Navigate to different sections or sign up/login.
+- Secondary actions: Fill profile, logout.
+- Goal: Offer user navigation and account settings.
+
+==================================================
+
+===== ITEM 237 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can view and manage a list of contacts.
+- Secondary actions: User can select multiple contacts, send emails, or delete them; user can add selected contacts to a group.
+- Goal: Provide an interface for administrators to oversee and manipulate the address book.
+
+PAGE 2:
+- Main action: User can view and manage a list of contacts.
+- Secondary actions: User can select multiple contacts, send emails, or delete them; user can add selected contacts to a group.
+- Goal: Provide an interface for administrators to oversee and manipulate the address book.
+
+==================================================
+
+===== ITEM 238 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can remember login on this computer.
+- Goal: Allow user to access the application.
+
+PAGE 2:
+- Main action: User can save settings for the application.
+- Secondary actions: User can configure SSL forcing, recent entries widget display and count, most viewed entries widget display and count.
+- Goal: Enable customization of application features and appearance.
+
+==================================================
+
+===== ITEM 239 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+==================================================
+
+===== ITEM 240 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create a new account by clicking the link.
+- Goal: Allow users to access their account or begin using the application.
+
+PAGE 2:
+- Main action: No main action available; page appears incomplete.
+- Secondary actions: None apparent.
+- Goal: Unknown, as no functional elements are present.
+
+==================================================
+
+===== ITEM 241 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the site.
+- Secondary actions: View welcome message.
+- Goal: Provide initial access points for users.
+
+PAGE 2:
+- Main action: View owner information and pets.
+- Secondary actions: Edit owner details, add new pet, edit existing pet, add visit to pet.
+- Goal: Display detailed information about an owner and their pets.
+
+==================================================
+
+===== ITEM 242 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: View the day's schedule for a specific room.
+- Secondary actions: Navigate to other days, weeks, and months of the calendar.
+- Goal: Access detailed scheduling information for a particular date.
+
+###
+
+PAGE 2:
+- Main action: Provide navigation links to different views (day, week, month) and years.
+- Secondary actions: Offer informational content about the system's features and components.
+- Goal: Allow users to explore the schedule across time periods and provide context about the software.
+
+==================================================
+
+===== ITEM 243 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Set the currency to USD.
+- Secondary actions: Convert between different currencies, return to previous settings, or save changes.
+- Goal: Ensure all currency values are in USD for further calculations or comparisons.
+
+PAGE 2:
+- Main action: Confirm and finalize the currency conversion to USD.
+- Secondary actions: Revert back to previous currency settings or adjust individual currency values.
+- Goal: Finalize the selection of USD as the standard currency for all financial data.
+
+==================================================
+
+===== ITEM 244 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections or register/sign in.
+- Secondary actions: Fill profile, log out.
+- Goal: Provide access to user management and information.
+
+PAGE 2:
+- Main action: Navigate to different sections or register/sign in.
+- Secondary actions: Fill profile, logout.
+- Goal: Offer user navigation and account settings.
+
+==================================================
+
+===== ITEM 245 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and handle errors.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View recent visits, find owners.
+- Goal: Record and display veterinary visits.
+
+==================================================
+
+===== ITEM 246 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to the day view for August 17, 2019.
+- Secondary actions: Access navigation links such as week and month views.
+- Goal: Provide a comprehensive overview of room bookings for a specific date.
+
+###
+
+PAGE 2:
+- Main action: Navigate to various day, week, and month views.
+- Secondary actions: Access detailed information about the system's features and functionalities.
+- Goal: Offer users multiple ways to view and manage room bookings while providing context and support.
+
+==================================================
+
+===== ITEM 247 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can create a user account.
+- Secondary actions: User can view and edit personal information, set username and password, provide additional contact details, and choose platform role.
+- Goal: To register a new user account on the Claroline platform.
+
+PAGE 2:
+- Main action: User can create a user account.
+- Secondary actions: User can view and edit personal information, set username and password, provide additional contact details, and choose platform role.
+- Goal: To register a new user account on the Clariline platform.
+
+==================================================
+
+===== ITEM 248 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the website.
+- Secondary actions: Register, sign in, fill profile, contact support, view API documentation.
+- Goal: Provide access to various features and user management options.
+
+PAGE 2:
+- Main action: Change password.
+- Secondary actions: Log out, navigate to settings, manage account.
+- Goal: Allow users to update their password and manage their account settings.
+
+==================================================
+
+===== ITEM 249 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to different sections of the pet clinic.
+
+PAGE 2:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to different sections of the pet clinic.
+
+==================================================
+
+===== ITEM 250 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, reset password, or access external support resources.
+- Goal: Secure user authentication.
+
+PAGE 2:
+- Main action: Admin can view and manage address book entries.
+- Secondary actions: Admin can add new contacts, view groups, view upcoming birthdays, print contact lists, select a group filter, and perform bulk operations like sending emails or deleting selected contacts.
+- Goal: Manage and organize an address book.
+
+==================================================
+
+===== ITEM 251 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View recent visits, find owners.
+- Goal: Manage pet visits and display owner information.
+
+==================================================
+
+===== ITEM 252 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets with their details.
+- Goal: Record a veterinary visit for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets with their details.
+- Goal: Record a veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 253 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Search and update entries.
+- Secondary actions: Browse entries by name or username.
+- Goal: Manage and view entries.
+
+PAGE 2:
+- Main action: Search and update entries.
+- Secondary actions: Browse entries by name or username.
+- Goal: Manage and view entries.
+
+==================================================
+
+===== ITEM 254 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in with username and password.
+- Secondary actions: User can request a password reset, remember login session.
+- Goal: Allow user access to the system or recover lost credentials.
+
+PAGE 2:
+- Main action: User can update the system.
+- Secondary actions: User can configure display settings, manage users, set location preferences.
+- Goal: Provide administrative controls for managing system and user settings.
+
+==================================================
+
+===== ITEM 255 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits.
+- Goal: Record and manage veterinary visits.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits.
+- Goal: Record and manage veterinary visits.
+
+==================================================
+
+===== ITEM 256 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update address book entry.
+- Secondary actions: View home, add new, manage groups, view next birthdays, print entries.
+- Goal: Allow admin to edit and update contact information.
+
+PAGE 2:
+- Main action: Update address book entry.
+- Secondary actions: View home, add new, manage groups, view next birthdays, print entries.
+- Goal: Allow admin to edit and update contact information.
+
+==================================================
+
+===== ITEM 257 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Log in to Claroline.
+- Secondary actions: Cancel login attempt, navigate to Clariline homepage.
+- Goal: Access the Claroline platform.
+
+PAGE 2:
+- Main action: N/A (Login form content is consistent across pages).
+- Secondary actions: N/A (Same as Page 1)
+- Goal: N/A (Same as Page 1)
+
+==================================================
+
+===== ITEM 258 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can cancel login attempt.
+- Goal: Authenticate user access.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can cancel login attempt.
+- Goal: Authenticate user access.
+
+==================================================
+
+===== ITEM 259 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to different sections of the website.
+- Secondary actions: Register, sign in, fill profile, log out.
+- Goal: Provide access to user management and navigation options.
+
+PAGE 2:
+- Main action: Change language settings.
+- Secondary actions: Navigate to different sections of the website.
+- Goal: Allow users to customize their experience by changing the interface language.
+
+==================================================
+
+===== ITEM 260 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for September 28, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Provide a comprehensive view of the day's activities and allow users to easily navigate through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about specific events on September 28, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate through the month or week.
+- **Goal:** Enable users to focus on individual events while maintaining the ability to see broader time frames.
+
+==================================================
+
+===== ITEM 261 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to home page.
+- Secondary actions: Find owners, view veterinarians, view error page.
+- Goal: Provide access to main functionalities and error handling.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View recent visits, find owners.
+- Goal: Record and display veterinary visits.
+
+==================================================
+
+===== ITEM 262 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in with username and password.
+- Secondary actions: User can request a password reset, remember login session.
+- Goal: Provide access to the system for authenticated users.
+
+PAGE 2:
+- Main action: Display "Not Found" message.
+- Secondary actions: None.
+- Goal: Indicate that requested resource is not available.
+
+==================================================
+
+===== ITEM 263 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets and their details, view veterinarians.
+- Goal: Record a visit to the clinic for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for an existing pet.
+- Secondary actions: View a list of pets and their details, view veterinarians.
+- Goal: Record a visit to the clinic for a specific pet.
+
+==================================================
+
+===== ITEM 264 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits, view owner information.
+- Goal: Record a veterinary visit for a specific pet.
+
+PAGE 2:
+- Main action: Add a new visit for a pet.
+- Secondary actions: View existing visits, view owner information.
+- Goal: Record a veterinary visit for a specific pet.
+
+==================================================
+
+===== ITEM 265 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to manage their login credentials.
+
+PAGE 2:
+- Main action: User can manage personal account information.
+- Secondary actions: User can view statistics, change profile details, update password, and modify permissions.
+- Goal: Enable user to customize and maintain their account settings within the Claroline system.
+
+==================================================
+
+===== ITEM 266 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can cancel login attempt.
+- Goal: Allow user access to protected content.
+
+PAGE 2:
+- Main action: User can log in.
+- Secondary actions: User can cancel login attempt.
+- Goal: Allow user access to protected content.
+
+==================================================
+
+===== ITEM 267 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+==================================================
+
+===== ITEM 268 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location and unit preferences).
+- Goal: Provide administrative functions for registered users.
+
+==================================================
+
+===== ITEM 269 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update pet information.
+- Secondary actions: Select owner, input pet name, enter birth date, choose pet type.
+- Goal: Edit existing pet record.
+
+PAGE 2:
+- Main action: Update pet information.
+- Secondary actions: Select owner, input pet name, enter birth date, choose pet type.
+- Goal: Edit existing pet record.
+
+==================================================
+
+===== ITEM 270 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on this computer.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for tags or updates entries.
+- Secondary actions: User can view tag details, update entry information.
+- Goal: Manage and search tags and related entries.
+
+==================================================
+
+===== ITEM 271 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: View and manage events for August 18, 2019 in Room 1 of Area 1.
+- Secondary actions: Navigate to previous or next day, week, or month views; switch between external and internal views.
+- Goal: Organize and oversee daily activities within the specified area and room.
+
+PAGE 2:
+- Main action: Continue viewing and managing events for August 18, 2019 in Room 1 of Area 1.
+- Secondary actions: Access detailed day, week, or month views; switch between external and internal views.
+- Goal: Ensure comprehensive oversight and management of scheduled activities throughout the day.
+
+==================================================
+
+===== ITEM 272 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 273 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Add a new pet.
+- Secondary actions: Select owner, enter pet name and birth date, choose pet type.
+- Goal: Record a new pet in the system.
+
+PAGE 2:
+- Main action: Add a new pet.
+- Secondary actions: Select owner, enter pet name and birth date, choose pet type.
+- Goal: Record a new pet in the system.
+
+==================================================
+
+===== ITEM 274 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Provide user with system update option and allow configuration of display units.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Offer user the ability to update the system and configure display units, with additional emphasis on logged-in status.
+
+==================================================
+
+===== ITEM 275 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for July 19, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Provide a comprehensive view of the day's activities and allow users to easily navigate through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information for specific timeslots on July 19, 2019.
+- **Secondary Actions:** Edit or add events; switch between external/internal views.
+- **Goal:** Enable users to manage and view the schedule with precision.
+
+==================================================
+
+===== ITEM 276 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, reset password, access external support resources.
+- Goal: Allow user to authenticate and provide account management options.
+
+PAGE 2:
+- Main action: User can view address book entries.
+- Secondary actions: Access project information and documentation links.
+- Goal: Display contact information for users and provide additional resource links.
+
+==================================================
+
+===== ITEM 277 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to administrative dashboard.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: User can add widget, manage location settings, change units of measurement.
+- Goal: Provide options for system configuration and user preferences.
+
+==================================================
+
+===== ITEM 278 =====
+LABEL: CLONE
+
+PAGE 1:
+- **Main Action:** View and manage events for August 9, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information about events on August 9, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate to specific days or weeks.
+- **Goal:** Enable users to efficiently manage and review their schedule for the specified date.
+
+==================================================
+
+===== ITEM 279 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on current computer.
+- Goal: Allow user access to protected areas of the application.
+
+PAGE 2:
+- Main action: User creates or updates a tag and entry.
+- Secondary actions: User sees existing tags, most viewed entries, recent entries.
+- Goal: Enable user management of tags and entries within the application.
+
+==================================================
+
+===== ITEM 280 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can register or sign in to access account features.
+- Secondary actions: User can navigate through different sections, view screenshots, and manage profile settings.
+- Goal: Provide users with options to interact with the application and set up their accounts.
+
+PAGE 2:
+- Main action: User can register or sign in to access account features.
+- Secondary actions: User can navigate through different sections, view screenshots, and manage profile settings.
+- Goal: Provide users with options to interact with the application and set up their accounts.
+
+==================================================
+
+===== ITEM 281 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location).
+- Goal: Provide administrative functions for registered users.
+
+PAGE 2:
+- Main action: Update system.
+- Secondary actions: Add widget, manage user settings (location), view logged-in status.
+- Goal: Offer administrative and user information functionalities.
+
+==================================================
+
+===== ITEM 282 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can sign in using email and password.
+- Secondary actions: User can create new account.
+- Goal: Allow user to access the application.
+
+PAGE 2:
+- Main action: User can add a new board.
+- Secondary actions: None.
+- Goal: Enable user to start creating boards.
+
+==================================================
+
+===== ITEM 283 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account or reset password.
+- Goal: Provide access to the system.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can add new, edit, group, view birthdays, print results, select a group, and perform bulk operations like sending emails or deleting selected entries.
+- Goal: Manage and organize contact information.
+
+==================================================
+
+===== ITEM 284 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To provide functionality for managing and updating tags in a system.
+
+PAGE 2:
+- Main action: User can search and update tags.
+- Secondary actions: User can delete tags, view tag usage statistics, and manage entries associated with tags.
+- Goal: To provide functionality for managing and updating tags in a system.
+
+==================================================
+
+===== ITEM 285 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Provide access and support for user login.
+
+PAGE 2:
+- Main action: User can view and manage issues within a project.
+- Secondary actions: User can switch projects, jump to specific bugs, apply filters, save or reset bug queries, export issue data.
+- Goal: Enable administrators to efficiently manage and monitor software issues.
+
+==================================================
+
+===== ITEM 286 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in with username and password.
+- Secondary actions: User can remember login session.
+- Goal: Provide access to the application.
+
+PAGE 2:
+- Main action: User searches for entries using various filters.
+- Secondary actions: User can update an entry, view tag cloud, most viewed, and recent entries.
+- Goal: Manage and search application entries.
+
+==================================================
+
+===== ITEM 287 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, create an account, and navigate to course categories or search for courses.
+- Goal: Provide access to the Claroline platform and allow users to authenticate.
+
+PAGE 2:
+- Main action: User can manage their account settings.
+- Secondary actions: User can view statistics, update personal information, change user details, and modify permissions.
+- Goal: Enable users to customize their profile and account on the Claroline platform.
+
+==================================================
+
+===== ITEM 288 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create account, reset password, access external support resources.
+- Goal: Allow user to authenticate and provide account management options.
+
+PAGE 2:
+- Main action: Admin can logout.
+- Secondary actions: Navigate to address book home, add new contact, manage groups, view birthdays, print contacts with or without phone numbers, access project information.
+- Goal: Provide administrative functions for managing an address book.
+
+==================================================
+
+===== ITEM 289 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account or reset password.
+- Goal: Provide access to the system.
+
+PAGE 2:
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can add new, edit, group, view birthdays, print results, select all, send email, delete, and add to a different group.
+- Goal: Manage contacts within an address book.
+
+==================================================
+
+===== ITEM 290 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Navigate to various sections or register/sign in.
+- Secondary actions: Fill profile, log out.
+- Goal: Provide access to user management and information.
+
+PAGE 2:
+- Main action: Navigate to different sections or sign up/login.
+- Secondary actions: Fill profile, logout.
+- Goal: Offer user navigation and account settings.
+
+==================================================
+
+===== ITEM 291 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request a password reset, create an account, and search for courses.
+- Goal: Provide access to the system or allow users to authenticate.
+
+PAGE 2:
+- Main action: User can create a new user account.
+- Secondary actions: User can provide personal information, set up a username and password, and enter additional details like email and phone number. They also have the option to choose their platform role.
+- Goal: Enable registration for new users on the system.
+
+==================================================
+
+===== ITEM 292 =====
+LABEL: CLONE
+
+PAGE 1:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to a specific issue.
+- Goal: Provide administrative access and navigation options.
+
+PAGE 2:
+- Main action: Switch between projects.
+- Secondary actions: Access various pages, view RSS feed, jump to a specific issue.
+- Goal: Provide administrative access and navigation options.
+
+==================================================
+
+===== ITEM 293 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can navigate to various sections.
+- Secondary actions: User can register, sign in, fill profile, and contact support.
+- Goal: Provide access to different features and user management options.
+
+PAGE 2:
+- Main action: User can navigate to various sections.
+- Secondary actions: User can register, sign in, fill profile, and contact support.
+- Goal: Provide access to different features and user management options.
+
+==================================================
+
+===== ITEM 294 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- **Main Action:** View and manage the schedule for August 15, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of daily activities and allow easy navigation through time.
+
+###
+
+PAGE 2:
+- **Main Action:** Access detailed information for the specific day (August 15, 2019) in Room 1 of Area 1.
+- **Secondary Actions:** Switch between internal and external views; navigate to other days, weeks, or months.
+- **Goal:** Ensure users can easily find and manage events on a particular date.
+
+==================================================
+
+===== ITEM 295 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User logs in.
+- Secondary actions: User remembers login on this computer.
+- Goal: Allow user access to the application.
+
+PAGE 2:
+- Main action: User searches for entries.
+- Secondary actions: User updates an entry, changes page size, sorts entries by different criteria.
+- Goal: Enable user management and viewing of entries.
+
+==================================================
+
+===== ITEM 296 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in to the system.
+- Secondary actions: User can sign up for a new account, request password reset.
+- Goal: Allow users to access the application.
+
+PAGE 2:
+- Main action: User can switch between projects.
+- Secondary actions: User can navigate through various pages and manage account settings, report issues, view all bugs, jump to specific bug reports.
+- Goal: Provide administrative functionality for managing a project management system.
+
+==================================================
+
+===== ITEM 297 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can request password reset, remember login session.
+- Goal: Allow user access to the system or change password.
+
+PAGE 2:
+- Main action: User can update system.
+- Secondary actions: Add widget, manage location settings, view user information.
+- Goal: Provide options for system management and personalization.
+
+==================================================
+
+===== ITEM 298 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: User can log in.
+- Secondary actions: User can create an account, reset password, access external support resources.
+- Goal: Allow user to authenticate and provide account management options.
+
+PAGE 2:
+- Main action: User can view address book entries.
+- Secondary actions: Access project information, navigate to notes section.
+- Goal: Display contact information for users or contacts.
+
+==================================================
+
+===== ITEM 299 =====
+LABEL: DISTINCT
+
+PAGE 1:
+- Main action: Navigate to various sections of the website.
+- Secondary actions: Register, sign in, manage personal settings, log out.
+- Goal: Provide access and navigation for registered users.
+
+PAGE 2:
+- Main action: Access wallet management features.
+- Secondary actions: Filter transactions, control access permissions.
+- Goal: Enable users to manage their financial data and settings.
+
+==================================================
+

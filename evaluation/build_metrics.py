@@ -10,7 +10,6 @@ def build_metrics(results,prompt_strategy):
     for key in ["accuracy", "precision", "recall", "f1"]:
       metrics[key] = round(metrics[key], 4)
 
-    metrics["model"] = "llama3"
     metrics["dataset_size"] = len(results)
     metrics["input_type"] = "raw html"
 

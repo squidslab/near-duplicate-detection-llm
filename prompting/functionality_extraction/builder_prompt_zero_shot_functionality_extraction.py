@@ -74,7 +74,6 @@ PAGE 2:
 - Secondary actions: <one sentence>
 - Goal: <one sentence>
 
-/no_think
 
 /no_think
 """

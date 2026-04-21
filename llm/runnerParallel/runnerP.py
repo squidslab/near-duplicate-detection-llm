@@ -8,8 +8,10 @@ def process_item(data, prompt_strategy, llm_client, task="classification"):
     # 1. costruzione prompt
     if prompt_strategy.uses_images():
       prompt = prompt_strategy.build(None, None)
-    else:
+    elif (prompt_strategy.uses_images()==False and task == "classification"):
       prompt = prompt_strategy.build(data["input1"], data["input2"])
+    elif (prompt_strategy.uses_images()==False and task == "extraction"):
+       prompt = prompt_strategy.build(data["input1"], data["input2"])
 
     # 2. chiamata LLM
     if prompt_strategy.uses_images():
