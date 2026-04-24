@@ -14,6 +14,23 @@ from utils.menu import choose_strategy, choose_input_type
 
 MODEL="qwen2.5:7b"
 
+def debug_dataset_to_file(dataset, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        for i, item in enumerate(dataset):
+            f.write(f"===== ITEM {i} =====\n")
+            f.write(f"LABEL: {item['label']}\n\n")
+
+            if "input1" in item:
+                f.write("PAGE 1:\n")
+                f.write(item["input1"] + "\n\n")
+
+            if "input2" in item:
+                f.write("PAGE 2:\n")
+                f.write(item["input2"] + "\n\n")
+
+            f.write("="*50 + "\n\n")
+
+
 def main():
 
     choice = choose_input_type()
@@ -28,14 +45,13 @@ def main():
         print("[WARNING] Invalid choice, defaulting to HTML")
         input_type = "html"
 
-    # modelli separati
     llm_classification = OllamaClient(MODEL) 
     llm_extraction = OllamaClient(MODEL)
 
     print("[INFO] Costruzione dataset test...")  
 
     dataset = build_dataset(
-        tot_experiment=300,
+        tot_experiment=1000,
         seed=42,
         db_path="data/test.db",
         input_type=input_type, 
@@ -43,12 +59,13 @@ def main():
     )
 
     print(f"[INFO] Dimensione dataset: {len(dataset)}") 
+ 
 
     choice = choose_strategy()
 
-    if choice == "1": #zero shot classification 
+    if choice == "1": # zero shot classification 
 
-        prompt_strategy = ZeroShotPrompt(input_type=input_type,model=MODEL)
+        prompt_strategy = ZeroShotPrompt(input_type=input_type, model=MODEL)
 
         start = time.time()
 
@@ -56,7 +73,7 @@ def main():
             dataset,
             prompt_strategy,
             llm_classification,
-            max_workers=6,
+            max_workers=12,
             task="classification"
         )
 
@@ -88,14 +105,14 @@ def main():
             dataset,
             prompt_strategy,
             llm_classification,
-            max_workers=6,
+            max_workers=12,
             task="classification"
         )
 
         end = time.time()
 
 
-    elif choice == "3": #functionalty extraction + classification 
+    elif choice == "3": # functionality extraction + classification 
 
         print("[INFO] Running functionality extraction...")
 
@@ -103,38 +120,30 @@ def main():
 
         start = time.time()
 
-        # STEP 1: extraction (UNA SOLA RUN)
         extraction_results = run_experiment_p(
             dataset,
             extraction_strategy,
             llm_extraction,
-            max_workers=6,
+            max_workers=20,
             task="extraction"
         )
 
-        new_dataset = dataset_builder_for_extraction(extraction_results,dataset)
+        new_dataset = dataset_builder_for_extraction(extraction_results, dataset)
 
-        with open("debug_extraction_output.txt", "w", encoding="utf-8") as f:
-            for i, item in enumerate(new_dataset):
-                f.write(f"===== ITEM {i} =====\n")
-                f.write(f"LABEL: {item['label']}\n\n")
-                f.write("PAGE 1:\n")
-                f.write(item["input1"] + "\n\n")
-                f.write("PAGE 2:\n")
-                f.write(item["input2"] + "\n\n")
-                f.write("="*50 + "\n\n")
+        # 🔴 DEBUG DATASET DOPO EXTRACTION (già presente ma reso uniforme)
+        debug_dataset_to_file(new_dataset, "debug_extraction_output.txt")
 
         print(f"[INFO] Dimensione newdataset: {len(new_dataset)}")                 
 
         print("[INFO] Running classification on extracted descriptions...")
 
-        classification_strategy = ZeroShotPromptExtr(input_type="html",model=MODEL)
+        classification_strategy = ZeroShotPromptExtr(input_type="html", model=MODEL)
 
         results = run_experiment_p(
             new_dataset,
             classification_strategy,
             llm_classification,
-            max_workers=6,
+            max_workers=20,
             task="classification"
         )
 
@@ -151,7 +160,6 @@ def main():
 
     else:
         raise ValueError("Invalid strategy choice")
-
 
     print(f"\n[INFO] Tempo totale: {end - start:.2f} sec")
     print(f"[INFO] Tempo medio: {(end - start) / len(dataset):.2f} sec") 

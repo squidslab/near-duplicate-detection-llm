@@ -9,9 +9,9 @@ class ZeroShotPromptExtr(PromptStrategy):
     def get_metadata(self):
         return {
             "model" : self.model,
-            "prompt_type": "zero-shot", 
+            "prompt_type": "zero-shot(Functionality-Extracted Input)", 
             "num_examples_for_prompt": 0,
-            "input_type": self.input_type,
+            "input_type": "Structured semantic representation",
             "description": f"Zero-shot prompting with functionality extraction strategy and {self.input_type} input."
         }    
 

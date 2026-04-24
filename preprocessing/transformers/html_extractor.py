@@ -39,7 +39,6 @@ KEEP_ATTRS = {
 
 MAX_ROWS = 10 
 
-
 def _clean_attrs(tag: Tag) -> None:
     """Rimuove attributi non funzionali da un tag."""
     allowed = KEEP_ATTRS.get(tag.name, set())

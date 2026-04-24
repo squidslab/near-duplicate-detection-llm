@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.889,
+    "precision": 0.8925,
+    "recall": 0.889,
+    "f1": 0.8888,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.9294,
+            "recall": 0.842,
+            "f1": 0.8835
+        },
+        "DISTINCT": {
+            "precision": 0.8556,
+            "recall": 0.936,
+            "f1": 0.894
+        }
+    },
+    "dataset_size": 1000,
+    "input_type": "Structured semantic representation",
+    "model": "qwen2.5:7b",
+    "prompt_type": "zero-shot(Functionality-Extracted Input)",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with functionality extraction strategy and html input. dopo modifica del database"
+}

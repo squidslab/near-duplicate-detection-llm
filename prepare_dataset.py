@@ -8,7 +8,13 @@ def main():
     print("[INFO] Avvio costruzione dataset...")
 
     #TEST DATASET
-    test_dataset = get_stratified_sample(50)
+    test_dataset = get_stratified_sample(100) 
+
+    test_dataset = [dict(row) for row in test_dataset]
+
+    for row in test_dataset:
+      label = row["HUMAN_CLASSIFICATION"]
+      row["label"] = 0 if label in [0,1] else 2
 
     #EXAMPLES DATASET (senza overlap)
     examples_dataset = get_examples_sample(10, test_dataset)

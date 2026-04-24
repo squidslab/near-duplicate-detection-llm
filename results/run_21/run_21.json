@@ -1,0 +1,26 @@
+{
+    "accuracy": 0.875,
+    "precision": 0.8856,
+    "recall": 0.875,
+    "f1": 0.8741,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.8216,
+            "recall": 0.958,
+            "f1": 0.8846
+        },
+        "DISTINCT": {
+            "precision": 0.9496,
+            "recall": 0.792,
+            "f1": 0.8637
+        }
+    },
+    "dataset_size": 1000,
+    "input_type": "html",
+    "model": "qwen2.5:7b",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with preprocess html input. con dataset modificato ovvero con presenza di più near che clone", 
+    "total time": "13 min" 
+}

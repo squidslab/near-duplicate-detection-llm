@@ -1,8 +1,9 @@
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, accuracy_score, classification_report
 
+
 def compute_metrics(results):
 
-    # funzione di collasso: NEAR-DUPLICATE -> CLONE
+    # funzione di collasso
     def collapse_label(label):
         if label in ["CLONE", "NEAR-DUPLICATE"]:
             return "CLONE"
@@ -10,23 +11,26 @@ def compute_metrics(results):
 
     y_true = [collapse_label(r["label"]) for r in results]
 
-    # y_pred collassato + gestione INVALID
     y_pred = [
         collapse_label(r["prediction"]) if r["prediction"] != "INVALID" else "__INVALID__"
         for r in results
     ]
 
-
     labels = ["CLONE", "DISTINCT"]
 
-    #Metriche globali
     precision = precision_score(y_true, y_pred, average="weighted", labels=labels, zero_division=0)
     recall = recall_score(y_true, y_pred, average="weighted", labels=labels, zero_division=0)
     f1 = f1_score(y_true, y_pred, average="weighted", labels=labels, zero_division=0) 
     cm = confusion_matrix(y_true, y_pred, labels=labels)
     accuracy = accuracy_score(y_true, y_pred)
 
-    report = classification_report(y_true,y_pred,labels=labels,output_dict=True,zero_division=0)
+    report = classification_report(
+        y_true,
+        y_pred,
+        labels=labels,
+        output_dict=True,
+        zero_division=0
+    )
 
     per_class = {
         label: {
@@ -41,8 +45,6 @@ def compute_metrics(results):
     invalid_rate = sum(
         1 for r in results if r["prediction"] == "INVALID"
     ) / len(results)
-
-
 
     return {
         "accuracy": accuracy,
