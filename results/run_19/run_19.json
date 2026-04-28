@@ -21,6 +21,5 @@
     "model": "qwen2.5:7b",
     "prompt_type": "zero-shot",
     "num_examples_for_prompt": 0,
-    "description": "Zero-shot prompting with preprocess html input. con dataset modificato ovvero con presenza di più near che clone", 
-    "total time": "13 min" 
+    "description": "Zero-shot prompting with preprocess html input. (nuova composizione dataset)"
 }

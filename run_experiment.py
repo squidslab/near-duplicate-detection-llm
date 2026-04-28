@@ -124,13 +124,13 @@ def main():
             dataset,
             extraction_strategy,
             llm_extraction,
-            max_workers=20,
+            max_workers=12,
             task="extraction"
         )
 
         new_dataset = dataset_builder_for_extraction(extraction_results, dataset)
 
-        # 🔴 DEBUG DATASET DOPO EXTRACTION (già presente ma reso uniforme)
+        # DEBUG DATASET DOPO EXTRACTION (già presente ma reso uniforme)
         debug_dataset_to_file(new_dataset, "debug_extraction_output.txt")
 
         print(f"[INFO] Dimensione newdataset: {len(new_dataset)}")                 
@@ -143,7 +143,7 @@ def main():
             new_dataset,
             classification_strategy,
             llm_classification,
-            max_workers=20,
+            max_workers=12,
             task="classification"
         )
 

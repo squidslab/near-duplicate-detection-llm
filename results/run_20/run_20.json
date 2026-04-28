@@ -1,19 +1,19 @@
 {
-    "accuracy": 0.889,
-    "precision": 0.8925,
-    "recall": 0.889,
-    "f1": 0.8888,
+    "accuracy": 0.898,
+    "precision": 0.8996,
+    "recall": 0.898,
+    "f1": 0.8979,
     "invalid_rate": 0.0,
     "per_class": {
         "CLONE": {
-            "precision": 0.9294,
-            "recall": 0.842,
-            "f1": 0.8835
+            "precision": 0.9252,
+            "recall": 0.866,
+            "f1": 0.8946
         },
         "DISTINCT": {
-            "precision": 0.8556,
-            "recall": 0.936,
-            "f1": 0.894
+            "precision": 0.8741,
+            "recall": 0.93,
+            "f1": 0.9012
         }
     },
     "dataset_size": 1000,
@@ -21,5 +21,5 @@
     "model": "qwen2.5:7b",
     "prompt_type": "zero-shot(Functionality-Extracted Input)",
     "num_examples_for_prompt": 0,
-    "description": "Zero-shot prompting with functionality extraction strategy and html input. dopo modifica del database"
+    "description": "Zero-shot prompting with functionality extraction strategy and html input. (con nuovo dataset)"
 }

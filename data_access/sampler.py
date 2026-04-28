@@ -5,7 +5,7 @@ from data_access.db import get_dataset_pairs_by_label, get_pairs_by_label
 VALID_LABELS = [0, 1, 2] 
 NAME_APPS = ["addressbook","petclinic","claroline","dimeshift","mrbs","phoenix","ppma", "mantisbt","pagekit"]
 
-def get_stratified_sample(n_per_class=100, near_ratio=0.8):
+def get_stratified_sample(n_per_class=100, near_ratio=0.95): #funzione di stratificazione su ss.db 
 
     if not isinstance(n_per_class, int) or n_per_class <= 0:
         raise ValueError("n_per_class deve essere un intero positivo")

@@ -144,10 +144,10 @@ CLONE
 
 ===== ITEM 16 =====
 TRUE LABEL: CLONE
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -513,10 +513,10 @@ CLONE
 
 ===== ITEM 57 =====
 TRUE LABEL: CLONE
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -729,10 +729,10 @@ CLONE
 
 ===== ITEM 81 =====
 TRUE LABEL: CLONE
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2601,10 +2601,10 @@ CLONE
 
 ===== ITEM 289 =====
 TRUE LABEL: CLONE
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6291,10 +6291,10 @@ DISTINCT
 
 ===== ITEM 699 =====
 TRUE LABEL: CLONE
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 

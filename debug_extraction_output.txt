@@ -35,13 +35,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Switch between projects.
-- Secondary actions: Access various pages and log out.
-- Goal: Provide administrative access to manage issues.
+- Secondary actions: Access various pages, report issues, view change log and roadmap, manage issues, view account details, logout.
+- Goal: Provide administrator with a dashboard to oversee and manage project issues.
 
 PAGE 2:
 - Main action: Switch between projects.
-- Secondary actions: Access various pages and log out.
-- Goal: Provide administrative access to manage issues.
+- Secondary actions: Access various pages, report issues, view change log and roadmap, manage issues, view account details, logout.
+- Goal: Provide administrator with a dashboard to oversee and manage project issues.
 
 ==================================================
 
@@ -50,13 +50,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Switch between projects.
-- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
-- Goal: Provide administrative access and navigation options.
+- Secondary actions: Access various pages, report issues, view change log and roadmap, manage issues, view account details, logout.
+- Goal: Provide administrative access to different functionalities of the application.
 
 PAGE 2:
 - Main action: Switch between projects.
-- Secondary actions: Access various pages, view RSS feed, jump to specific issues.
-- Goal: Provide administrative access and navigation options.
+- Secondary actions: Access various pages, report issues, view change log and roadmap, manage issues, view account details, logout.
+- Goal: Provide administrative access to different functionalities of the application.
 
 ==================================================
 
@@ -70,7 +70,7 @@ PAGE 1:
 
 PAGE 2:
 - Main action: Display address book entries.
-- Secondary actions: Provide links to project information and software version.
+- Secondary actions: Provide links to project information and version details.
 - Goal: Present contact information for users or contacts.
 
 ==================================================
@@ -84,9 +84,9 @@ PAGE 1:
 - Goal: Allow user access to the system or change password.
 
 PAGE 2:
-- Main action: User can update system.
-- Secondary actions: Add widget, edit user profile, change location settings.
-- Goal: Provide administrative functions and personalization options.
+- Main action: User can update the system.
+- Secondary actions: User can add widgets, edit profile, manage location settings.
+- Goal: Provide administrative controls and system updates.
 
 ==================================================
 
@@ -96,11 +96,11 @@ LABEL: DISTINCT
 PAGE 1:
 - Main action: Navigate to home page.
 - Secondary actions: Find owners, view veterinarians, view error page.
-- Goal: Provide access to different sections of the pet clinic.
+- Goal: Provide access to main functionalities and handle errors.
 
 PAGE 2:
-- Main action: Add a new visit for an existing pet.
-- Secondary actions: View recent visits and search for owners.
+- Main action: Add a new visit for a pet.
+- Secondary actions: View recent visits, find owners.
 - Goal: Record and display veterinary visits.
 
 ==================================================
@@ -141,14 +141,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
-- Goal: Provide navigation and basic management of an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can add entries to a group.
+- Goal: Provide an interface for managing contact information.
 
 PAGE 2:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
-- Goal: Provide navigation and basic management of an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can add entries to a group.
+- Goal: Provide an interface for managing contact information.
 
 ==================================================
 
@@ -221,7 +221,7 @@ PAGE 1:
 - Goal: Provide access to user management and information.
 
 PAGE 2:
-- Main action: Navigate to different sections or sign up/login.
+- Main action: Navigate to different sections or register/sign in.
 - Secondary actions: Fill profile, logout.
 - Goal: Offer user navigation and account settings.
 
@@ -231,14 +231,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Update address book entry.
-- Secondary actions: View home, add new, manage groups, view next birthdays, print entries.
-- Goal: Allow admin to edit and update contact information.
+- Main action: View address book entries.
+- Secondary actions: Select and manage entries (e.g., send email, delete).
+- Goal: Provide access to and management of address book data.
 
 PAGE 2:
-- Main action: Update address book entry.
-- Secondary actions: View home, add new, manage groups, view next birthdays, print entries.
-- Goal: Allow admin to edit and update contact information.
+- Main action: View address book entries.
+- Secondary actions: Select and manage entries (e.g., send email, delete), add entries to a group.
+- Goal: Provide access to and management of address book data.
 
 ==================================================
 
@@ -246,16 +246,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to the day view for August 18, 2019.
-- Secondary actions: Access navigation links to other days and weeks.
-- Goal: Provide a comprehensive overview of scheduled meetings for a specific date.
+- **Main Action:** View and manage the schedule for September 17, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of the day's activities and allow easy navigation through time.
 
 ###
 
 PAGE 2:
-- Main action: Navigate to the day view for August 18, 2019.
-- Secondary actions: Access navigation links to other days and months.
-- Goal: Offer detailed scheduling information across different time frames.
+- **Main Action:** Access detailed information for specific dates in September 2019.
+- **Secondary Actions:** Switch between different types of views (day, week, month) and navigate to other months.
+- **Goal:** Enable users to find and manage events or activities on any given day within the specified timeframe.
 
 ==================================================
 
@@ -265,12 +265,12 @@ LABEL: DISTINCT
 PAGE 1:
 - Main action: User can log in.
 - Secondary actions: User can create account, reset password, access external support resources.
-- Goal: Allow user to authenticate and provide account management options.
+- Goal: Provide user access and account management.
 
 PAGE 2:
 - Main action: Display address book entries.
 - Secondary actions: Provide links to project source and software version information.
-- Goal: Present contact information and offer additional resource links.
+- Goal: Present contact information and relevant software details.
 
 ==================================================
 
@@ -317,7 +317,7 @@ PAGE 1:
 PAGE 2:
 - Main action: User can update system.
 - Secondary actions: Add widget, manage location settings, view user information.
-- Goal: Provide options for system management and personalization.
+- Goal: Provide administrative controls and display current system status.
 
 ==================================================
 
@@ -415,14 +415,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
-- Goal: Provide navigation and basic management of an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can add entries to a group.
+- Goal: Provide an interface for managing contacts in the address book.
 
 PAGE 2:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
-- Goal: Provide navigation and basic management of an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can add entries to a group.
+- Goal: Provide an interface for managing contacts in the address book.
 
 ==================================================
 
@@ -873,16 +873,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigating to the day view for August 17, 2019.
-- Secondary actions: Accessing navigation links such as week and month views.
-- Goal: Provide a comprehensive overview of room bookings for a specific date.
+- **Main Action:** View and manage events for September 25, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the day while allowing easy navigation through time.
 
 ###
 
 PAGE 2:
-- Main action: Navigating through various date views (day, week, month) for August 2019.
-- Secondary actions: Accessing detailed information about the system's features and functionalities.
-- Goal: Offer users multiple ways to view and manage room bookings while providing support documentation.
+- **Main Action:** Access detailed information about events on September 25, 2019.
+- **Secondary Actions:** Switch between different views (external/internal) and navigate to specific dates within the month or week.
+- **Goal:** Enable users to efficiently find and manage events related to a particular day.
 
 ==================================================
 
@@ -1237,14 +1237,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select sorting options.
-- Goal: Provide navigation and basic functionalities for an admin user.
+- Main action: View address book entries.
+- Secondary actions: Select and manage entries (send email, delete).
+- Goal: Provide access to and management of address book data.
 
 PAGE 2:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select sorting options.
-- Goal: Provide navigation and basic functionalities for an admin user.
+- Main action: View address book entries.
+- Secondary actions: Select and manage entries (send email, delete), add to group.
+- Goal: Provide access to and management of address book data with additional functionality to assign contacts to groups.
 
 ==================================================
 
@@ -1297,16 +1297,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: View the day's schedule for a specific room.
-- Secondary actions: Navigate to other days, weeks, and months of the calendar.
-- Goal: Access detailed scheduling information for a particular date.
+- **Main Action:** View and manage events for September 29, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the day.
 
 ###
 
 PAGE 2:
-- Main action: Provide navigation links to different views (day, week, month) and years.
-- Secondary actions: Offer informational content about the system's features and components.
-- Goal: Allow users to explore the schedule across time periods and provide context about the software.
+- **Main Action:** Access detailed information about events on September 29, 2019.
+- **Secondary Actions:** Switch between different time frames (day, week, month) and rooms/areas; navigate to external links.
+- **Goal:** Facilitate easy access to event details and allow users to plan their schedule accordingly.
 
 ==================================================
 
@@ -1515,7 +1515,7 @@ PAGE 1:
 
 PAGE 2:
 - Main action: Search and update entries.
-- Secondary actions: Change page size, sort entries by name in descending order.
+- Secondary actions: Change page size, sort entries by name or username in descending order.
 - Goal: Manage and view entries.
 
 ==================================================
@@ -1525,13 +1525,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Secondary actions: Register, sign in, fill profile, log out.
+- Goal: Provide users with options to interact with and manage their account.
 
 PAGE 2:
 - Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Secondary actions: Register, sign in, fill profile, logout.
+- Goal: Offer users ways to engage with the platform and adjust their settings.
 
 ==================================================
 
@@ -2980,14 +2980,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: User can log in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and logout.
+- Goal: Provide access to user accounts and features.
 
 PAGE 2:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: User can log in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and logout.
+- Goal: Provide access to user accounts and features.
 
 ==================================================
 
@@ -3160,14 +3160,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: View and manage events for August 17, 2019 in Room 1 of Area 1.
-- Secondary actions: Navigate to previous or next day, week, or month views; switch between external and internal views.
-- Goal: Organize and access daily schedule details efficiently.
+- **Main Action:** View and manage events for September 26, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the day.
+
+###
 
 PAGE 2:
-- Main action: Access historical and future dates for the same location.
-- Secondary actions: Switch between different time frames (day, week, month) and view options (external/internal).
-- Goal: Facilitate planning and review of events over extended periods.
+- **Main Action:** Access detailed information about events on September 26, 2019.
+- **Secondary Actions:** Switch between different time frames (day, week, month) and rooms/areas; navigate to external links.
+- **Goal:** Facilitate easy access to event details and allow users to plan their schedule accordingly.
 
 ==================================================
 
@@ -3299,14 +3301,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Update address book entry.
-- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
-- Goal: Edit and update a specific contact in the address book.
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
+- Goal: Provide navigation and basic management of an address book.
 
 PAGE 2:
-- Main action: Update address book entry.
-- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
-- Goal: Edit and update a specific contact in the address book.
+- Main action: User can log out.
+- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
+- Goal: Provide navigation and basic management of an address book.
 
 ==================================================
 
@@ -3315,13 +3317,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Search and update entries.
-- Secondary actions: Change page size, sort entries by name or username.
-- Goal: Manage and view entries.
+- Secondary actions: Change page size, view tag cloud, most viewed, recent entries.
+- Goal: Manage and search entries.
 
 PAGE 2:
 - Main action: Search and update entries.
-- Secondary actions: Change page size, sort entries by name or username.
-- Goal: Manage and view entries.
+- Secondary actions: Change page size, view tag cloud, most viewed, recent entries.
+- Goal: Manage and search entries.
 
 ==================================================
 
@@ -4042,9 +4044,9 @@ PAGE 1:
 - Goal: Manage and view entries.
 
 PAGE 2:
-- Main action: Search and update entries with a specific tag.
+- Main action: Search and update entries.
 - Secondary actions: Change page size, sort entries by name or username.
-- Goal: Manage and view entries with a specific tag.
+- Goal: Manage and view entries.
 
 ==================================================
 
@@ -4405,16 +4407,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to the day view for August 18, 2019.
-- Secondary actions: Access week and month views.
-- Goal: Provide a calendar interface allowing users to switch between daily, weekly, and monthly views.
-
-###
+- Main action: Navigate through the calendar to find specific dates.
+- Secondary actions: View day, week, and month views; go to previous or next days.
+- Goal: Access detailed information for September 23, 2019.
 
 PAGE 2:
-- Main action: Navigate to the day view for August 17, 2019.
-- Secondary actions: Access week and month views.
-- Goal: Provide a calendar interface allowing users to switch between daily, weekly, and monthly views.
+- Main action: Explore external and internal events for the day.
+- Secondary actions: Switch between external and internal event views.
+- Goal: Understand the types of events (external vs. internal) scheduled for the day.
 
 ==================================================
 
@@ -4726,14 +4726,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
-- Goal: Provide navigation and basic management of an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete selected entries; user can navigate to home, add new entry, groups, next birthdays, print all or specific views.
+- Goal: Provide a means for users to browse, edit, and manage their address book.
 
 PAGE 2:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select options for sending email or deleting contacts.
-- Goal: Provide navigation and basic management of an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete selected entries; user can navigate to home, add new entry, groups, next birthdays, print all or specific views.
+- Goal: Provide a means for users to browse, edit, and manage their address book.
 
 ==================================================
 
@@ -4774,13 +4774,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Secondary actions: Register, sign in, fill profile, log out.
+- Goal: Provide users with options to interact with and manage their account.
 
 PAGE 2:
 - Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Secondary actions: Register, sign in, fill profile, logout.
+- Goal: Offer users ways to engage with the platform and adjust their settings.
 
 ==================================================
 
@@ -5619,14 +5619,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: Navigate to various sections or register/sign in.
+- Secondary actions: Fill profile, log out.
+- Goal: Provide access to user management and information.
 
 PAGE 2:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: Navigate to different sections or register/sign in.
+- Secondary actions: Fill profile, logout.
+- Goal: Offer user navigation and account settings.
 
 ==================================================
 
@@ -5712,13 +5712,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Search and update entries.
-- Secondary actions: View a table of entries, select page size, navigate through sorted columns.
-- Goal: Manage and search entry data.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
 
 PAGE 2:
 - Main action: Search and update entries.
-- Secondary actions: View a table of entries, select page size, navigate through sorted columns.
-- Goal: Manage and search entry data.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
 
 ==================================================
 
@@ -6373,16 +6373,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to the day view for August 17, 2019.
-- Secondary actions: Access other navigation options like week and month views.
-- Goal: Provide a comprehensive calendar interface for room scheduling.
+- **Main Action:** View and manage events for September 20, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; view external/internal events.
+- **Goal:** Provide a comprehensive overview of scheduled activities for the day.
 
 ###
 
 PAGE 2:
-- Main action: View detailed information about the system's features and functionalities.
-- Secondary actions: Navigate through various links to different sections of the help documentation.
-- Goal: Offer support and guidance on how to use the Meeting Room Booking System effectively.
+- **Main Action:** Access detailed information about specific events on September 20, 2019.
+- **Secondary Actions:** Navigate to other dates within the same month and year.
+- **Goal:** Enable users to plan and review their schedule effectively.
 
 ==================================================
 
@@ -6665,12 +6665,12 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Search and update entries.
-- Secondary actions: Change page size, sort entries.
+- Secondary actions: Change page size, sort entries by name or username.
 - Goal: Manage and view entries.
 
 PAGE 2:
 - Main action: Search and update entries.
-- Secondary actions: Change page size, sort entries.
+- Secondary actions: Change page size, sort entries by name or username.
 - Goal: Manage and view entries.
 
 ==================================================
@@ -6724,14 +6724,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Log out as admin.
-- Secondary actions: Navigate to home, add new contact, manage groups, view upcoming birthdays, print address book.
-- Goal: Provide administrative access and options for managing an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can navigate to home, add new entry, groups, next birthdays, print all or specific views.
+- Goal: Provide a means for the admin to review and manipulate contact information.
 
 PAGE 2:
-- Main action: Log out as admin.
-- Secondary actions: Navigate to home, add new contact, manage groups, view upcoming birthdays, print address book.
-- Goal: Provide administrative access and options for managing an address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can navigate to home, add new entry, groups, next birthdays, print all or specific views.
+- Goal: Provide a means for the admin to review and manipulate contact information.
 
 ==================================================
 
@@ -7032,16 +7032,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: View and manage a list of contacts.
-- Secondary actions: Filter by group, send email, delete selected contacts, add to a group.
-- Goal: Organize and manipulate contact information.
-
-###
+- Main action: View address book entries.
+- Secondary actions: Filter by group, select multiple entries, send email, delete entries, add to a different group.
+- Goal: Manage and interact with the address book data.
 
 PAGE 2:
-- Main action: View and manage a list of contacts.
-- Secondary actions: Filter by group, send email, delete selected contacts, add to a group.
-- Goal: Organize and manipulate contact information.
+- Main action: View address book entries.
+- Secondary actions: Filter by group, select multiple entries, send email, delete entries, add to a different group.
+- Goal: Manage and interact with the address book data.
 
 ==================================================
 
@@ -7051,7 +7049,7 @@ LABEL: DISTINCT
 PAGE 1:
 - Main action: Navigate to home page.
 - Secondary actions: Find owners, view veterinarians, view error page.
-- Goal: Provide access to main functionalities and error handling.
+- Goal: Provide access to main sections of the pet clinic.
 
 PAGE 2:
 - Main action: Add a new pet.
@@ -7278,14 +7276,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: View and manage events for August 17, 2019 in Room 1 of Area 1.
-- Secondary actions: Navigate to previous or next day, week, or month views; switch between external and internal views.
-- Goal: Organize and access daily schedule details efficiently.
+- **Main Action:** View and manage the schedule for September 16, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; view external/internal events.
+- **Goal:** Provide a comprehensive overview of scheduled activities for the day.
+
+###
 
 PAGE 2:
-- Main action: Access historical and future dates for the same location.
-- Secondary actions: Switch between different time frames (day, week, month) and view options (external/internal).
-- Goal: Facilitate planning and review of events over extended periods.
+- **Main Action:** Access detailed information about specific events on September 16, 2019.
+- **Secondary Actions:** Navigate through different time periods (day, week, month) and rooms/areas.
+- **Goal:** Enable users to plan and review their schedule effectively.
 
 ==================================================
 
@@ -8094,16 +8094,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to the day view for August 17, 2019.
-- Secondary actions: Access week and month views.
-- Goal: Provide a comprehensive overview of room bookings for specific dates.
+- **Main Action:** View and manage the schedule for September 21, 2019, in Room 1 of Area 1.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between external and internal views.
+- **Goal:** Provide a comprehensive view of scheduled events and allow easy navigation through time.
 
 ###
 
 PAGE 2:
-- Main action: Navigate to the day view for August 17, 2019.
-- Secondary actions: Access week and month views; provide information on how to use the system.
-- Goal: Offer detailed booking information and user guidance.
+- **Main Action:** Access detailed information for specific dates within the month of September 2019.
+- **Secondary Actions:** Switch between different views (day, week, month) and navigate to various months in 2019 and 2020.
+- **Goal:** Enable users to plan and review events over extended periods.
 
 ==================================================
 
@@ -8957,14 +8957,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can search and update tags.
-- Secondary actions: User can change the number of items displayed per page, sort tags by name.
-- Goal: To manage and view tag information.
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
 
 PAGE 2:
-- Main action: User can search and update tags.
-- Secondary actions: User can change the number of items displayed per page, sort tags by name in descending order.
-- Goal: To manage and view tag information.
+- Main action: Search and update entries with a specific tag.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries with a specific tag.
 
 ==================================================
 
@@ -9240,14 +9240,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Search and update tags.
-- Secondary actions: View tag list, manage entries.
-- Goal: Manage and search tags for entries.
+- Main action: Search and update entries.
+- Secondary actions: Navigate through different sorting options, view tag cloud, most viewed, recent entries.
+- Goal: Manage and organize entries.
 
 PAGE 2:
-- Main action: Search and update tags.
-- Secondary actions: View tag list, manage entries.
-- Goal: Manage and search tags for entries.
+- Main action: Search and update entries.
+- Secondary actions: Navigate through different sorting options, view tag cloud, most viewed, recent entries.
+- Goal: Manage and organize entries.
 
 ==================================================
 
@@ -9364,14 +9364,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Search and update tags.
-- Secondary actions: View tag cloud, most viewed entries, recent entries.
-- Goal: Manage and search tags for entries.
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
 
 PAGE 2:
-- Main action: Search and update tags.
-- Secondary actions: View tag cloud, most viewed entries, recent entries.
-- Goal: Manage and search tags for entries.
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username in descending order.
+- Goal: Manage and view entries.
 
 ==================================================
 
@@ -9698,14 +9698,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Search and update entries.
-- Secondary actions: Change page size, sort entries by name or username.
-- Goal: Manage and view entries.
+- Main action: Search and update tags.
+- Secondary actions: View tag cloud, most viewed entries, recent entries.
+- Goal: Manage and search tags for entries.
 
 PAGE 2:
-- Main action: Search and update entries.
-- Secondary actions: Change page size, sort entries by name or username.
-- Goal: Manage and view entries.
+- Main action: Search and update tags.
+- Secondary actions: View tag cloud, most viewed entries, recent entries.
+- Goal: Manage and search tags for entries.
 
 ==================================================
 
@@ -10105,14 +10105,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to the day view for August 17, 2019.
-- Secondary actions: Access navigation links to other days and views.
-- Goal: Provide a comprehensive overview of room bookings for a specific date.
+- **Main Action:** View and manage events for September 18, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
+- **Goal:** Provide a comprehensive view of scheduled activities for the day.
+
+###
 
 PAGE 2:
-- Main action: View detailed information about the system's features and functionalities.
-- Secondary actions: Explore various sections like how-to guides, technical details, and support resources.
-- Goal: Offer users an understanding of the system’s capabilities and provide troubleshooting and usage instructions.
+- **Main Action:** Access detailed information about events on September 18, 2019.
+- **Secondary Actions:** Switch between different time frames (day, week, month) and rooms/areas; navigate to other days or months.
+- **Goal:** Facilitate easy access to event details for planning and management purposes.
 
 ==================================================
 
@@ -10621,16 +10623,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- **Main Action:** View and manage events for August 17, 2019, in Room 5 of Area 2.
-- **Secondary Actions:** Navigate to previous or next days, weeks, or months; switch between internal and external views.
-- **Goal:** Efficiently organize and access event details for the specified date.
-
-###
+- Main action: Navigate to the day view for August 17, 2019.
+- Secondary actions: Access navigation links to other days and views.
+- Goal: Provide a comprehensive overview of room bookings for a specific date.
 
 PAGE 2:
-- **Main Action:** Access detailed information about events scheduled on August 17, 2019.
-- **Secondary Actions:** Switch between different views (external/internal) and navigate through various dates and time slots.
-- **Goal:** Ensure all relevant parties can easily find and manage the day's schedule.
+- Main action: View detailed information about the system's features and functionalities.
+- Secondary actions: Explore various sections like how-to guides, technical details, and support resources.
+- Goal: Offer users an understanding of the system’s capabilities and provide troubleshooting and usage instructions.
 
 ==================================================
 
@@ -11055,14 +11055,16 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to the day view for August 17, 2019.
-- Secondary actions: Access navigation links such as week and month views.
-- Goal: Provide a comprehensive overview of events scheduled for a specific day.
+- **Main Action:** View and manage events for September 24, 2019.
+- **Secondary Actions:** Navigate to previous or next days, weeks, or months.
+- **Goal:** Provide a comprehensive view of daily activities in the specified room and area.
+
+###
 
 PAGE 2:
-- Main action: Navigate to the day view for August 17, 2019.
-- Secondary actions: Access navigation links including week and month views.
-- Goal: Offer multiple ways to view and navigate through scheduled events across different time frames.
+- **Main Action:** Access external and internal views of the day.
+- **Secondary Actions:** Switch between different time frames (day, week, month).
+- **Goal:** Facilitate easy navigation and management of events across various temporal scales.
 
 ==================================================
 
@@ -11924,14 +11926,14 @@ Note: There is no difference in functionality between the two pages as described
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Update address book entry.
-- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
-- Goal: Edit and maintain an existing contact in the address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home page, add new entry, view groups, next birthdays, print all or specific views of the address book.
+- Goal: Provide access to various functionalities of an address book.
 
 PAGE 2:
-- Main action: Update address book entry.
-- Secondary actions: Navigate to home, add new entry, manage groups, view next birthdays, print entries.
-- Goal: Edit and maintain an existing contact in the address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can log out, navigate to home page, add new entry, view groups, next birthdays, print all or specific views of the address book.
+- Goal: Provide access to various functionalities of an address book.
 
 ==================================================
 
@@ -12104,14 +12106,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Update address book entry.
-- Secondary actions: View home, add new, manage groups, view next birthdays, print entries.
-- Goal: Edit and update a specific contact in the address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete selected entries; user can navigate to home, add new entry, groups, next birthdays, print all or specific views.
+- Goal: Provide a means for the admin to review and manipulate address book data.
 
 PAGE 2:
-- Main action: Update address book entry.
-- Secondary actions: View home, add new, manage groups, view next birthdays, print entries.
-- Goal: Edit and update a specific contact in the address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete selected entries; user can navigate to home, add new entry, groups, next birthdays, print all or specific views.
+- Goal: Provide a means for the admin to review and manipulate address book data.
 
 ==================================================
 
@@ -12365,16 +12367,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: View the day's schedule for a specific room.
-- Secondary actions: Navigate to other days, weeks, and months in the calendar view.
-- Goal: Provide easy access to scheduling information for different time periods.
-
-###
+- Main action: View and manage events for August 17, 2019 in Room 1 of Area 1.
+- Secondary actions: Navigate to previous or next day, week, or month views; switch between external and internal views.
+- Goal: Organize and access daily schedule details efficiently.
 
 PAGE 2:
-- Main action: Access help documentation and navigate through various sections of the system.
-- Secondary actions: View schedules for different days, weeks, and months; provide navigation links to other parts of the site.
-- Goal: Offer comprehensive support and facilitate easy navigation within the scheduling application.
+- Main action: Access historical and future dates for the same location.
+- Secondary actions: Switch between different time frames (day, week, month) and view options (external/internal).
+- Goal: Facilitate planning and review of events over extended periods.
 
 ==================================================
 
@@ -12627,13 +12627,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Secondary actions: Register, sign in, fill profile, log out.
+- Goal: Provide users with options to interact with and manage their account.
 
 PAGE 2:
 - Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Secondary actions: Register, sign in, fill profile, logout.
+- Goal: Offer users ways to engage with the platform and adjust their settings.
 
 ==================================================
 
@@ -13086,14 +13086,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can view and manage address book entries.
-- Secondary actions: User can log out, navigate to home, add new entry, view groups, next birthdays, print all or specific entries, select all entries for actions like sending email or deleting.
-- Goal: Provide access to various functionalities of an address book management system.
+- Main action: Navigate to different sections of the address book.
+- Secondary actions: Select all entries, send email, delete entries, add entries to a group.
+- Goal: Manage and view contacts in an address book.
 
 PAGE 2:
-- Main action: User can view and manage address book entries.
-- Secondary actions: User can log out, navigate to home, add new entry, view groups, next birthdays, print all or specific entries, select all entries for actions like sending email or deleting.
-- Goal: Provide access to various functionalities of an address book management system.
+- Main action: Navigate to different sections of the address book.
+- Secondary actions: Select all entries, send email, delete entries, add entries to a group.
+- Goal: Manage and view contacts in an address book.
 
 ==================================================
 
@@ -13655,14 +13655,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: User can log in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and logout.
+- Goal: Provide access to user accounts and features.
 
 PAGE 2:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: User can log in or register.
+- Secondary actions: User can view home, wallets, goals, contact information, API documentation, profile settings, and logout.
+- Goal: Provide access to user accounts and features.
 
 ==================================================
 
@@ -13671,13 +13671,13 @@ LABEL: CLONE
 
 PAGE 1:
 - Main action: Update system.
-- Secondary actions: Add widget, manage user settings (location).
-- Goal: Provide administrative controls for site management.
+- Secondary actions: Add widget, manage location settings.
+- Goal: Provide user with system update options and location preferences.
 
 PAGE 2:
 - Main action: Update system.
-- Secondary actions: Add widget, manage user settings (location), view logged-in user information.
-- Goal: Offer administrative tools and display user-specific information.
+- Secondary actions: Add widget, manage location settings, view current user information.
+- Goal: Offer user system update options, allow location management, and display logged-in user details.
 
 ==================================================
 
@@ -13989,14 +13989,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: Navigate to various sections or register/sign in.
+- Secondary actions: Fill profile, log out.
+- Goal: Provide access to user management and information.
 
 PAGE 2:
-- Main action: Navigate to various sections of the website.
-- Secondary actions: Submit forms, contact support, log out.
-- Goal: Provide access to different features and user management.
+- Main action: Navigate to different sections or register/sign in.
+- Secondary actions: Fill profile, logout.
+- Goal: Offer user navigation and account settings.
 
 ==================================================
 
@@ -14094,14 +14094,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can search and update entries.
-- Secondary actions: User can delete tags, view tag usage statistics, and manage tags in a table format.
-- Goal: To allow users to maintain and update entry data.
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username.
+- Goal: Manage and view entries.
 
 PAGE 2:
-- Main action: User can search and update entries.
-- Secondary actions: User can delete tags, view tag usage statistics, and manage tags in a table format.
-- Goal: To allow users to maintain and update entry data.
+- Main action: Search and update entries.
+- Secondary actions: Change page size, sort entries by name or username based on a specific tag.
+- Goal: Manage and view entries with a filtered tag.
 
 ==================================================
 
@@ -14869,14 +14869,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select sorting options.
-- Goal: Provide navigation and basic functionalities for an administrator to manage the address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can add entries to a group.
+- Goal: Provide an interface for managing contact information.
 
 PAGE 2:
-- Main action: User can log out.
-- Secondary actions: User can navigate to home, add new contact, view groups, next birthdays, print address book, and select sorting options.
-- Goal: Provide navigation and basic functionalities for an administrator to manage the address book.
+- Main action: User can view and manage address book entries.
+- Secondary actions: User can select multiple entries, send email, or delete them; user can add entries to a group.
+- Goal: Provide an interface for managing contact information.
 
 ==================================================
 

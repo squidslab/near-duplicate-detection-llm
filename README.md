@@ -6,12 +6,12 @@ Before running the project, make sure you have the following installed:
 
 * Python 3.x
 * Ollama
-* LLaMA 3 (8B model)
+* qwen2.5 (model 7b)
 
 To install the model using Ollama:
 
 ```
-ollama pull llama3
+ollama pull qwen2.5:7b
 ```
 
 ---
