@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.4933,
+    "precision": 0.4933,
+    "recall": 0.4933,
+    "f1": 0.4931,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.4931,
+            "recall": 0.4733,
+            "f1": 0.483
+        },
+        "DISTINCT": {
+            "precision": 0.4936,
+            "recall": 0.5133,
+            "f1": 0.5033
+        }
+    },
+    "model": "llama 3",
+    "dataset_size": 300,
+    "input_type": "html",
+    "prompt_type": "few-shot",
+    "num_examples_for_prompt": 3,
+    "description": "Few-shot prompting with new preprocess HTML input, where NEAR-DUPLICATE and CLONE classes are unified into a single CLONE class."
+}

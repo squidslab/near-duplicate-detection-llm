@@ -1,0 +1,65 @@
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+from llm.utils import clean_output
+
+    
+def process_item(data, prompt_strategy, llm_client, task="classification"):
+
+    # 1. costruzione prompt
+    if prompt_strategy.uses_images():
+      prompt = prompt_strategy.build(None, None)
+    elif (prompt_strategy.uses_images()==False and task == "classification"):
+      prompt = prompt_strategy.build(data["input1"], data["input2"])
+    elif (prompt_strategy.uses_images()==False and task == "extraction"):
+       prompt = prompt_strategy.build(data["input1"], data["input2"])
+
+    # 2. chiamata LLM
+    if prompt_strategy.uses_images():
+        raw_output = llm_client.generate({
+            "image1": data["input1"],
+            "image2": data["input2"],
+            "text": prompt
+        })
+    else:
+        raw_output = llm_client.generate(prompt)
+
+    if task == "classification":
+      # 3. pulizia output
+      pred = clean_output(raw_output)
+
+      return {
+        "label": data["label"],
+        "prediction": pred,
+        "raw_output": raw_output
+       }
+    
+    elif task == "extraction": 
+        return {
+            "label": data["label"],
+            "description": raw_output.strip()
+        }
+    else: 
+         raise ValueError("task must be 'classification' or 'extraction'")
+
+def run_experiment_p(dataset, prompt_strategy, Llm_client, max_workers=4, task="classification"):
+
+    results = [None] * len(dataset)
+    print("PROCESSING (parallel)...")
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+
+        futures = {
+            executor.submit(process_item, data, prompt_strategy, Llm_client, task): i
+            for i, data in enumerate(dataset)
+        }
+
+        for future in as_completed(futures):
+            i = futures[future]  
+
+            try:
+                result = future.result()
+                results[i] = result  
+            except Exception as e:
+                print("[ERROR]", e)
+
+    return results

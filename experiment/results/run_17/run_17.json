@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.8833,
+    "precision": 0.9004,
+    "recall": 0.8833,
+    "f1": 0.8821,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.8177,
+            "recall": 0.9867,
+            "f1": 0.8943
+        },
+        "DISTINCT": {
+            "precision": 0.9832,
+            "recall": 0.78,
+            "f1": 0.8699
+        }
+    },
+    "dataset_size": 300,
+    "input_type": "html",
+    "model": "qwen2.5:7b",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with preprocessed html input."
+}

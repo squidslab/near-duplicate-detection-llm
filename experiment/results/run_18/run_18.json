@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.54,
+    "precision": 0.5625,
+    "recall": 0.54,
+    "f1": 0.4945,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.525,
+            "recall": 0.84,
+            "f1": 0.6462
+        },
+        "DISTINCT": {
+            "precision": 0.6,
+            "recall": 0.24,
+            "f1": 0.3429
+        }
+    },
+    "dataset_size": 300,
+    "input_type": "html",
+    "model": "qwen2.5:7b",
+    "prompt_type": "few-shot",
+    "num_examples_for_prompt": 3,
+    "description": "Few-shot prompting with preprocess html input."
+}
