@@ -1,0 +1,79 @@
+# =========================================
+# Dataset
+# =========================================
+
+data/ss.db
+data/dataset.db
+
+# Generated experiment databases
+test/experiment/data/examples.db
+test/experiment/data/test.db
+
+# Crawljax datasets
+test/experiment/data/GroundTruthModels/
+
+# =========================================
+# Python
+# =========================================
+
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# =========================================
+# Java / Maven
+# =========================================
+
+# Maven build
+target/
+
+# IDE output
+out/
+
+# Compiled Java files
+*.class
+
+# =========================================
+# SAS / Crawljax generated outputs
+# =========================================
+
+# SAS logs
+states_created.txt
+python_calls.txt
+state_comparisons.txt
+
+# Crawljax outputs
+crawl-*/
+crawl0/
+crawl1/
+
+# Generated reports
+reports/
+output/
+result/
+
+# Graph files
+*.dot
+
+# =========================================
+# Debug outputs
+# =========================================
+
+debug_*.txt
+test/experiment/debug_*.txt
+
+# =========================================
+# VS Code
+# =========================================
+
+.vscode/
+
+# =========================================
+# OS files
+# =========================================
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.537,
+    "precision": 0.5401,
+    "recall": 0.537,
+    "f1": 0.5278,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.5289,
+            "recall": 0.6768,
+            "f1": 0.5938
+        },
+        "DISTINCT": {
+            "precision": 0.5514,
+            "recall": 0.3972,
+            "f1": 0.4618
+        }
+    },
+    "dataset_size": 5000,
+    "input_type": "html",
+    "model": "qwen2.5:7b",
+    "prompt_type": "few-shot",
+    "num_examples_for_prompt": 2,
+    "description": "Few-shot prompting with preprocess html input. CON DATASET CHE SEGUE PROPORZIONI DI SS.DB"
+}

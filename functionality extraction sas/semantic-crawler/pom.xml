@@ -1,0 +1,127 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.semanticcrawler</groupId>
+    <artifactId>semantic-crawler</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>semantic-crawler</name>
+
+    <properties>
+
+        <java.version>17</java.version>
+
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    </properties>
+
+    <dependencies>
+
+        <!-- Crawljax -->
+        <dependency>
+            <groupId>com.crawljax</groupId>
+            <artifactId>crawljax-core</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+        <!-- Crawl Overview -->
+        <dependency>
+            <groupId>com.crawljax.plugins</groupId>
+            <artifactId>crawloverview-plugin</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+        <!-- WebDriverManager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.9.2</version>
+        </dependency>
+
+        <!-- org.json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20240303</version>
+        </dependency>
+
+        <!-- Gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+        <!-- HTTP Client -->
+        <dependency>
+            <groupId>org.apache.httpcomponents.client5</groupId>
+            <artifactId>httpclient5</artifactId>
+            <version>5.3</version>
+        </dependency>
+
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+
+        <plugins>
+
+            <!-- Compiler -->
+            <plugin>
+
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+
+                <configuration>
+
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+
+                </configuration>
+
+            </plugin>
+
+            <!-- Spotless -->
+            <plugin>
+
+                <groupId>com.diffplug.spotless</groupId>
+                <artifactId>spotless-maven-plugin</artifactId>
+                <version>2.43.0</version>
+
+                <configuration>
+
+                    <java>
+
+                        <palantirJavaFormat>
+                            <version>2.39.0</version>
+                        </palantirJavaFormat>
+
+                        <removeUnusedImports/>
+                        <trimTrailingWhitespace/>
+
+                    </java>
+
+                </configuration>
+
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+</project>

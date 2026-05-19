@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.722,
+    "precision": 0.789,
+    "recall": 0.722,
+    "f1": 0.7049,
+    "invalid_rate": 0.0,
+    "per_class": {
+        "CLONE": {
+            "precision": 0.6498,
+            "recall": 0.9628,
+            "f1": 0.776
+        },
+        "DISTINCT": {
+            "precision": 0.9282,
+            "recall": 0.4812,
+            "f1": 0.6338
+        }
+    },
+    "dataset_size": 5000,
+    "input_type": "html",
+    "model": "qwen2.5:7b",
+    "prompt_type": "zero-shot",
+    "num_examples_for_prompt": 0,
+    "description": "Zero-shot prompting with preprocess html input. CON DATASET CHE SEGUE PROPORZIONI DI SS.DB "
+}
