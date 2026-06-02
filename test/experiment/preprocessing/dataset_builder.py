@@ -7,9 +7,9 @@ from data_access.sampler import get_stratified_sample
 def build_dataset(tot_experiment=50, seed=42, db_path=None, input_type="html"):
 
 
-    data = load_all_pairs(db_path=db_path)
+    all_data = load_all_pairs(db_path=db_path)
 
-    stratified_data = get_stratified_sample(rows=data,n_total=tot_experiment,seed=seed)
+    stratified_data = get_stratified_sample(rows=all_data,n_total=tot_experiment,seed=seed)
        
     dataset = []
 
@@ -37,9 +37,10 @@ def build_dataset(tot_experiment=50, seed=42, db_path=None, input_type="html"):
             continue
 
         dataset.append({
+            "app_name": data["app_name"],
             "input1": input1,
             "input2": input2,
-            "label": label_map[data["label"]]
+            "label": label_map[data["label"]],
         })
 
     return dataset 

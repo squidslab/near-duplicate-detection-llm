@@ -33,12 +33,7 @@ def debug_extraction_to_file(
             f.write("=====================================\n\n")
 
 
-def extract_functionality(
-        dom1,
-        dom2,
-        extraction_prompt,
-        llm_client
-):
+def extract_functionality(dom1,dom2,extraction_prompt,llm_client):
 
     prompt = extraction_prompt.build(dom1, dom2)
 

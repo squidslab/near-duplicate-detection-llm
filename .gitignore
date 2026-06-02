@@ -2,8 +2,8 @@
 # Dataset
 # =========================================
 
-data/ss.db
-data/dataset.db
+test/dataset/data/SS.db
+
 
 # Generated experiment databases
 test/experiment/data/examples.db
@@ -77,3 +77,8 @@ test/experiment/debug_*.txt
 
 .DS_Store
 Thumbs.db
+
+
+#apps 
+crawljax_automation/apps 
+crawljax_automation/logs

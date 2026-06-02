@@ -34,11 +34,7 @@ def debug_classification_to_file(
             f.write("=====================================\n\n")
 
 
-def classify_states(
-    extraction,
-    classification_prompt,
-    llm_client
-):
+def classify_states(extraction,classification_prompt,llm_client):
 
     prompt = classification_prompt.build(
         extraction["input1"],

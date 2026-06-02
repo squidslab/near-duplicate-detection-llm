@@ -20,22 +20,31 @@
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+        <crawljax.version>5.2.4-SNAPSHOT</crawljax.version>
+
     </properties>
 
     <dependencies>
 
-        <!-- Crawljax -->
+        <!-- Crawljax Core -->
         <dependency>
             <groupId>com.crawljax</groupId>
             <artifactId>crawljax-core</artifactId>
-            <version>5.2.3</version>
+            <version>${crawljax.version}</version>
         </dependency>
 
         <!-- Crawl Overview -->
         <dependency>
             <groupId>com.crawljax.plugins</groupId>
             <artifactId>crawloverview-plugin</artifactId>
-            <version>5.2.3</version>
+            <version>${crawljax.version}</version>
+        </dependency>
+
+        <!-- Test Generator Plugin -->
+        <dependency>
+            <groupId>com.crawljax.plugins</groupId>
+            <artifactId>testcasegenerator</artifactId>
+            <version>${crawljax.version}</version>
         </dependency>
 
         <!-- WebDriverManager -->
@@ -45,7 +54,7 @@
             <version>5.9.2</version>
         </dependency>
 
-        <!-- org.json -->
+        <!-- JSON -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
@@ -59,7 +68,7 @@
             <version>2.10.1</version>
         </dependency>
 
-        <!-- HTTP Client -->
+        <!-- Apache HTTP Client -->
         <dependency>
             <groupId>org.apache.httpcomponents.client5</groupId>
             <artifactId>httpclient5</artifactId>
@@ -80,19 +89,75 @@
 
         <plugins>
 
-            <!-- Compiler -->
+            <!-- Maven Compiler -->
             <plugin>
 
                 <groupId>org.apache.maven.plugins</groupId>
+
                 <artifactId>maven-compiler-plugin</artifactId>
+
                 <version>3.13.0</version>
 
                 <configuration>
 
                     <source>${java.version}</source>
+
                     <target>${java.version}</target>
 
                 </configuration>
+
+            </plugin>
+
+            <!-- Executable Fat Jar -->
+            <plugin>
+
+                <groupId>org.apache.maven.plugins</groupId>
+
+                <artifactId>maven-assembly-plugin</artifactId>
+
+                <version>3.7.1</version>
+
+                <configuration>
+
+                    <archive>
+
+                        <manifest>
+
+                            <mainClass>
+                                com.semanticcrawler.Main
+                            </mainClass>
+
+                        </manifest>
+
+                    </archive>
+
+                    <descriptorRefs>
+
+                        <descriptorRef>
+                            jar-with-dependencies
+                        </descriptorRef>
+
+                    </descriptorRefs>
+
+                </configuration>
+
+                <executions>
+
+                    <execution>
+
+                        <id>make-assembly</id>
+
+                        <phase>package</phase>
+
+                        <goals>
+
+                            <goal>single</goal>
+
+                        </goals>
+
+                    </execution>
+
+                </executions>
 
             </plugin>
 
@@ -100,7 +165,9 @@
             <plugin>
 
                 <groupId>com.diffplug.spotless</groupId>
+
                 <artifactId>spotless-maven-plugin</artifactId>
+
                 <version>2.43.0</version>
 
                 <configuration>
@@ -112,6 +179,7 @@
                         </palantirJavaFormat>
 
                         <removeUnusedImports/>
+
                         <trimTrailingWhitespace/>
 
                     </java>

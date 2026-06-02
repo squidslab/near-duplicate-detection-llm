@@ -28,6 +28,7 @@ def debug_dataset_to_file(dataset, filename):
                 f.write("PAGE 2:\n")
                 f.write(item["input2"] + "\n\n")
 
+
             f.write("="*50 + "\n\n")
 
 
@@ -50,7 +51,7 @@ def main():
 
     print("[INFO] Costruzione dataset test...")  
 
-    dataset = build_dataset(
+    dataset = build_dataset( 
         tot_experiment=5000, 
         seed=42,
         db_path="data/test.db",
@@ -147,7 +148,11 @@ def main():
 
         with open("debug_classification_output.txt", "w", encoding="utf-8") as f:
             for i, r in enumerate(results):
+                if r["label"]!="DISTINCT":
+                    continue
+                app_name = new_dataset[i]["app_name"]
                 f.write(f"===== ITEM {i} =====\n")
+                f.write(f"APP NAME: {app_name}\n")
                 f.write(f"TRUE LABEL: {r['label']}\n")
                 f.write(f"PREDICTION: {r['prediction']}\n\n")
                 f.write("RAW OUTPUT:\n")

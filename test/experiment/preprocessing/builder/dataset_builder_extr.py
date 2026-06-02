@@ -20,9 +20,10 @@ def dataset_builder_for_extraction(extraction_results,dataset):
                 page2_text = ""
 
             new_dataset.append({
+                "app_name": dataset[i]["app_name"], 
                 "input1": page1_text,
                 "input2": page2_text,
-                "label": dataset[i]["label"]
+                "label": dataset[i]["label"],
             })
 
         return new_dataset

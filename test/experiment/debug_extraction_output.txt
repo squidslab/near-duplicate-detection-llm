@@ -136,14 +136,14 @@ PAGE 2:
 LABEL: CLONE
 
 PAGE 1:
-- Main action: View address book entries
+- Main action: Browse address book entries
 - Secondary actions: Select multiple entries, send email, delete selected entries
-- Goal: Manage a list of contacts
+- Goal: Manage and interact with a list of contacts
 
 PAGE 2:
-- Main action: View address book entries
+- Main action: Browse address book entries
 - Secondary actions: Select multiple entries, send email, delete selected entries
-- Goal: Manage a list of contacts
+- Goal: Manage and interact with a list of contacts
 
 ==================================================
 
