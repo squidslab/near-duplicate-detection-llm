@@ -1,10 +1,9 @@
 package com.semanticcrawler.configuration;
 
 public enum SasType {
+    FUNCTIONALITY_EXTRACTION,
 
-  FUNCTIONALITY_EXTRACTION,
+    BASIC,
 
-  BASIC,
-
-  DHASH
+    DHASH
 }

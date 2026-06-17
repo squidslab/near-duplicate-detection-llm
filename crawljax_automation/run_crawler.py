@@ -139,31 +139,161 @@ def run_crawl(app, sas):
 
     print(result.returncode)
 
+def get_output_directory(app, sas):
+
+    log_file = os.path.join(
+        "logs",
+        f"{app['name']}-{sas}.log"
+    )
+
+    with open(log_file, "r", encoding="utf-8",errors="ignore") as f:
+
+        for line in f:
+
+            if line.startswith("OUTPUT_DIRECTORY="):
+
+                return line.strip().split("=", 1)[1]
+
+    raise Exception(
+        f"Output directory not found for "
+        f"{app['name']} - {sas}"
+    )
+
+
+def run_generated_tests(output_directory):
+
+    test_directory = os.path.abspath(
+        os.path.join(
+            SEMANTIC_CRAWLER_PATH,
+            output_directory,
+            "localhost",
+            "crawl0"
+        )
+    )
+
+    if not os.path.exists(test_directory):
+        raise Exception(
+            f"Directory not found: {test_directory}"
+        )
+
+    result = subprocess.run(
+        ["cmd", "/c", "mvn", "test"],
+        cwd=test_directory
+    )
+
+    return result.returncode
+
+
+def reset_coverage(app):
+
+    subprocess.run(
+        [
+            "docker",
+            "exec",
+            app["container_name"],
+            "rm",
+            "-f",
+            app["coverage_file"]
+        ],
+        check=False
+    )
+
+
+def export_coverage(app):
+
+    result = subprocess.run(
+        [
+            "docker",
+            "exec",
+            app["container_name"],
+            "php",
+            app["coverage_export"]
+        ],
+        capture_output=True,
+        text=True
+    )
+
+    return result.stdout.strip()
+
+
+def save_coverage(output_directory, coverage):
+
+    coverage_file = os.path.join(
+        SEMANTIC_CRAWLER_PATH,
+        output_directory,
+        "coverage.txt"
+    )
+
+    with open(
+        coverage_file,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        f.write(str(coverage))
+
+
+
+
 def main():
 
-    fastapi_process = start_fastapi() #avvia il server 
+    fastapi_process = start_fastapi() #avvia il server
 
     try:
 
-        for app in APPS: 
+        for app in APPS:
 
             try:
 
-                start_app(app) #avvia app 
+                start_app(app) #avvia app
 
                 for sas in SAS_LIST:
 
-                    run_crawl(app, sas) #esegue sulla singola app le 3 sas 
+                    print(
+                        f"[INFO] Starting coverage collection "
+                        f"for {app['name']} - {sas}"
+                    )
+
+                    reset_coverage(app)
+
+                    run_crawl(app, sas)
+
+                    output_directory = get_output_directory(
+                        app,
+                        sas
+                    )
+
+                    test_result = run_generated_tests(
+                        output_directory
+                    )
+
+                    print(
+                        f"[INFO] Maven test exit code: "
+                        f"{test_result}"
+                    )
+
+                    coverage = export_coverage(app)
+
+                    save_coverage(
+                        output_directory,
+                        coverage
+                    )
+
+                    print(
+                        f"[INFO] Coverage "
+                        f"{app['name']} - {sas}: "
+                        f"{coverage}%"
+                    )
 
             finally:
 
-                stop_app(app) #eseguite le 3 sas chiude l'app 
+                stop_app(app) #eseguite le 3 sas chiude l'app
 
     finally:
 
-        stop_fastapi(fastapi_process) #chiude server 
+        stop_fastapi(fastapi_process) #chiude server
 
 
 if __name__ == "__main__":
 
-    main()
+    main() 
