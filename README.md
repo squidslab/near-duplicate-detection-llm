@@ -1,6 +1,6 @@
 # General Project Description
 
-This project implements a State Abstraction Function (SAS) based on local Large Language Models (LLMs) for detecting  duplicated states during the crawling of web applications.
+This project implements a State Abstraction Function (SAF) based on local Large Language Models (LLMs) for detecting  duplicated states during the crawling of web applications.
 
 The main goal is to reduce the number of redundant states generated during the crawling process by automatically identifying pages that provide the same functionality from the user's perspective, even in the presence of structural or visual differences in the HTML code.
 
