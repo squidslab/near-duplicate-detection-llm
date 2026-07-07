@@ -100,7 +100,7 @@ public final class CrawljaxConfigurationFactory {
          */
         builder.setMaximumStates(200);
 
-        builder.setMaximumRunTime(60, TimeUnit.MINUTES);
+        builder.setMaximumRunTime(60, TimeUnit.MINUTES); 
 
         /*
          * Wait configuration
@@ -128,22 +128,22 @@ public final class CrawljaxConfigurationFactory {
 
         switch (config.getSasType()) {
             case FUNCTIONALITY_EXTRACTION:
-                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.FRAG);
+                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.NONE);
 
                 break;
 
             case BASIC:
-                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.BOTH);
+                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.NONE);
 
                 break;
 
             case DHASH:
-                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.BOTH);
+                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.NONE);
 
                 break;
 
             default:
-                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.BOTH);
+                testConfiguration = new TestConfiguration(StateEquivalenceAssertionMode.NONE);
         }
 
         builder.addPlugin(new TestSuiteGenerator(testConfiguration));

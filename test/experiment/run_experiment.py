@@ -12,7 +12,7 @@ from evaluation.save_result import save_run
 from evaluation.build_metrics import build_metrics 
 from utils.menu import choose_strategy, choose_input_type
 
-MODEL="qwen2.5:7b"
+MODEL="qwen2.5:7b" 
 
 def debug_dataset_to_file(dataset, filename):
     with open(filename, "w", encoding="utf-8") as f:

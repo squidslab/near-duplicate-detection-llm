@@ -51,20 +51,20 @@ DISTINCT
 ===== ITEM 283 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 284 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -161,10 +161,10 @@ DISTINCT
 ===== ITEM 294 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -651,10 +651,10 @@ DISTINCT
 ===== ITEM 343 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -681,10 +681,10 @@ DISTINCT
 ===== ITEM 346 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -781,10 +781,10 @@ DISTINCT
 ===== ITEM 356 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -801,10 +801,10 @@ DISTINCT
 ===== ITEM 358 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -1031,10 +1031,10 @@ DISTINCT
 ===== ITEM 381 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -1121,10 +1121,10 @@ DISTINCT
 ===== ITEM 390 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -1161,10 +1161,10 @@ DISTINCT
 ===== ITEM 394 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -1201,10 +1201,10 @@ DISTINCT
 ===== ITEM 398 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -1241,10 +1241,10 @@ DISTINCT
 ===== ITEM 402 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -1521,10 +1521,10 @@ DISTINCT
 ===== ITEM 430 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -2091,10 +2091,10 @@ DISTINCT
 ===== ITEM 487 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2151,10 +2151,10 @@ DISTINCT
 ===== ITEM 493 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2171,10 +2171,10 @@ DISTINCT
 ===== ITEM 495 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2191,10 +2191,10 @@ DISTINCT
 ===== ITEM 497 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -2211,10 +2211,10 @@ DISTINCT
 ===== ITEM 499 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -2241,10 +2241,10 @@ DISTINCT
 ===== ITEM 502 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2311,10 +2311,10 @@ DISTINCT
 ===== ITEM 509 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2531,10 +2531,10 @@ DISTINCT
 ===== ITEM 531 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2571,10 +2571,10 @@ DISTINCT
 ===== ITEM 535 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -2631,10 +2631,10 @@ DISTINCT
 ===== ITEM 541 =====
 APP NAME: addressbook
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -3081,10 +3081,10 @@ DISTINCT
 ===== ITEM 864 =====
 APP NAME: petclinic
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -3371,10 +3371,10 @@ DISTINCT
 ===== ITEM 893 =====
 APP NAME: petclinic
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -5561,10 +5561,10 @@ DISTINCT
 ===== ITEM 1390 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -6121,20 +6121,20 @@ DISTINCT
 ===== ITEM 1446 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 1447 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6221,10 +6221,10 @@ DISTINCT
 ===== ITEM 1456 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6381,10 +6381,10 @@ DISTINCT
 ===== ITEM 1472 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6401,10 +6401,10 @@ DISTINCT
 ===== ITEM 1474 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6491,10 +6491,10 @@ DISTINCT
 ===== ITEM 1483 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6581,10 +6581,10 @@ DISTINCT
 ===== ITEM 1492 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -6671,10 +6671,10 @@ CLONE
 ===== ITEM 1501 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6691,10 +6691,10 @@ DISTINCT
 ===== ITEM 1503 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -6771,10 +6771,10 @@ DISTINCT
 ===== ITEM 1511 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -7151,10 +7151,10 @@ DISTINCT
 ===== ITEM 1549 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -7181,10 +7181,10 @@ DISTINCT
 ===== ITEM 1552 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -7361,10 +7361,10 @@ DISTINCT
 ===== ITEM 1570 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -7441,20 +7441,20 @@ DISTINCT
 ===== ITEM 1578 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 1579 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -7751,10 +7751,10 @@ DISTINCT
 ===== ITEM 1609 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -7881,10 +7881,10 @@ DISTINCT
 ===== ITEM 1622 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -8071,10 +8071,10 @@ DISTINCT
 ===== ITEM 1641 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -8091,10 +8091,10 @@ DISTINCT
 ===== ITEM 1643 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -8261,10 +8261,10 @@ DISTINCT
 ===== ITEM 1660 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -8311,10 +8311,10 @@ DISTINCT
 ===== ITEM 1665 =====
 APP NAME: claroline
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -9041,10 +9041,10 @@ DISTINCT
 ===== ITEM 2016 =====
 APP NAME: dimeshift
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -9441,10 +9441,10 @@ DISTINCT
 ===== ITEM 2056 =====
 APP NAME: dimeshift
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -9861,10 +9861,10 @@ DISTINCT
 ===== ITEM 2098 =====
 APP NAME: dimeshift
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -10251,10 +10251,10 @@ DISTINCT
 ===== ITEM 2137 =====
 APP NAME: dimeshift
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -10991,10 +10991,10 @@ DISTINCT
 ===== ITEM 2211 =====
 APP NAME: dimeshift
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11131,10 +11131,10 @@ DISTINCT
 ===== ITEM 2503 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11191,10 +11191,10 @@ DISTINCT
 ===== ITEM 2509 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11241,10 +11241,10 @@ DISTINCT
 ===== ITEM 2514 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11281,10 +11281,10 @@ DISTINCT
 ===== ITEM 2518 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11391,10 +11391,10 @@ DISTINCT
 ===== ITEM 2529 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11471,10 +11471,10 @@ DISTINCT
 ===== ITEM 2537 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11591,10 +11591,10 @@ DISTINCT
 ===== ITEM 2549 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11611,10 +11611,10 @@ DISTINCT
 ===== ITEM 2551 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11681,10 +11681,10 @@ DISTINCT
 ===== ITEM 2558 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11741,10 +11741,10 @@ DISTINCT
 ===== ITEM 2564 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11761,10 +11761,10 @@ DISTINCT
 ===== ITEM 2566 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11781,10 +11781,10 @@ DISTINCT
 ===== ITEM 2568 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11861,10 +11861,10 @@ DISTINCT
 ===== ITEM 2576 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11951,10 +11951,10 @@ DISTINCT
 ===== ITEM 2585 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -11991,10 +11991,10 @@ DISTINCT
 ===== ITEM 2589 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12061,10 +12061,10 @@ DISTINCT
 ===== ITEM 2596 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12081,10 +12081,10 @@ DISTINCT
 ===== ITEM 2598 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12141,10 +12141,10 @@ DISTINCT
 ===== ITEM 2604 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -12161,10 +12161,10 @@ DISTINCT
 ===== ITEM 2606 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12201,10 +12201,10 @@ DISTINCT
 ===== ITEM 2610 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12221,10 +12221,10 @@ DISTINCT
 ===== ITEM 2612 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12241,20 +12241,20 @@ DISTINCT
 ===== ITEM 2614 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 2615 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12341,10 +12341,10 @@ DISTINCT
 ===== ITEM 2624 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12361,20 +12361,20 @@ DISTINCT
 ===== ITEM 2626 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 2627 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12421,10 +12421,10 @@ DISTINCT
 ===== ITEM 2632 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12451,20 +12451,20 @@ DISTINCT
 ===== ITEM 2635 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 2636 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12531,10 +12531,10 @@ DISTINCT
 ===== ITEM 2643 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12551,10 +12551,10 @@ DISTINCT
 ===== ITEM 2645 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12581,10 +12581,10 @@ DISTINCT
 ===== ITEM 2648 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12631,10 +12631,10 @@ CLONE
 ===== ITEM 2653 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -12721,20 +12721,20 @@ DISTINCT
 ===== ITEM 2662 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 2663 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12851,10 +12851,10 @@ DISTINCT
 ===== ITEM 2675 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -12981,10 +12981,10 @@ DISTINCT
 ===== ITEM 2688 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13101,10 +13101,10 @@ DISTINCT
 ===== ITEM 2700 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13311,20 +13311,20 @@ DISTINCT
 ===== ITEM 2721 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 2722 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13401,10 +13401,10 @@ DISTINCT
 ===== ITEM 2730 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13421,10 +13421,10 @@ DISTINCT
 ===== ITEM 2732 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13441,20 +13441,20 @@ DISTINCT
 ===== ITEM 2734 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 2735 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13511,10 +13511,10 @@ DISTINCT
 ===== ITEM 2741 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13531,10 +13531,10 @@ DISTINCT
 ===== ITEM 2743 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13601,10 +13601,10 @@ DISTINCT
 ===== ITEM 2750 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -13791,10 +13791,10 @@ DISTINCT
 ===== ITEM 2769 =====
 APP NAME: mrbs
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -14001,10 +14001,10 @@ CLONE
 ===== ITEM 3068 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -14221,10 +14221,10 @@ DISTINCT
 ===== ITEM 3090 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -14241,10 +14241,10 @@ CLONE
 ===== ITEM 3092 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -14461,10 +14461,10 @@ DISTINCT
 ===== ITEM 3114 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -14531,10 +14531,10 @@ DISTINCT
 ===== ITEM 3121 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -14611,10 +14611,10 @@ DISTINCT
 ===== ITEM 3129 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -14771,10 +14771,10 @@ CLONE
 ===== ITEM 3145 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -14921,10 +14921,10 @@ DISTINCT
 ===== ITEM 3160 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15121,10 +15121,10 @@ DISTINCT
 ===== ITEM 3180 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15151,10 +15151,10 @@ DISTINCT
 ===== ITEM 3183 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15211,10 +15211,10 @@ DISTINCT
 ===== ITEM 3189 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15281,10 +15281,10 @@ DISTINCT
 ===== ITEM 3196 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15431,10 +15431,10 @@ DISTINCT
 ===== ITEM 3211 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15541,10 +15541,10 @@ DISTINCT
 ===== ITEM 3222 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15661,10 +15661,10 @@ DISTINCT
 ===== ITEM 3234 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15691,10 +15691,10 @@ DISTINCT
 ===== ITEM 3237 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15941,10 +15941,10 @@ CLONE
 ===== ITEM 3262 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -15991,10 +15991,10 @@ DISTINCT
 ===== ITEM 3267 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -16071,10 +16071,10 @@ CLONE
 ===== ITEM 3275 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -16371,10 +16371,10 @@ DISTINCT
 ===== ITEM 3305 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -16551,10 +16551,10 @@ DISTINCT
 ===== ITEM 3323 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -16591,10 +16591,10 @@ DISTINCT
 ===== ITEM 3327 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -16621,10 +16621,10 @@ DISTINCT
 ===== ITEM 3330 =====
 APP NAME: phoenix
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -16901,10 +16901,10 @@ CLONE
 ===== ITEM 3636 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -17011,10 +17011,10 @@ DISTINCT
 ===== ITEM 3647 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -17451,10 +17451,10 @@ DISTINCT
 ===== ITEM 3691 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -17661,10 +17661,10 @@ DISTINCT
 ===== ITEM 3712 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -17901,10 +17901,10 @@ CLONE
 ===== ITEM 3736 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -18621,10 +18621,10 @@ DISTINCT
 ===== ITEM 3808 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -18661,10 +18661,10 @@ DISTINCT
 ===== ITEM 3812 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -19331,10 +19331,10 @@ DISTINCT
 ===== ITEM 3879 =====
 APP NAME: ppma
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -19501,20 +19501,20 @@ DISTINCT
 ===== ITEM 4173 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4174 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -19561,10 +19561,10 @@ DISTINCT
 ===== ITEM 4179 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -19621,30 +19621,30 @@ DISTINCT
 ===== ITEM 4185 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4186 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4187 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -19701,10 +19701,10 @@ DISTINCT
 ===== ITEM 4193 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -19801,10 +19801,10 @@ DISTINCT
 ===== ITEM 4203 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -19861,20 +19861,20 @@ DISTINCT
 ===== ITEM 4209 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4210 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -19981,20 +19981,20 @@ DISTINCT
 ===== ITEM 4221 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4222 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20031,10 +20031,10 @@ DISTINCT
 ===== ITEM 4226 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20051,10 +20051,10 @@ DISTINCT
 ===== ITEM 4228 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20081,10 +20081,10 @@ DISTINCT
 ===== ITEM 4231 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20111,10 +20111,10 @@ DISTINCT
 ===== ITEM 4234 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20141,10 +20141,10 @@ DISTINCT
 ===== ITEM 4237 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20171,10 +20171,10 @@ DISTINCT
 ===== ITEM 4240 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20191,10 +20191,10 @@ DISTINCT
 ===== ITEM 4242 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20211,10 +20211,10 @@ DISTINCT
 ===== ITEM 4244 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20251,10 +20251,10 @@ DISTINCT
 ===== ITEM 4248 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20341,10 +20341,10 @@ DISTINCT
 ===== ITEM 4257 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20361,10 +20361,10 @@ DISTINCT
 ===== ITEM 4259 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20381,20 +20381,20 @@ DISTINCT
 ===== ITEM 4261 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4262 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20471,10 +20471,10 @@ DISTINCT
 ===== ITEM 4270 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20501,20 +20501,20 @@ DISTINCT
 ===== ITEM 4273 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4274 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20541,10 +20541,10 @@ DISTINCT
 ===== ITEM 4277 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20601,10 +20601,10 @@ DISTINCT
 ===== ITEM 4283 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20711,10 +20711,10 @@ DISTINCT
 ===== ITEM 4294 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20781,10 +20781,10 @@ DISTINCT
 ===== ITEM 4301 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20801,10 +20801,10 @@ DISTINCT
 ===== ITEM 4303 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -20941,10 +20941,10 @@ DISTINCT
 ===== ITEM 4317 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21101,10 +21101,10 @@ DISTINCT
 ===== ITEM 4333 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21131,10 +21131,10 @@ DISTINCT
 ===== ITEM 4336 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21301,10 +21301,10 @@ DISTINCT
 ===== ITEM 4353 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21351,10 +21351,10 @@ DISTINCT
 ===== ITEM 4358 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21371,10 +21371,10 @@ DISTINCT
 ===== ITEM 4360 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21391,20 +21391,20 @@ DISTINCT
 ===== ITEM 4362 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4363 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21431,10 +21431,10 @@ CLONE
 ===== ITEM 4366 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21501,20 +21501,20 @@ DISTINCT
 ===== ITEM 4373 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
 ===== ITEM 4374 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21531,10 +21531,10 @@ DISTINCT
 ===== ITEM 4376 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21581,10 +21581,10 @@ DISTINCT
 ===== ITEM 4381 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -21661,10 +21661,10 @@ DISTINCT
 ===== ITEM 4389 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22011,10 +22011,10 @@ DISTINCT
 ===== ITEM 4424 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22151,20 +22151,20 @@ DISTINCT
 ===== ITEM 4438 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4439 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22181,10 +22181,10 @@ DISTINCT
 ===== ITEM 4441 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22211,20 +22211,20 @@ DISTINCT
 ===== ITEM 4444 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4445 =====
 APP NAME: mantisbt
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22321,10 +22321,10 @@ DISTINCT
 ===== ITEM 4732 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22371,10 +22371,10 @@ DISTINCT
 ===== ITEM 4737 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22421,10 +22421,10 @@ DISTINCT
 ===== ITEM 4742 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -22441,10 +22441,10 @@ CLONE
 ===== ITEM 4744 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -22461,10 +22461,10 @@ DISTINCT
 ===== ITEM 4746 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22521,20 +22521,20 @@ CLONE
 ===== ITEM 4752 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4753 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -22551,10 +22551,10 @@ CLONE
 ===== ITEM 4755 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -22621,10 +22621,10 @@ CLONE
 ===== ITEM 4762 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -22671,10 +22671,10 @@ DISTINCT
 ===== ITEM 4767 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -22691,10 +22691,10 @@ CLONE
 ===== ITEM 4769 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -22921,10 +22921,10 @@ CLONE
 ===== ITEM 4792 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -23231,20 +23231,20 @@ DISTINCT
 ===== ITEM 4823 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
 ===== ITEM 4824 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -23281,10 +23281,10 @@ CLONE
 ===== ITEM 4828 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -23341,10 +23341,10 @@ CLONE
 ===== ITEM 4834 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -23571,10 +23571,10 @@ DISTINCT
 ===== ITEM 4857 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -23591,10 +23591,10 @@ DISTINCT
 ===== ITEM 4859 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -24001,10 +24001,10 @@ CLONE
 ===== ITEM 4900 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 
@@ -24241,10 +24241,10 @@ CLONE
 ===== ITEM 4924 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -24651,10 +24651,10 @@ CLONE
 ===== ITEM 4965 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -24821,20 +24821,20 @@ DISTINCT
 ===== ITEM 4982 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
 ===== ITEM 4983 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: CLONE
+PREDICTION: DISTINCT
 
 RAW OUTPUT:
-CLONE
+DISTINCT
 
 ==================================================
 
@@ -24931,10 +24931,10 @@ DISTINCT
 ===== ITEM 4993 =====
 APP NAME: pagekit
 TRUE LABEL: DISTINCT
-PREDICTION: DISTINCT
+PREDICTION: CLONE
 
 RAW OUTPUT:
-DISTINCT
+CLONE
 
 ==================================================
 

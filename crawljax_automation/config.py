@@ -1,10 +1,10 @@
 APPS = [
-        {
+    {
         "name": "addressbook",
         "url": "http://localhost:8090",
         "docker_path": "./apps/addressbook",
         "username": "test@test.com",
-        "password": "Testing0099",
+        "password": "Testing0099", 
 
         "container_name": "addressbook-addressbook-1",
         "coverage_file":

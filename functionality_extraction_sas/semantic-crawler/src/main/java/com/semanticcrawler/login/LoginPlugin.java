@@ -25,7 +25,9 @@ public class LoginPlugin implements OnUrlLoadPlugin {
 
     private WebElement findUserField(WebDriver driver) {
 
-        String[] selectors = {"username", "user", "NewUserName", "Name", "email","LoginForm[username]", "LoginForm_username"};
+        String[] selectors = {
+            "username", "user", "NewUserName", "Name", "email", "LoginForm[username]", "LoginForm_username"
+        };
 
         for (String selector : selectors) {
 
@@ -45,7 +47,9 @@ public class LoginPlugin implements OnUrlLoadPlugin {
 
     private WebElement findPasswordField(WebDriver driver) {
 
-        String[] selectors = {"password", "pass", "NewUserPassword", "Password", "LoginForm[password]","LoginForm_password"};
+        String[] selectors = {
+            "password", "pass", "NewUserPassword", "Password", "LoginForm[password]", "LoginForm_password"
+        };
 
         for (String selector : selectors) {
 

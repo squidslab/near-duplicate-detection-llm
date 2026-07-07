@@ -160,7 +160,7 @@ def get_output_directory(app, sas):
     )
 
 
-def run_generated_tests(output_directory):
+def run_generated_tests(output_directory, app):
 
     test_directory = os.path.abspath(
         os.path.join(
@@ -177,7 +177,14 @@ def run_generated_tests(output_directory):
         )
 
     result = subprocess.run(
-        ["cmd", "/c", "mvn", "test"],
+        [
+            "cmd",
+            "/c",
+            "mvn",
+            "test",
+            f"-Dcrawljax.test.username={app['username']}",
+            f"-Dcrawljax.test.password={app['password']}"
+        ],
         cwd=test_directory
     )
 
@@ -237,21 +244,26 @@ def save_coverage(output_directory, coverage):
 
 def main():
 
-    fastapi_process = start_fastapi() #avvia il server
+    fastapi_process = start_fastapi()
 
     try:
 
         for app in APPS:
 
-            try:
+            for sas in SAS_LIST:
 
-                start_app(app) #avvia app
+                try:
 
-                for sas in SAS_LIST:
+                    print(
+                        f"\n[INFO] Preparing clean environment "
+                        f"for crawl {app['name']} - {sas}"
+                    )
+
+                    start_app(app)
 
                     print(
                         f"[INFO] Starting coverage collection "
-                        f"for {app['name']} - {sas}"
+                        f"for crawl {app['name']} - {sas}"
                     )
 
                     reset_coverage(app)
@@ -263,8 +275,23 @@ def main():
                         sas
                     )
 
+                    print(
+                        f"[INFO] Resetting {app['name']} "
+                        f"before running generated tests"
+                    )
+
+                    start_app(app)
+
+                    print(
+                        f"[INFO] Starting coverage collection "
+                        f"for generated tests {app['name']} - {sas}"
+                    )
+
+                    reset_coverage(app)
+
                     test_result = run_generated_tests(
-                        output_directory
+                        output_directory,  
+                        app
                     )
 
                     print(
@@ -285,13 +312,13 @@ def main():
                         f"{coverage}%"
                     )
 
-            finally:
+                finally:
 
-                stop_app(app) #eseguite le 3 sas chiude l'app
+                    stop_app(app)
 
     finally:
 
-        stop_fastapi(fastapi_process) #chiude server
+        stop_fastapi(fastapi_process)
 
 
 if __name__ == "__main__":
