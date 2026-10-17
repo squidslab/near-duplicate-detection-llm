@@ -123,7 +123,7 @@ def main():
             dataset,
             extraction_strategy,
             llm_extraction,
-            max_workers=12,
+            max_workers=10,
             task="extraction"
         )
 
@@ -142,7 +142,7 @@ def main():
             new_dataset,
             classification_strategy,
             llm_classification,
-            max_workers=12,
+            max_workers=10,
             task="classification"
         )
 

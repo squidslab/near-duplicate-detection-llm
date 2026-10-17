@@ -7,10 +7,9 @@ class ZeroShotPromptForFunctionalityExtraction(PromptStrategy):
 
     def uses_images(self):
         return self.input_type == "image"
-    
-        
+
     def build(self, input1, input2): 
-        
+
         base_prompt = """  
 You are an expert in analyzing web application functionality.
 
@@ -34,103 +33,47 @@ Generalize the content (e.g., "user can log in", not "user John logs in")
 Be precise and avoid vague or abstract descriptions
 Use short, concrete, functionality-oriented sentences
 
-VERY IMPORTANT:
+STEP 1 — Classify every difference you notice between candidate descriptions as either CORE or SURFACE:
 
-Preserve functionality differences precisely
-Do NOT over-generalize workflows
-Different workflows must be described differently
-Do NOT compress multiple functionalities into generic descriptions
+CORE differences (these change the functionality description):
+- a different interaction mode (viewing vs editing vs creating vs browsing vs bulk-managing vs authenticating)
+- a different scope of interaction (single entity vs multiple entities)
+- a different primary goal or user intent
+- an entirely additional workflow that is not a minor variant of the same task
 
-Distinguish carefully between:
+SURFACE differences (these must NOT change Main action or Goal):
+- different data values, names, ids, counts, or amounts
+- an extra optional field, filter, or column that does not change what the page is fundamentally for
+- different wording or phrasing describing the same underlying action
+- minor cosmetic or incidental UI differences (sorting, extra label, extra link) that don't add a new interaction mode
+- a small extra convenience action that is clearly secondary to the page's main purpose (put this in "Secondary actions" only, never in "Main action" or "Goal")
 
-viewing information
-viewing detailed entity information
-creating new entries
-editing existing entries
-browsing/searching entities
-navigating sections
-managing entities
-bulk management operations
-authentication workflows
+Only CORE differences should be reflected in the Main action / Goal fields.
+SURFACE differences should not change these fields, and may only be optionally mentioned in Secondary actions.
 
-These are NOT equivalent functionalities.
+Examples — these ARE the same functionality (do NOT describe them differently):
 
-IMPORTANT:
+"Create a new product" (form with 2 fields)
+IS the same as
+"Create a new product" (form with 2 fields + optional category dropdown)
+→ both are single-entity creation workflows
 
-Explicitly distinguish between:
+"Browse contacts" (10 items, no filters)
+IS the same as
+"Browse contacts" (3 items, with a search box)
+→ both are browsing/list workflows; the search box is a surface addition
 
-single-item interaction
-multi-item interaction
-overview/list pages
-detailed entity pages
-editing pages
-bulk-management pages
+"View visit details" for visit A
+IS the same as
+"View visit details" for visit B
+→ same interaction mode, different data instance
 
-These represent different functionalities.
+"Edit user profile" (fields: name, email)
+IS the same as
+"Edit user profile" (fields: name, email, avatar)
+→ both are single-entity editing workflows
 
-A page that only displays information
-is NOT equivalent to a page that allows
-management or bulk operations.
-
-Pages supporting bulk actions
-(select multiple items, delete selected items,
-send email to selected items, move selected items)
-must be described explicitly as management workflows.
-
-A page for editing a specific entity
-is NOT equivalent to
-a page for browsing or listing entities.
-
-If one page contains additional information, actions,
-or workflows not present in the other page,
-you MUST explicitly describe them.
-
-Do NOT use vague descriptions such as:
-
-"manage data"
-"manage visits"
-"manage contacts"
-"handle information"
-
-The primary workflow of the page is more important
-than shared navigation or shared interface actions.
-
-IMPORTANT:
-
-Different wording does NOT necessarily imply different functionality
-However, different workflows MUST be described differently
-
-Focus on the PRIMARY INTERACTION MODE of the page.
-
-Examples of interaction modes:
-
-browsing
-editing
-creating
-bulk managing
-viewing details
-navigating
-authenticating
-
-Different interaction modes
-must produce different descriptions.
-
-Each Main action must explicitly specify:
-
-whether the page is for viewing, editing,
-creating, selecting, browsing, or managing
-whether interactions involve one entity
-or multiple entities
-
-The Goal must preserve:
-
-the interaction type
-the scope of interaction
-whether the page is informational,
-administrative, editing-oriented,
-or bulk-management-oriented
-
-IMPORTANT examples:
+Examples — these are NOT the same functionality (must be described differently):
 
 "Create a new veterinary visit"
 is NOT the same as
@@ -166,19 +109,52 @@ is NOT the same as
 is NOT the same as
 "Manage address book entries"
 
+Distinguish carefully between these interaction modes, which are NOT equivalent:
+
+viewing information
+viewing detailed entity information
+creating new entries
+editing existing entries
+browsing/searching entities
+navigating sections
+managing entities
+bulk management operations
+authentication workflows
+
+Pages supporting bulk actions (select multiple items, delete selected items, send email to selected items, move selected items) must be described explicitly as management workflows — this is a CORE difference versus single-item pages.
+
+Do NOT use vague descriptions such as:
+
+"manage data"
+"manage visits"
+"manage contacts"
+"handle information"
+
+The primary workflow of the page is more important than shared navigation or shared interface actions.
+
+Each Main action must explicitly specify:
+
+whether the page is for viewing, editing, creating, selecting, browsing, or managing
+whether interactions involve one entity or multiple entities
+
+The Goal must preserve:
+
+the interaction type
+the scope of interaction
+whether the page is informational, administrative, editing-oriented, or bulk-management-oriented
+
 Each sentence must describe a concrete user-visible functionality.
 
 Maximum 3 sentences per page.
 """
-        
 
         if self.input_type == "html":
             return base_prompt + f"""
 
-
 Important:
 Do NOT compare the two pages.
 Describe each page independently.
+Before writing each description, silently apply STEP 1 above to decide what belongs in Main action/Goal versus what is only a Secondary action or should be omitted.
 
 Now describe the following pair:
 
@@ -208,11 +184,9 @@ PAGE 2:
 /no_think
 """
 
-
         elif self.input_type == "image":
             return base_prompt + """
 
-          
 You are given two screenshots of web pages. 
 
 The images may contain UI elements, layouts, and visual structure. 
@@ -250,9 +224,7 @@ DISTINCT
 Do not include any explanation, sentence, or formatting.
 Output must be exactly one of these three words.
 
-Do not explain your answer.
-
-Always choose exactly one label based on functionality, even if the decision is difficult. 
+Do not explain your answer. 
 
 /no_think
 """

@@ -1,12 +1,12 @@
 APPS = [
-    {
+            {
         "name": "addressbook",
         "url": "http://localhost:8090",
         "docker_path": "./apps/addressbook",
         "username": "test@test.com",
-        "password": "Testing0099", 
+        "password": "Test0099",
 
-        "container_name": "addressbook-addressbook-1",
+        "container_name": "addressbook",
         "coverage_file":
             "/var/www/html/coverage/addressbook_coverage.ser",
         "coverage_export":
@@ -19,7 +19,7 @@ APPS = [
         "username": "test",
         "password": "Test0099",
 
-        "container_name": "ppma-ppma-1",
+        "container_name": "ppma",
         "coverage_file":
             "/var/www/html/coverage/ppma_coverage.ser",
         "coverage_export":

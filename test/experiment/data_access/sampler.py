@@ -1,10 +1,7 @@
 from collections import Counter, defaultdict
 import random
 
-
-
 NAME_APPS = ["addressbook","petclinic","claroline","dimeshift","mrbs","phoenix","ppma", "mantisbt","pagekit"]
-
 
 def get_stratified_sample(rows, n_total=5000, seed=42):  
     # funzione di stratificazione per prelevare dati da test.db / examples.db

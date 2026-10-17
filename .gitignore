@@ -30,8 +30,7 @@ venv/
 # Maven build
 target/
 
-# IDE output
-out/
+
 
 # Compiled Java files
 *.class
