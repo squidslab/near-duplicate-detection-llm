@@ -1,71 +1,65 @@
 # General Project Description
 
-This project implements a State Abstraction Function (SAF) based on local Large Language Models (LLMs) for detecting  duplicated states during the crawling of web applications.
+# Large Language Model-based Near Duplicate Detection for Web Application Testing
 
-The main goal is to reduce the number of redundant states generated during the crawling process by automatically identifying pages that provide the same functionality from the user's perspective, even in the presence of structural or visual differences in the HTML code.
+This project investigates whether a local Large Language Model (LLM) can identify functional equivalence between web application states during crawling and testing.
 
-The SAS is integrated with Crawljax and operates by semantically comparing newly discovered states with states already present in the crawler graph. For each pair of HTML pages, a two-stage process is performed:
+It uses `qwen2.5:7b` through Ollama and compares three prompting strategies: zero-shot, few-shot, and Functionality Extraction.
 
-## Functionality Extraction
+## How It Works
 
-HTML pages are preprocessed and analyzed by a local LLM to extract a structured functional description of the page, focused exclusively on:
+The classification task is binary. In the original NDStudy dataset, `CLONE` and `NEAR-DUPLICATE` are separate labels. In this project, they are grouped into a single functional-equivalence category, represented internally as `CLONE`. `DISTINCT` indicates a meaningful functional difference.
 
-- actions available to the user
-- main goal of the page
-- provided functionalities
+Zero-shot and few-shot classify preprocessed HTML directly. Functionality Extraction uses two LLM calls:
 
-## Semantic Classification
+1. The model analyzes each page and extracts its main action, secondary actions, and goal.
+2. The model compares those descriptions and classifies the pair as `CLONE` or `DISTINCT`.
 
-The extracted functional descriptions are compared through a second classification prompt, which determines whether the two pages represent:
+Functionality Extraction is integrated into Crawljax as a custom state abstraction strategy through a Python service built with FastAPI. During crawling, Crawljax treats a `CLONE` result as an equivalent state; a `DISTINCT` result means the states remain separate.
 
-- `CLONE`
-- `DISTINCT`
+## Evaluation
 
-If a newly discovered page is classified as `CLONE` with respect to a state already present in the graph, it is not added to the final crawl graph. Otherwise, the state is considered semantically distinct and is therefore added to the graph.
+The offline evaluation uses 5,000 pairs from NDStudy. Functionality Extraction achieved 76.08% accuracy and an F1-score of 0.7600.
 
-The entire system uses local LLMs executed through Ollama.
+The Crawljax integration was compared with the Basic and DHash strategies on the AddressBook and PPMA applications. The evaluation considered graph redundancy, functional coverage, and the line coverage of the generated tests.
 
-# Prerequisites
+Functionality Extraction reduced graph redundancy in both applications. Its coverage results varied by application: it achieved the highest line coverage on PPMA, while Basic achieved the highest line coverage on AddressBook.
 
-Before running the project, make sure the following components are installed:
+## Prerequisites
+
+For the offline experiments and semantic service:
 
 - Python 3.x
 - Ollama
-- `qwen2.5:7b`
+- The `qwen2.5:7b` model
 
-To install the model using Ollama:
+For the end-to-end Crawljax experiments:
 
-```
+- Java 17
+- Maven
+- Docker
+- Google Chrome
+
+The thesis experiments used Python 3.13.12, Ollama 0.33.3, Java Temurin 17.0.18, Maven 3.9.15, Docker 29.3.1, and Crawljax 5.2.4-SNAPSHOT.
+
+The Python components use FastAPI, Uvicorn, requests, Beautiful Soup, lxml, and scikit-learn.
+
+Install the model with Ollama:
+
+```bash
 ollama pull qwen2.5:7b
 ```
 
-# Project Structure
+## Project Structure
 
-## `test/`
+### `test/`
 
-This folder contains the experimental pipeline used to evaluate the State Abstraction Function (SAS).
+Contains the dataset preparation and offline experiment pipelines, including scripts for sampling the data, running the prompting strategies, and calculating classification metrics.
 
-It includes:
-- dataset creation scripts
-- experiment execution scripts
-- prompt definitions
-- evaluation utilities
-- metrics computation
-- debug and analysis tools
+### `functionality_extraction_sas/`
 
-The folder is mainly used to perform offline experiments and benchmark the semantic classification pipeline on different datasets and configurations.
+Contains the semantic service and Crawljax integration. The Python service preprocesses page content, extracts functionality, and classifies states. The Java crawler uses the result when building the application graph.
 
----
+### `crawljax_automation/`
 
-## `functionlity extraction sas/`
-
-This folder contains the implementation of the State Abstraction Function (SAS) and its runtime integration components.
-
-It includes:
-- the FastAPI server
-- HTML preprocessing logic
-- functionality extraction pipeline
-- semantic classification logic
-- communication interfaces used during crawling
-
-The SAS operates during the crawling process by semantically comparing newly discovered states with states already present in the crawl graph.
+Contains the end-to-end experiment orchestration, benchmark applications, logs, and scripts for running crawls and evaluating generated tests.
