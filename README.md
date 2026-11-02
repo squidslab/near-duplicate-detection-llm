@@ -1,5 +1,3 @@
-# General Project Description
-
 # Large Language Model-based Near Duplicate Detection for Web Application Testing
 
 This project investigates whether a local Large Language Model (LLM) can identify functional equivalence between web application states during crawling and testing.
